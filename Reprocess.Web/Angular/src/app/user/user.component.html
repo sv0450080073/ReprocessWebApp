@@ -1,0 +1,92 @@
+<div class="di__filerData-block">
+  <div class="di__group-input-table">
+    <div class="di__group-input-row">
+      <div class="di__group-input-col di__filter-200" id="ProductCode-filter">
+        <label class="control-label titileField">Username</label>
+        <div class="input-group input-group-sm di__uniformStyle-default di__uniform-sm pad0A !important">
+          <input type="text" class="form-control" [(ngModel)]="username" name="customerId" (keydown.enter)="onKeydown($event)">
+          <div class="di__group-input-col di__group-input-col-noLabel example-box-wrapper th__box-wrapper filterSpace pad5L">
+            <button type="button" (click)="SearchData()" class="btn btn-xs btn-primary" title="{{resources['btnFilter'].Value}}">Filter</button>
+          </div>
+          </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+<div class="panel-body" id="panel-pody" style="height: calc(100vh - 230px);">
+  <app-loader *ngIf="isLoading"></app-loader>
+  <div class="di__tableWrapperFixed table-responsive">
+    <div class="table-responsive">
+      <table class="table table-bordered table-sm">
+        <thead>
+          <tr>
+            <th scope="col ">Index</th>
+            <th scope="col ">User Name</th>
+            <th scope="col ">Full Name</th>
+            <th scope="col ">Email</th>
+            <th scope="col ">Role </th>
+
+            <th scope="col " style="text-align:center;">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of users|paginate:{  itemsPerPage: pageSize,currentPage: page,totalItems: count};">
+            <td>{{item.User.Index}}</td>
+            <td>{{item.User.UserName}}</td>
+            <td>{{item.User.FullName}}</td>
+            <td>{{item.User.Email}}</td>
+            <td>{{item.RolesString}}</td>
+
+            <td class="" style="text-align:center;">
+              <button class="btn btn-primary me-2 mb-1 btn-edit" (click)="modalEdit(item.User.Id)" data-toggle="modal" data-target="#exampleModal">Edit </button>
+              <!-- <button class="btn btn-danger me-2 mb-1" (click)="delete(item)"> Delete </button> -->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="panel-footer clearfix">
+    <div class="di__panel-right">
+      <div class="di__panel-right">
+        <div class="col-md-12">
+          <pagination-controls previousLabel="Prev"
+                               nextLabel="Next"
+                               responsive="true"
+                               (pageChange)="handlePageChange($event)"></pagination-controls>
+        </div>
+      </div>
+    </div>
+    <div class="di__panel-showing">
+      <form class="form-inline">
+        <div class="form-group form-group-sm">
+          <select class="form-control di__showing" [(ngModel)]="pageSize" name="pgSizeControl" (ngModelChange)="handlePageSizeChange(pageSize)" id="numberOfObject">
+            <option *ngFor="let size of pageSizes" [ngValue]="size">
+              {{ size }}
+            </option>
+          </select>
+          Item Per Page
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">{{modalTile}}</h5>
+          <button type="button" (click)="modalClose()" class="close" data-dismiss="modal" aria-label="Close" id="add-edit-modal-close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <app-add-edit-user (onLoaded)="loaderHanler($event)" [userProfileData]="user" *ngIf="isActiveAddEditUserComp"></app-add-edit-user>
+        </div>
+
+      </div>
+    </div>
+  </div>

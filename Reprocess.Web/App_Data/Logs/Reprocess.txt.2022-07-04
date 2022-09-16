@@ -1,0 +1,132 @@
+﻿2022-07-04 08:27:29,935 [6] INFO  - [Thread 6] --MT Start call CheckUser from UserRepository--
+2022-07-04 08:27:30,198 [6] INFO  - [Thread 6] --MT End call CheckUser from UserRepository--
+2022-07-04 08:27:30,203 [6] INFO  - [Thread 6] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 08:27:30,221 [6] ERROR - [Thread 6] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 08:27:30,291 [6] INFO  - [Thread 6] --MT End call GetUserInfo from UserRepository--
+2022-07-04 08:27:30,297 [6] INFO  - [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 08:27:30,315 [6] INFO  - [Thread 6] --MT End call GetRolesByUserId from RoleRepository--
+2022-07-04 08:27:49,341 [7] INFO  - [Thread 7] --MT Start call CheckUser from UserRepository--
+2022-07-04 08:27:49,345 [7] INFO  - [Thread 7] --MT End call CheckUser from UserRepository--
+2022-07-04 08:27:49,345 [7] INFO  - [Thread 7] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 08:27:49,350 [7] ERROR - [Thread 7] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 08:27:49,351 [7] INFO  - [Thread 7] --MT End call GetUserInfo from UserRepository--
+2022-07-04 08:27:49,351 [7] INFO  - [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 08:27:49,354 [7] INFO  - [Thread 7] --MT End call GetRolesByUserId from RoleRepository--
+2022-07-04 08:32:00,367 [8] INFO  - [Thread 8] --MT Start call CheckUser from UserRepository--
+2022-07-04 08:32:00,371 [8] INFO  - [Thread 8] --MT End call CheckUser from UserRepository--
+2022-07-04 08:32:00,371 [8] INFO  - [Thread 8] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 08:32:00,379 [8] ERROR - [Thread 8] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 08:32:00,379 [8] INFO  - [Thread 8] --MT End call GetUserInfo from UserRepository--
+2022-07-04 08:32:00,380 [8] INFO  - [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 08:32:00,392 [8] INFO  - [Thread 8] --MT End call GetRolesByUserId from RoleRepository--
+2022-07-04 10:03:24,331 [34] INFO  - [Thread 34] --MT Start call CheckUser from UserRepository--
+2022-07-04 10:03:24,400 [34] INFO  - [Thread 34] --MT End call CheckUser from UserRepository--
+2022-07-04 10:03:24,402 [34] INFO  - [Thread 34] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 10:03:24,406 [34] ERROR - [Thread 34] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 10:03:24,433 [34] INFO  - [Thread 34] --MT End call GetUserInfo from UserRepository--
+2022-07-04 10:03:24,434 [34] INFO  - [Thread 34] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 10:03:24,444 [34] INFO  - [Thread 34] --MT End call GetRolesByUserId from RoleRepository--
+2022-07-04 10:12:38,474 [5] INFO  - [Thread 5] --MT Start call CheckUser from UserRepository--
+2022-07-04 10:12:38,673 [5] INFO  - [Thread 5] --MT End call CheckUser from UserRepository--
+2022-07-04 10:12:38,674 [5] INFO  - [Thread 5] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 10:12:38,693 [5] ERROR - [Thread 5] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 10:12:38,747 [5] INFO  - [Thread 5] --MT End call GetUserInfo from UserRepository--
+2022-07-04 10:12:38,749 [5] INFO  - [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 10:12:38,760 [5] INFO  - [Thread 5] --MT End call GetRolesByUserId from RoleRepository--
+2022-07-04 10:37:36,318 [5] INFO  - [Thread 5] --MT Start call CheckUser from UserRepository--
+2022-07-04 10:37:36,643 [5] INFO  - [Thread 5] --MT End call CheckUser from UserRepository--
+2022-07-04 10:37:36,645 [5] INFO  - [Thread 5] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 10:37:36,659 [5] ERROR - [Thread 5] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 10:37:37,183 [5] INFO  - [Thread 5] --MT End call GetUserInfo from UserRepository--
+2022-07-04 10:37:37,186 [5] INFO  - [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 10:37:37,207 [5] INFO  - [Thread 5] --MT End call GetRolesByUserId from RoleRepository--
+2022-07-04 10:41:08,835 [15] INFO  - [Thread 15] --MT Start call CheckUser from UserRepository--
+2022-07-04 10:41:08,895 [15] INFO  - [Thread 15] --MT End call CheckUser from UserRepository--
+2022-07-04 10:41:08,896 [15] INFO  - [Thread 15] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 10:41:08,902 [15] ERROR - [Thread 15] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 10:41:08,937 [15] INFO  - [Thread 15] --MT End call GetUserInfo from UserRepository--
+2022-07-04 10:41:08,939 [15] INFO  - [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 10:41:08,942 [15] INFO  - [Thread 15] --MT End call GetRolesByUserId from RoleRepository--
+2022-07-04 10:43:58,124 [15] INFO  - [Thread 15] --MT Start call CheckUser from UserRepository--
+2022-07-04 10:43:58,181 [15] INFO  - [Thread 15] --MT End call CheckUser from UserRepository--
+2022-07-04 10:43:58,183 [15] INFO  - [Thread 15] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 10:43:58,189 [15] ERROR - [Thread 15] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 10:43:58,209 [15] INFO  - [Thread 15] --MT End call GetUserInfo from UserRepository--
+2022-07-04 10:43:58,211 [15] INFO  - [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 10:43:58,216 [15] INFO  - [Thread 15] --MT End call GetRolesByUserId from RoleRepository--
+2022-07-04 10:45:53,277 [29] INFO  - [Thread 29] --MT Start call CheckUser from UserRepository--
+2022-07-04 10:45:53,282 [29] INFO  - [Thread 29] --MT End call CheckUser from UserRepository--
+2022-07-04 10:45:53,283 [29] INFO  - [Thread 29] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 10:45:53,299 [29] ERROR - [Thread 29] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 10:45:53,300 [29] INFO  - [Thread 29] --MT End call GetUserInfo from UserRepository--
+2022-07-04 10:45:53,301 [29] INFO  - [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 10:45:53,317 [29] INFO  - [Thread 29] --MT End call GetRolesByUserId from RoleRepository--
+2022-07-04 10:46:50,965 [13] INFO  - [Thread 13] --MT Start call CheckUser from UserRepository--
+2022-07-04 10:46:51,287 [13] INFO  - [Thread 13] --MT End call CheckUser from UserRepository--
+2022-07-04 10:46:51,289 [13] INFO  - [Thread 13] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 10:46:51,304 [13] ERROR - [Thread 13] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 10:46:51,325 [13] INFO  - [Thread 13] --MT End call GetUserInfo from UserRepository--
+2022-07-04 10:46:51,327 [13] INFO  - [Thread 13] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 10:46:51,330 [13] INFO  - [Thread 13] --MT End call GetRolesByUserId from RoleRepository--
+2022-07-04 10:48:21,106 [6] INFO  - [Thread 6] --MT Start call CheckUser from UserRepository--
+2022-07-04 10:48:21,112 [6] INFO  - [Thread 6] --MT End call CheckUser from UserRepository--
+2022-07-04 10:48:21,113 [6] INFO  - [Thread 6] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 10:48:21,123 [6] ERROR - [Thread 6] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 10:48:21,124 [6] INFO  - [Thread 6] --MT End call GetUserInfo from UserRepository--
+2022-07-04 10:48:21,124 [6] INFO  - [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 10:48:21,126 [6] INFO  - [Thread 6] --MT End call GetRolesByUserId from RoleRepository--
+2022-07-04 13:18:58,724 [28] INFO  - [Thread 28] --MT Start call CheckUser from UserRepository--
+2022-07-04 13:18:58,888 [28] INFO  - [Thread 28] --MT End call CheckUser from UserRepository--
+2022-07-04 13:18:58,890 [28] INFO  - [Thread 28] --MT Start call GetUserInfo from UserRepository--
+2022-07-04 13:18:58,905 [28] ERROR - [Thread 28] Object cannot be cast from DBNull to other types.
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ToDateTime(Object value)
+   at Reprocess.Data.Users.UserRepository.FillUserData(DataRow dataRow) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 122
+2022-07-04 13:18:59,120 [28] INFO  - [Thread 28] --MT End call GetUserInfo from UserRepository--
+2022-07-04 13:18:59,122 [28] INFO  - [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+2022-07-04 13:18:59,126 [28] INFO  - [Thread 28] --MT End call GetRolesByUserId from RoleRepository--

@@ -1,0 +1,1094 @@
+INFO|2022-09-06 08:11:05,672|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 08:19:19,366|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 08:21:09,888|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 08:22:43,220|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 08:24:36,477|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 08:26:18,124|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 08:54:09,009|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 08:54:22,708|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 09:05:30,479|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 09:05:33,865|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 09:08:12,334|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 09:08:12,365|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 09:14:47,024|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 09:14:48,173|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 09:14:59,809|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 09:14:59,829|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 09:14:59,831|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 09:14:59,838|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 09:16:59,107|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 09:16:59,107|(null)|AdminFileAppender|Info: [Thread 10] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 09:17:02,435|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 09:17:02,435|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 09:17:02,451|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 09:17:02,451|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 09:29:44,092|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 09:29:45,028|(null)|AdminFileAppender|Info: [Thread 9] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 09:30:10,408|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 09:30:10,423|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 09:30:10,426|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 09:30:10,438|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 09:31:18,727|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 09:31:18,734|(null)|AdminFileAppender|Info: [Thread 10] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 09:31:18,736|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 09:31:18,753|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 09:31:18,753|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 09:31:18,769|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetRolesByUserId from RoleRepository--
+DEBUG|2022-09-06 09:44:44,927|(null)|RoutingReprocessService|Process: Started: 
+ - processType: DownloadInboundDocument
+ - ids: 1
+ - qrt: 3
+ - year: 2022
+ - bundle: 10
+ - waitTime: 20
+DEBUG|2022-09-06 09:44:45,011|(null)|RoutingReprocessService|Process: keyParam: -tbl inbox_Qr3_2022 -ids 1 -docType X12 -custid 10438 -custUser the10438 -transID 856
+DEBUG|2022-09-06 09:45:58,133|(null)|RoutingReprocessService|Process: Result: False
+DEBUG|2022-09-06 09:45:58,135|(null)|RoutingReprocessService|Process: Response Msg: DiConnect Service was called with params = -tbl inbox_Qr3_2022 -ids 1 -docType X12 -custid 10438 -custUser the10438 -transID 856.Downloading inbound flow fail. Input params = -tbl inbox_Qr3_2022 -ids 1 -docType X12 -custid 10438 -custUser the10438 -transID 856. Execute $DiRuntime.DiUniteClient.DiUniteASCIItoANY,DiUniteClient Application at NOSERVER Server failed. Parameters = -tbl inbox_Qr3_2022 -ids 1 -type X12 -key 24edb446-5801-40af-b73c-b73ae79b918d -custid 10438 -custUser the10438 -transID 856 -newId 0 -r 00000000-0000-0000-0000-000000000000 -t 24edb446-5801-40af-b73c-b73ae79b918d -md "20699_mailbox20775" -smd "" -u http://localhost:8069/DiUniteService.svc -UpdateDownloadYN 1 -maxDegreeOfParallelism 30 -MapPrefix In_ -failOnAnyFlatFileError 1 -keepFileName 0 -scp 0 -rcp 0  -inboxDownloadYN 1, Calling DiUnite service returned some message(s) 
+DiUnite service returned error message for ASCII file \\CIPFEDEV\Data\ASCII\202203\20699_mailbox20775\24edb446-5801-40af-b73c-b73ae79b918d_1_202203_11923_10438_856_004010VICS_inbox.ascii, map In_190: DiUnite Service processed request 6c3ade8b-6dc5-4e06-8e3f-3ab4ecbc915e with result Cannot find any map information with mapID=[In_190].
+Skip sending success files when there is some failed file(s), because of the add-in parameter failOnAnyFlatFileError.
+9/6/2022 9:45:54 AM	Warning: Calling DiUnite service returned some message(s) , processingType = 4
+INFO|2022-09-06 10:34:38,247|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 10:34:38,763|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 10:34:38,779|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 10:34:38,794|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 10:34:38,794|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 10:34:38,810|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 11:15:32,114|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 11:15:32,483|(null)|AdminFileAppender|Info: [Thread 8] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 11:15:32,498|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 11:15:33,347|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 11:15:33,362|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 11:15:33,384|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 13:15:52,479|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 13:15:52,650|(null)|AdminFileAppender|Info: [Thread 22] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 13:15:52,650|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 13:15:52,666|(null)|AdminFileAppender|Info: [Thread 22] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 13:15:52,666|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 13:15:52,697|(null)|AdminFileAppender|Info: [Thread 22] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 14:38:40,141|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 14:38:40,814|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 14:38:40,817|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 14:38:40,837|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 14:38:40,840|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 14:38:40,845|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 14:40:11,904|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 14:43:22,398|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 14:43:22,398|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 14:43:22,398|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 14:43:22,414|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 275519 True -- 
+INFO|2022-09-06 14:43:22,414|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:43:22,414|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 14:43:22,630|(null)|AdminFileAppender|Error: [Thread 5] Invalid object name 'Inbox'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Inbox'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1189
+ClientConnectionId:31f1e99c-4d83-4b9e-a63e-f09738940628
+Error Number:208,State:1,Class:16
+INFO|2022-09-06 14:43:22,645|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 14:43:22,661|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+ERROR|2022-09-06 14:43:22,714|(null)|AdminFileAppender|Error: [Thread 5] Cannot find table 0.
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1199
+   at Reprocess.Service.Metrics.ReprocessService.GetIntegrationStatus(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 14:43:22,714|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:43:22,714|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:43:22,714|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:43:22,730|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 275516 True -- 
+INFO|2022-09-06 14:43:22,730|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:43:22,730|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 14:43:22,815|(null)|AdminFileAppender|Error: [Thread 5] Invalid object name 'Inbox'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Inbox'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1189
+ClientConnectionId:31f1e99c-4d83-4b9e-a63e-f09738940628
+Error Number:208,State:1,Class:16
+INFO|2022-09-06 14:43:22,830|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 14:43:22,846|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+ERROR|2022-09-06 14:43:22,884|(null)|AdminFileAppender|Error: [Thread 5] Cannot find table 0.
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1199
+   at Reprocess.Service.Metrics.ReprocessService.GetIntegrationStatus(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 14:43:22,884|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:43:22,884|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:43:22,899|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:43:22,899|(null)|AdminFileAppender|Info: [Thread 5] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 14:43:22,899|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:43:22,899|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 14:44:07,266|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 14:44:07,281|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 14:44:07,281|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 14:44:07,281|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 275519 True -- 
+INFO|2022-09-06 14:44:14,279|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:44:17,033|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 14:46:31,828|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 14:46:32,236|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 14:46:32,236|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 14:46:32,251|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 14:46:32,251|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 14:46:32,298|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 14:46:56,698|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 14:46:56,698|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 14:46:56,698|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 14:46:56,708|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 275519 True -- 
+INFO|2022-09-06 14:46:59,397|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:47:01,700|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 14:47:20,276|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 14:48:25,938|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:48:25,942|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 275516 True -- 
+INFO|2022-09-06 14:48:35,921|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:48:37,768|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 14:48:37,789|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 14:48:37,791|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:48:37,793|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 14:48:37,795|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:48:37,797|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 14:49:19,605|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 14:49:19,608|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 14:49:19,611|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 14:49:19,613|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 14:49:24,614|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:49:24,616|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 14:49:24,640|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 14:49:24,642|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:49:24,644|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 14:49:26,608|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:49:26,608|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 14:49:26,624|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 14:49:38,090|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:49:38,090|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 14:49:38,112|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 14:49:38,112|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:49:38,112|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 14:49:38,112|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:49:38,112|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 14:49:44,869|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 14:49:44,871|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 14:49:44,874|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 14:49:44,877|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 14:49:48,903|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:49:48,903|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 14:49:48,939|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 14:49:51,914|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:49:51,918|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 14:49:51,920|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 14:49:51,922|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 14:49:51,952|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 14:49:51,953|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:49:51,955|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 14:49:51,957|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 14:49:51,959|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:33:29,170|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 15:33:29,982|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 15:33:29,982|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:33:29,998|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:33:29,998|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:33:30,006|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:34:06,413|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:34:06,421|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:34:06,426|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:34:06,429|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:34:06,432|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:07,592|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:34:07,653|(null)|AdminFileAppender|Error: [Thread 6] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1199
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:34:07,656|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:07,658|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:07,660|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:34:07,662|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:34:07,663|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:07,666|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:34:07,695|(null)|AdminFileAppender|Error: [Thread 6] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1199
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:34:07,696|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:07,698|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:07,701|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:34:07,703|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:34:07,705|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:34:07,706|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:34:28,266|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:34:28,271|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:34:28,273|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:34:28,275|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:34:28,276|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:28,278|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:34:28,303|(null)|AdminFileAppender|Error: [Thread 6] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1199
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:34:28,305|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:28,306|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:28,308|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:34:28,310|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:34:28,311|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:28,313|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:34:28,338|(null)|AdminFileAppender|Error: [Thread 6] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1199
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:34:28,340|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:28,342|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:28,343|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:34:28,345|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:34:28,346|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:34:28,348|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:34:30,792|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:34:30,795|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:34:30,797|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:34:30,802|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:34:30,805|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:30,807|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:34:30,832|(null)|AdminFileAppender|Error: [Thread 7] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1199
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:34:30,834|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:30,836|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:30,837|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:34:30,839|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:34:30,840|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:30,842|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:34:30,865|(null)|AdminFileAppender|Error: [Thread 7] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1199
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:34:30,873|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:30,874|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:30,876|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:34:30,877|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:34:30,878|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:34:30,880|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:34:37,998|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:34:38,001|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:34:38,003|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:34:38,005|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:34:38,006|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:34:38,008|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:35:49,234|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 15:35:49,394|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 15:35:49,396|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:35:49,407|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:35:49,412|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:35:49,422|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:35:50,447|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 15:35:50,466|(null)|AdminFileAppender|Info: [Thread 9] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 15:35:50,467|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:35:50,478|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:35:50,480|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:35:50,490|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:36:02,469|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:36:02,471|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:36:02,474|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:36:02,481|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:36:02,483|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:36:03,641|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:36:53,401|(null)|AdminFileAppender|Error: [Thread 7] Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1203
+ClientConnectionId:422fd319-be80-4600-bdc3-40bc61943717
+Error Number:245,State:1,Class:16
+INFO|2022-09-06 15:36:53,416|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:36:53,416|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+ERROR|2022-09-06 15:36:53,479|(null)|AdminFileAppender|Error: [Thread 7] Cannot find table 0.
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1213
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:36:53,479|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:36:53,479|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:36:53,479|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:36:53,494|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:36:53,494|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:36:53,494|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:37:02,049|(null)|AdminFileAppender|Error: [Thread 7] Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1203
+ClientConnectionId:422fd319-be80-4600-bdc3-40bc61943717
+Error Number:245,State:1,Class:16
+INFO|2022-09-06 15:37:02,365|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:37:09,964|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+ERROR|2022-09-06 15:37:16,428|(null)|AdminFileAppender|Error: [Thread 7] Cannot find table 0.
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1213
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:37:17,019|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:37:18,241|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:37:24,448|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:37:24,448|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:37:24,448|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:37:24,448|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:37:28,166|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:37:28,170|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:37:28,173|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:37:28,177|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:37:28,179|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:37:28,181|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:37:30,035|(null)|AdminFileAppender|Error: [Thread 7] Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1203
+ClientConnectionId:422fd319-be80-4600-bdc3-40bc61943717
+Error Number:245,State:1,Class:16
+INFO|2022-09-06 15:37:30,035|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:37:30,035|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+ERROR|2022-09-06 15:37:30,088|(null)|AdminFileAppender|Error: [Thread 7] Cannot find table 0.
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1213
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:37:30,088|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:37:30,088|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:37:30,088|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:37:30,088|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:37:30,088|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:37:30,088|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:37:39,635|(null)|AdminFileAppender|Error: [Thread 7] Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1203
+ClientConnectionId:422fd319-be80-4600-bdc3-40bc61943717
+Error Number:245,State:1,Class:16
+INFO|2022-09-06 15:37:40,742|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:37:42,507|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+ERROR|2022-09-06 15:38:12,134|(null)|AdminFileAppender|Error: [Thread 7] Cannot find table 0.
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1213
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:38:12,460|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:14,160|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:23,409|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:38:23,425|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:38:23,425|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:38:23,425|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:38:28,546|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:38:28,548|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:38:28,552|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:38:28,554|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:38:28,557|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:28,560|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:38:30,657|(null)|AdminFileAppender|Error: [Thread 7] Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1203
+ClientConnectionId:422fd319-be80-4600-bdc3-40bc61943717
+Error Number:245,State:1,Class:16
+INFO|2022-09-06 15:38:30,657|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:38:30,657|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+ERROR|2022-09-06 15:38:30,711|(null)|AdminFileAppender|Error: [Thread 7] Cannot find table 0.
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1213
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:38:30,711|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:30,711|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:30,711|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:38:30,726|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:38:30,726|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:30,726|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:38:31,343|(null)|AdminFileAppender|Error: [Thread 7] Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1203
+ClientConnectionId:422fd319-be80-4600-bdc3-40bc61943717
+Error Number:245,State:1,Class:16
+INFO|2022-09-06 15:38:31,343|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:38:31,343|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+ERROR|2022-09-06 15:38:31,390|(null)|AdminFileAppender|Error: [Thread 7] Cannot find table 0.
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1213
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:38:31,390|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:31,390|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:31,390|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:38:31,396|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:38:31,396|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:38:31,396|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:38:42,644|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:38:42,645|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:38:42,652|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:38:42,654|(null)|AdminFileAppender|Info: [Thread 8] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:38:42,656|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:42,658|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+ERROR|2022-09-06 15:38:44,151|(null)|AdminFileAppender|Error: [Thread 8] Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'DiMetrics' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1203
+ClientConnectionId:422fd319-be80-4600-bdc3-40bc61943717
+Error Number:245,State:1,Class:16
+INFO|2022-09-06 15:38:44,151|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:38:44,151|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+ERROR|2022-09-06 15:38:44,213|(null)|AdminFileAppender|Error: [Thread 8] Cannot find table 0.
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.GetIntegrationStatus(String yearQuarter, Int32 inOutboxID, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1213
+   at Reprocess.Service.Metrics.ReprocessService.GetProductIntegrationData(String yearQuarter, Int32 inboxOutboxID, Boolean isInBox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 932
+INFO|2022-09-06 15:38:44,213|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:44,213|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:44,213|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:38:44,213|(null)|AdminFileAppender|Info: [Thread 8] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:38:44,229|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:38:44,229|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:40:05,079|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 15:40:05,242|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 15:40:05,242|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:40:05,242|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:40:05,242|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:40:05,264|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:40:17,883|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:40:17,886|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:40:17,888|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:40:17,890|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:40:17,894|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:40:19,047|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:40:22,388|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:40:22,388|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+ERROR|2022-09-06 15:40:37,679|(null)|AdminFileAppender|Error: [Thread 7] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Reprocess.Service.Metrics.ReprocessService.HandlerFiles(List`1 trackDatas, Boolean isInbox) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 105
+INFO|2022-09-06 15:40:37,681|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:40:37,683|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:40:37,685|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:40:37,686|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:40:45,267|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:40:45,270|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:40:45,273|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:40:45,276|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:40:45,278|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:40:45,280|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:40:47,036|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:40:47,036|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:40:47,036|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:40:47,036|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:40:47,036|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:40:47,036|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:40:47,852|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:40:47,852|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:40:47,852|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:40:47,868|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:40:47,868|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:40:47,868|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:40:58,512|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:40:58,516|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:40:58,519|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:40:58,522|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:40:58,527|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:40:58,529|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:41:04,451|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:41:04,451|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:41:04,467|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:41:04,467|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:41:04,467|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:41:04,467|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:41:04,922|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:41:04,924|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:41:04,926|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:41:04,927|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:41:04,929|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:41:04,931|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:41:48,414|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:41:48,416|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:41:48,423|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:41:48,426|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:41:49,966|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:41:49,969|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:41:53,392|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:41:53,393|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:41:53,395|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:41:53,396|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:41:55,408|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:41:55,424|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:41:55,455|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:41:55,455|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:42:15,893|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:42:23,926|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:42:23,926|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:42:23,926|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:55:57,348|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 15:55:57,849|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 15:55:57,849|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:55:57,872|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:55:57,872|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:55:57,887|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:55:58,743|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 15:55:58,752|(null)|AdminFileAppender|Info: [Thread 10] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 15:55:58,756|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:55:58,771|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:55:58,772|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:55:58,776|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:56:20,664|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:56:20,667|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:56:20,671|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:56:20,674|(null)|AdminFileAppender|Info: [Thread 8] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:56:24,185|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:56:25,347|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:56:25,397|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:56:25,399|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:56:25,401|(null)|AdminFileAppender|Info: [Thread 8] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:56:25,404|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:56:25,406|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:56:25,419|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:56:25,421|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:56:25,424|(null)|AdminFileAppender|Info: [Thread 8] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:56:25,426|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:56:25,429|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:56:28,513|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:56:28,516|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:56:28,519|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:56:28,521|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:56:28,523|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:56:28,525|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:56:28,541|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:56:28,545|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:56:28,549|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:56:28,552|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:56:28,553|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:56:28,555|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:56:28,570|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:56:28,571|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:56:28,573|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:56:28,574|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:56:28,576|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:56:28,577|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:57:17,776|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:57:17,779|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:57:17,781|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:57:17,783|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:57:17,785|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:57:17,788|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:57:17,805|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:58:22,365|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 15:58:22,712|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 15:58:22,712|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:58:22,728|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 15:58:22,734|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:58:22,734|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 15:58:39,284|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:58:39,288|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:58:39,291|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:58:39,293|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:58:39,297|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:40,468|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:58:40,538|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:58:40,542|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:40,546|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:58:40,550|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:40,556|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:58:40,588|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:58:40,590|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:40,592|(null)|AdminFileAppender|Info: [Thread 5] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:58:40,595|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:40,597|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:58:44,664|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:58:44,665|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:58:44,667|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:58:44,671|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:58:44,673|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:44,676|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:58:44,705|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:58:52,344|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:52,347|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:52,350|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:58:52,352|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:52,354|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:58:52,367|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:58:52,368|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:52,371|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:52,373|(null)|AdminFileAppender|Info: [Thread 5] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:58:52,376|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:52,379|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:58:55,530|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:58:55,532|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:58:55,534|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:58:55,536|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:58:55,539|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:55,541|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:58:55,581|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:58:55,582|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:55,586|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:55,589|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:58:55,591|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:55,593|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:58:55,622|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:58:55,624|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:55,626|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:55,629|(null)|AdminFileAppender|Info: [Thread 5] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:58:55,632|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:55,633|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:58:57,272|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:58:57,274|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:58:57,276|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:58:57,278|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:58:57,279|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:57,281|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:58:57,318|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:58:57,322|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:57,324|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:57,326|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:58:57,328|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:57,330|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:58:57,354|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:58:57,356|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:57,357|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:57,359|(null)|AdminFileAppender|Info: [Thread 5] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:58:57,361|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:57,363|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:58:59,145|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:58:59,146|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:58:59,148|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:58:59,150|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:58:59,152|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:59,155|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:58:59,190|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:58:59,192|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:59,194|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:59,196|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:58:59,198|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:59,200|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:58:59,225|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:58:59,226|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:58:59,228|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:59,229|(null)|AdminFileAppender|Info: [Thread 5] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:58:59,231|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:58:59,233|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:59:00,906|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:59:00,909|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:59:00,911|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:59:00,913|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:59:00,916|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:00,918|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:59:00,938|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:59:00,940|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:00,943|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:00,945|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:59:00,949|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:00,953|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:59:00,965|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:59:00,967|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:00,970|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:00,972|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:59:00,974|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:00,976|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:59:07,755|(null)|AdminFileAppender|Info: [Thread 10] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:59:07,758|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:59:07,761|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:59:07,763|(null)|AdminFileAppender|Info: [Thread 10] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:59:07,765|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:07,767|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:59:07,780|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:59:07,782|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:07,786|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:07,790|(null)|AdminFileAppender|Info: [Thread 10] --MT HandlerFiles: 1047 True -- 
+INFO|2022-09-06 15:59:07,792|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:07,794|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:59:07,808|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:59:07,810|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:07,812|(null)|AdminFileAppender|Info: [Thread 10] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:59:07,814|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:07,816|(null)|AdminFileAppender|Info: [Thread 10] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:59:10,327|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:59:10,328|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:59:10,330|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:59:10,332|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:59:10,334|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:10,337|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:59:10,360|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:59:10,361|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:10,363|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:10,365|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1047 True -- 
+INFO|2022-09-06 15:59:10,367|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:10,370|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:59:10,387|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:59:10,388|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:10,390|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:59:10,392|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:10,393|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:59:15,341|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:59:15,344|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:59:15,347|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:59:15,349|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:59:15,353|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:15,356|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:59:15,375|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:59:15,377|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:15,379|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:15,381|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1048 True -- 
+INFO|2022-09-06 15:59:15,383|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:15,386|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:59:15,418|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:59:15,420|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:15,433|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:59:15,436|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:15,438|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 15:59:20,399|(null)|AdminFileAppender|Info: [Thread 10] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 15:59:20,401|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 15:59:20,404|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:59:20,406|(null)|AdminFileAppender|Info: [Thread 10] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 15:59:20,408|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:20,410|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:59:20,436|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:59:20,437|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:20,439|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:20,441|(null)|AdminFileAppender|Info: [Thread 10] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 15:59:20,442|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:20,444|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 15:59:20,460|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 15:59:20,462|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 15:59:20,463|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:20,464|(null)|AdminFileAppender|Info: [Thread 10] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 15:59:20,466|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 15:59:20,469|(null)|AdminFileAppender|Info: [Thread 10] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:00:08,772|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:00:08,776|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:00:08,779|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:08,781|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:00:08,785|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:08,789|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:00:08,808|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:00:08,809|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:08,811|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:08,812|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:08,815|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:00:10,665|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:00:10,667|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:00:10,671|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:10,673|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:00:10,675|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:10,677|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:00:10,703|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:00:10,705|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:10,707|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:10,709|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:10,710|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:10,712|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:00:12,306|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:00:12,308|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:00:12,309|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:12,311|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:00:12,312|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:12,315|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:00:12,337|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:00:12,338|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:12,340|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:12,341|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:12,343|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:12,344|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:00:28,024|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:00:28,026|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:00:28,030|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:28,034|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:00:28,036|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:28,039|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:00:28,062|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:00:28,065|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:28,067|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:28,070|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:28,072|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:00:30,216|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:00:30,218|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:00:30,220|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:30,222|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:00:30,223|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:30,225|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:00:30,255|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:00:30,256|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:30,258|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:30,261|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:30,263|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:30,266|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:00:49,988|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:00:49,990|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:00:49,992|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:49,994|(null)|AdminFileAppender|Info: [Thread 8] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:00:50,001|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:50,006|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:00:50,030|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:00:50,032|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:50,035|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:50,037|(null)|AdminFileAppender|Info: [Thread 8] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:50,039|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:50,040|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:00:51,750|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:00:51,753|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:00:51,755|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:51,758|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:00:51,760|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:51,764|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:00:51,774|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:00:51,776|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:51,778|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:51,781|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:51,783|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:51,787|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:00:58,205|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:00:58,213|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:00:58,216|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:58,218|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:00:58,221|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:58,223|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:00:58,249|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:00:58,251|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:00:58,255|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:00:58,265|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:00:58,267|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:01:00,868|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:01:00,870|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:01:00,873|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:01:00,875|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:01:00,878|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:01:00,881|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:01:00,908|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:01:00,909|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:01:00,913|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:01:00,915|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:01:00,917|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:01:00,919|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:01:46,772|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:01:46,778|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:01:46,780|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:01:46,782|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:01:46,783|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:01:46,788|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:01:46,805|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:01:46,807|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:01:46,811|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:01:46,817|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:01:46,819|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:01:46,821|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:02:23,650|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:02:23,652|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:02:23,654|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:02:23,658|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:02:23,660|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:02:23,662|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:02:23,702|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:02:23,705|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:02:23,709|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:02:23,711|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:02:23,713|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:02:23,715|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:03:08,479|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:03:08,482|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:03:08,484|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:03:08,486|(null)|AdminFileAppender|Info: [Thread 6] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:03:08,490|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:03:08,493|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:03:08,513|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:03:08,515|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:03:08,516|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:03:08,518|(null)|AdminFileAppender|Info: [Thread 6] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:03:08,520|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:03:08,522|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:03:09,172|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:03:09,174|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:03:09,177|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:03:09,179|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:03:09,181|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:03:09,183|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:03:09,214|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:03:09,217|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:03:09,223|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:03:09,225|(null)|AdminFileAppender|Info: [Thread 5] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:03:09,227|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:03:09,229|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:03:09,387|(null)|AdminFileAppender|Info: [Thread 16] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:03:09,389|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:03:09,391|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:03:09,393|(null)|AdminFileAppender|Info: [Thread 16] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:03:09,395|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:03:09,397|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:03:09,424|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:03:09,426|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:03:09,428|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:03:09,431|(null)|AdminFileAppender|Info: [Thread 16] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:03:09,433|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:03:09,436|(null)|AdminFileAppender|Info: [Thread 16] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:03:09,604|(null)|AdminFileAppender|Info: [Thread 15] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:03:09,606|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:03:09,608|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:03:09,610|(null)|AdminFileAppender|Info: [Thread 15] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:03:09,612|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:03:09,615|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:03:09,639|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:03:09,641|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:03:09,643|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:03:09,645|(null)|AdminFileAppender|Info: [Thread 15] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:03:09,647|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:03:09,649|(null)|AdminFileAppender|Info: [Thread 15] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:03:09,988|(null)|AdminFileAppender|Info: [Thread 16] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:03:09,990|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:03:09,994|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:03:09,997|(null)|AdminFileAppender|Info: [Thread 16] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:03:09,999|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:03:10,003|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:03:10,033|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:03:10,034|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:03:10,038|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:03:10,039|(null)|AdminFileAppender|Info: [Thread 16] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:03:10,041|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:03:10,044|(null)|AdminFileAppender|Info: [Thread 16] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-06 16:05:02,818|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-06 16:05:03,292|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-09-06 16:05:03,307|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-06 16:05:03,323|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-06 16:05:03,332|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 16:05:03,332|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-06 16:05:21,364|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-06 16:05:21,369|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-06 16:05:21,375|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:05:21,377|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-06 16:05:21,382|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:05:22,543|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:05:22,609|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:05:22,613|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:05:22,615|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:05:22,617|(null)|AdminFileAppender|Info: [Thread 5] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-06 16:05:22,626|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:05:22,628|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-06 16:05:22,653|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-06 16:05:22,655|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-06 16:05:22,656|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:05:22,658|(null)|AdminFileAppender|Info: [Thread 5] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-06 16:05:22,660|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-06 16:05:22,662|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--

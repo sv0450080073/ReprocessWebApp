@@ -1,0 +1,29 @@
+<div class="group" style="text-align:center">
+    <h1 class="th_titileLogin">Welcome to the Reprocess WebApps </h1>
+    <h3></h3>
+</div>
+
+<section id="form_id" method="post" name="LoginForm" class="th__formInput" data-parsley-validate="">
+    <form autocomplete="off" (ngSubmit)="onSubmitBtnLogin()" class="th__formInput" role="form" method="post" [formGroup]="rfLogin">
+        <div class="group th__groupLogin">
+            <input formControlName="loginUserName" id="LoginUserName" class="th__inputLogin" type="text"><span class="highlight th__highlightLogin"></span><span class="bar"></span>
+            <small *ngIf="userName.hasError('required') && userName.touched" class="text-danger">User name is required.</small>
+            <label class="th__labelLogin">UserName</label>
+        </div>
+        <div class="group th__groupLogin heightError">
+            <input formControlName="loginPassword" id="LoginPassword" class="th__inputLogin" type="password" data-parsley-trigger="change"><span class="highlight th__highlightLogin"></span><span class="bar"></span>
+            <small *ngIf="password.hasError('required') && password.touched" class="text-danger">Password is required.</small>
+            <label class="th__labelLogin">Password</label>
+        </div>
+        <div>
+            <div id="errMessage" [innerText]='result?.ErrorMSG' class="err-mss-box text-danger mrg20B">
+
+            </div>
+        </div>
+        <button type="submit" value="validate" id="submit" class="button buttonBlue">
+                      LOGIN
+  <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+</button>
+    </form>
+
+</section>

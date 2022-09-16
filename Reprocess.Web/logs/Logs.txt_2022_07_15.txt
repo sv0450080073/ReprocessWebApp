@@ -1,0 +1,662 @@
+INFO|2022-07-15 08:08:03,005|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-15 08:08:03,232|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-15 08:08:03,254|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-15 08:08:03,259|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: 8546737a-007e-456e-bb3f-1a8d94435645_16674_202104_19509_18355_856_004010_1252_inbox_527266883850574073_inbox.ascii  --
+INFO|2022-07-15 08:08:03,262|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:08:03,264|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:08:03,267|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:08:03,320|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:53,170|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:53,170|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:08:53,170|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:54,779|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:54,779|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:08:56,107|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:08:56,107|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:08:56,123|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:08:56,138|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:08:56,138|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: af8d7d34-b33c-4413-bd07-7d490be61307_114_202104_19509_18355_856_004010_1252_inbox_448946928011055997_inbox.ascii  --
+INFO|2022-07-15 08:08:56,138|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:08:56,138|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:08:56,154|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:08:56,155|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:56,415|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:56,415|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:08:56,431|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:56,691|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:56,691|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:08:56,957|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:08:56,957|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:08:56,957|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:08:56,957|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:08:56,957|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: d1397cdd-fd0b-4992-9015-d5b4cbaa43e9_50958_202104_19509_18355_856_004010_1252_inbox_303921085562555267_inbox.ascii  --
+INFO|2022-07-15 08:08:56,972|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:08:56,972|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:08:56,972|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:08:56,972|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:57,238|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:57,238|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:08:57,238|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:57,504|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:57,519|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:08:57,785|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:08:57,801|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:08:57,801|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:08:57,816|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:08:57,816|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: 2cd71d49-7025-4e43-9065-b643399beb7d_50311_202104_19509_18355_856_004010_1252_inbox_028094725998017085_inbox.ascii  --
+INFO|2022-07-15 08:08:57,816|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:08:57,816|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:08:57,816|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:08:57,832|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:58,087|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:58,087|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:08:58,103|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:58,384|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:58,384|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:08:58,650|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:08:58,650|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:08:58,665|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:08:58,681|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:08:58,681|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: 224174ac-d06f-40d4-8e2d-0e09890f0921_50219_202104_19509_18355_856_004010_1252_inbox_160203109407675459_inbox.ascii  --
+INFO|2022-07-15 08:08:58,681|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:08:58,681|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:08:58,697|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:08:58,697|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:58,962|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:58,962|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:08:58,978|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:59,244|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:59,244|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:08:59,509|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:08:59,509|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:08:59,509|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:08:59,525|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:08:59,525|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: b3b361bc-a358-4661-947e-87ca7d396084_38_202104_19509_18355_856_004010_1252_inbox_375446222786638363_inbox.ascii  --
+INFO|2022-07-15 08:08:59,525|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:08:59,525|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:08:59,525|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:08:59,525|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:59,791|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:08:59,822|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:08:59,822|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:00,087|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:00,087|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:00,353|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:00,369|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:00,369|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:09:00,384|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:09:00,384|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: 8546737a-007e-456e-bb3f-1a8d94435645_16674_202104_19509_18355_856_004010_1252_inbox_527266883850574073_inbox.ascii  --
+INFO|2022-07-15 08:09:00,400|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:09:00,400|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:09:00,400|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:09:00,400|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:00,666|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:00,681|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:00,681|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:00,962|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:00,962|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:01,238|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:01,238|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:01,238|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:09:01,238|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:09:01,238|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: af8d7d34-b33c-4413-bd07-7d490be61307_114_202104_19509_18355_856_004010_1252_inbox_448946928011055997_inbox.ascii  --
+INFO|2022-07-15 08:09:01,238|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:09:01,238|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:09:01,238|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:09:01,238|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:01,514|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:01,514|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:01,514|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:01,795|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:01,795|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:02,061|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:02,061|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:02,077|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:09:02,077|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:09:02,092|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: d1397cdd-fd0b-4992-9015-d5b4cbaa43e9_50958_202104_19509_18355_856_004010_1252_inbox_303921085562555267_inbox.ascii  --
+INFO|2022-07-15 08:09:02,092|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:09:02,108|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:09:02,108|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:09:02,108|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:02,373|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:02,373|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:02,389|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:02,655|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:02,670|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:02,936|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:02,952|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:02,952|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:09:02,967|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:09:02,967|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: 2cd71d49-7025-4e43-9065-b643399beb7d_50311_202104_19509_18355_856_004010_1252_inbox_028094725998017085_inbox.ascii  --
+INFO|2022-07-15 08:09:02,967|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:09:02,967|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:09:02,983|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:09:02,983|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:03,243|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:03,259|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:03,259|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:03,556|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:03,556|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:03,837|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:03,852|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:03,852|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:09:03,868|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:09:03,868|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: 224174ac-d06f-40d4-8e2d-0e09890f0921_50219_202104_19509_18355_856_004010_1252_inbox_160203109407675459_inbox.ascii  --
+INFO|2022-07-15 08:09:03,868|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:09:03,868|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:09:03,884|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:09:03,884|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:04,149|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:04,149|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:04,165|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:04,430|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:04,430|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:04,713|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:04,713|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:04,713|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:09:04,729|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:09:04,729|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: b3b361bc-a358-4661-947e-87ca7d396084_38_202104_19509_18355_856_004010_1252_inbox_375446222786638363_inbox.ascii  --
+INFO|2022-07-15 08:09:04,745|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:09:04,745|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:09:04,745|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:09:04,760|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:05,010|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:05,026|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:05,026|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:05,307|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:05,307|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:05,588|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:05,604|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:05,604|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:09:05,620|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:09:05,620|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: 224174ac-d06f-40d4-8e2d-0e09890f0921_50219_202104_19509_18355_856_004010_1252_inbox_160203109407675459_inbox.ascii  --
+INFO|2022-07-15 08:09:05,620|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:09:05,620|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:09:05,620|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:09:05,635|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:05,885|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:05,901|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:05,901|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:06,177|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:06,193|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:06,458|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:06,474|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:06,474|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:09:06,490|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:09:06,490|(null)|AdminFileAppender|Info: [Thread 5] --MT track file: b3b361bc-a358-4661-947e-87ca7d396084_38_202104_19509_18355_856_004010_1252_inbox_375446222786638363_inbox.ascii  --
+INFO|2022-07-15 08:09:06,500|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:09:06,500|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:09:06,500|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:09:06,500|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:06,766|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:06,766|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:06,781|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:07,047|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:09:07,047|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:07,313|(null)|AdminFileAppender|Info: [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:09:07,328|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:09:07,328|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:09:07,344|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:09:07,344|(null)|AdminFileAppender|Info: [Thread 5] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-15 08:09:07,359|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:09:07,375|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-07-15 08:11:54,283|(null)|AdminFileAppender|Info: [Thread 13] --MT Begin MTReprocess  Controller--
+INFO|2022-07-15 08:11:54,287|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call CheckInputReprocessData from ReprocessService--
+INFO|2022-07-15 08:11:54,289|(null)|AdminFileAppender|Info: [Thread 13] --MT End call CheckInputReprocessData from ReprocessService--
+INFO|2022-07-15 08:11:54,291|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-07-15 08:11:54,291|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call CIPFlowReprocessHandler from ReprocessService--
+INFO|2022-07-15 08:11:54,291|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:54,569|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:54,571|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:54,833|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:54,835|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:55,096|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:55,098|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:55,360|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:55,361|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:55,623|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:55,626|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:55,887|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:55,889|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:56,150|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:56,152|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:56,416|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:56,417|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:56,680|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:56,681|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:56,943|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:56,944|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:57,210|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:57,211|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:57,473|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:57,474|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:57,724|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:57,724|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:57,999|(null)|AdminFileAppender|Info: [Thread 13] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:58,001|(null)|AdminFileAppender|Info: [Thread 13] --MT End call CIPFlowReprocessHandler from ReprocessService--
+INFO|2022-07-15 08:11:58,002|(null)|AdminFileAppender|Info: [Thread 13] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-07-15 08:11:58,004|(null)|AdminFileAppender|Info: [Thread 13] --MT End call MTReprocess Controller--
+INFO|2022-07-15 08:11:58,023|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-15 08:11:58,040|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-15 08:11:58,041|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-15 08:11:58,043|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: 8546737a-007e-456e-bb3f-1a8d94435645_16674_202104_19509_18355_856_004010_1252_inbox_527266883850574073_inbox.ascii  --
+INFO|2022-07-15 08:11:58,045|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:11:58,048|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:11:58,048|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:11:58,048|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:58,315|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:58,317|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:11:58,319|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:58,590|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:58,592|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:11:58,863|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:11:58,865|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:11:58,867|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:11:58,868|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:11:58,870|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: af8d7d34-b33c-4413-bd07-7d490be61307_114_202104_19509_18355_856_004010_1252_inbox_448946928011055997_inbox.ascii  --
+INFO|2022-07-15 08:11:58,872|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:11:58,873|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:11:58,875|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:11:58,877|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:59,123|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:59,140|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:11:59,140|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:59,405|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:59,407|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:11:59,671|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:11:59,674|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:11:59,675|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:11:59,677|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:11:59,679|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: d1397cdd-fd0b-4992-9015-d5b4cbaa43e9_50958_202104_19509_18355_856_004010_1252_inbox_303921085562555267_inbox.ascii  --
+INFO|2022-07-15 08:11:59,681|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:11:59,683|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:11:59,684|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:11:59,686|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:59,940|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:11:59,940|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:11:59,940|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:00,216|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:00,222|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:00,491|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:00,492|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:00,494|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:00,496|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:00,498|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: 2cd71d49-7025-4e43-9065-b643399beb7d_50311_202104_19509_18355_856_004010_1252_inbox_028094725998017085_inbox.ascii  --
+INFO|2022-07-15 08:12:00,500|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:12:00,502|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:12:00,504|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:12:00,507|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:00,768|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:00,769|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:00,775|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:01,039|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:01,040|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:01,324|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:01,324|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:01,324|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:01,324|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:01,324|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: 224174ac-d06f-40d4-8e2d-0e09890f0921_50219_202104_19509_18355_856_004010_1252_inbox_160203109407675459_inbox.ascii  --
+INFO|2022-07-15 08:12:01,324|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:12:01,324|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:12:01,324|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:12:01,340|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:01,601|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:01,604|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:01,607|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:01,871|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:01,873|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:02,142|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:02,144|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:02,147|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:02,149|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:02,150|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: b3b361bc-a358-4661-947e-87ca7d396084_38_202104_19509_18355_856_004010_1252_inbox_375446222786638363_inbox.ascii  --
+INFO|2022-07-15 08:12:02,152|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:12:02,154|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:12:02,156|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:12:02,158|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:02,418|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:02,420|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:02,423|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:02,688|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:02,689|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:02,954|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:02,955|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:02,957|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:02,959|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:02,961|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: 8546737a-007e-456e-bb3f-1a8d94435645_16674_202104_19509_18355_856_004010_1252_inbox_527266883850574073_inbox.ascii  --
+INFO|2022-07-15 08:12:02,963|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:12:02,965|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:12:02,966|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:12:02,968|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:03,223|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:03,223|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:03,223|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:03,497|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:03,499|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:03,762|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:03,764|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:03,766|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:03,769|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:03,772|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: af8d7d34-b33c-4413-bd07-7d490be61307_114_202104_19509_18355_856_004010_1252_inbox_448946928011055997_inbox.ascii  --
+INFO|2022-07-15 08:12:03,774|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:12:03,776|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:12:03,778|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:12:03,780|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:04,040|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:04,040|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:04,040|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:04,309|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:04,310|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:04,574|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:04,575|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:04,589|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:04,591|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:04,592|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: d1397cdd-fd0b-4992-9015-d5b4cbaa43e9_50958_202104_19509_18355_856_004010_1252_inbox_303921085562555267_inbox.ascii  --
+INFO|2022-07-15 08:12:04,595|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:12:04,597|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:12:04,599|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:12:04,601|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:04,862|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:04,864|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:04,865|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:05,129|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:05,131|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:05,395|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:05,397|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:05,398|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:05,400|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:05,402|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: 2cd71d49-7025-4e43-9065-b643399beb7d_50311_202104_19509_18355_856_004010_1252_inbox_028094725998017085_inbox.ascii  --
+INFO|2022-07-15 08:12:05,404|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:12:05,405|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:12:05,407|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:12:05,409|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:05,671|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:05,672|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:05,674|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:05,938|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:05,940|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:06,204|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:06,206|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:06,208|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:06,209|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:06,211|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: 224174ac-d06f-40d4-8e2d-0e09890f0921_50219_202104_19509_18355_856_004010_1252_inbox_160203109407675459_inbox.ascii  --
+INFO|2022-07-15 08:12:06,213|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:12:06,214|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:12:06,216|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:12:06,218|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:06,479|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:06,481|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:06,484|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:06,749|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:06,751|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:07,014|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:07,015|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:07,017|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:07,019|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:07,021|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: b3b361bc-a358-4661-947e-87ca7d396084_38_202104_19509_18355_856_004010_1252_inbox_375446222786638363_inbox.ascii  --
+INFO|2022-07-15 08:12:07,023|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:12:07,024|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:12:07,026|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:12:07,027|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:07,289|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:07,291|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:07,293|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:07,557|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:07,558|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:07,822|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:07,823|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:07,823|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:07,823|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:07,823|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: 224174ac-d06f-40d4-8e2d-0e09890f0921_50219_202104_19509_18355_856_004010_1252_inbox_160203109407675459_inbox.ascii  --
+INFO|2022-07-15 08:12:07,823|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:12:07,823|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:12:07,823|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:12:07,823|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:08,098|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:08,100|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:08,102|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:08,366|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:08,368|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:08,623|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:08,623|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:08,623|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:08,623|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:08,639|(null)|AdminFileAppender|Info: [Thread 7] --MT track file: b3b361bc-a358-4661-947e-87ca7d396084_38_202104_19509_18355_856_004010_1252_inbox_375446222786638363_inbox.ascii  --
+INFO|2022-07-15 08:12:08,640|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:12:08,642|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:12:08,644|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:12:08,645|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:08,907|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:08,908|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:08,910|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:09,175|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:12:09,177|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:09,440|(null)|AdminFileAppender|Info: [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:12:09,442|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:12:09,443|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:12:09,445|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:09,447|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-15 08:12:09,449|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:12:09,450|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-07-15 08:24:05,129|(null)|AdminFileAppender|Info: [Thread 20] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-15 08:24:05,178|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-15 08:24:05,192|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-15 08:24:05,194|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: 8546737a-007e-456e-bb3f-1a8d94435645_16674_202104_19509_18355_856_004010_1252_inbox_527266883850574073_inbox.ascii  --
+INFO|2022-07-15 08:24:05,196|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:05,202|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:05,205|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:05,220|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:06,808|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:06,814|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:06,823|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:08,139|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:08,153|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:09,469|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:09,471|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:09,474|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:09,477|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:09,480|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: af8d7d34-b33c-4413-bd07-7d490be61307_114_202104_19509_18355_856_004010_1252_inbox_448946928011055997_inbox.ascii  --
+INFO|2022-07-15 08:24:09,482|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:09,484|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:09,486|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:09,488|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:09,748|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:09,751|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:09,751|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:10,017|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:10,019|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:10,267|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:10,285|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:10,287|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:10,289|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:10,290|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: d1397cdd-fd0b-4992-9015-d5b4cbaa43e9_50958_202104_19509_18355_856_004010_1252_inbox_303921085562555267_inbox.ascii  --
+INFO|2022-07-15 08:24:10,293|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:10,295|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:10,296|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:10,298|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:10,554|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:10,567|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:10,588|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:10,851|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:10,851|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:11,120|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:11,126|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:11,138|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:11,145|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:11,154|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: 2cd71d49-7025-4e43-9065-b643399beb7d_50311_202104_19509_18355_856_004010_1252_inbox_028094725998017085_inbox.ascii  --
+INFO|2022-07-15 08:24:11,158|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:11,161|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:11,165|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:11,168|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:11,433|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:11,435|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:11,437|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:11,705|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:11,711|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:11,990|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:11,997|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:12,004|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:12,009|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:12,015|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: 224174ac-d06f-40d4-8e2d-0e09890f0921_50219_202104_19509_18355_856_004010_1252_inbox_160203109407675459_inbox.ascii  --
+INFO|2022-07-15 08:24:12,021|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:12,026|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:12,029|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:12,031|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:12,294|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:12,296|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:12,298|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:12,552|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:12,570|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:12,837|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:12,839|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:12,840|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:12,842|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:12,843|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: b3b361bc-a358-4661-947e-87ca7d396084_38_202104_19509_18355_856_004010_1252_inbox_375446222786638363_inbox.ascii  --
+INFO|2022-07-15 08:24:12,845|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:12,847|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:12,848|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:12,850|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:13,111|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:13,113|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:13,114|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:13,381|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:13,390|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:13,668|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:13,668|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:13,668|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:13,668|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:13,668|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: 8546737a-007e-456e-bb3f-1a8d94435645_16674_202104_19509_18355_856_004010_1252_inbox_527266883850574073_inbox.ascii  --
+INFO|2022-07-15 08:24:13,668|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:13,668|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:13,668|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:13,668|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:13,946|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:13,952|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:13,957|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:14,235|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:14,243|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:14,515|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:14,517|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:14,519|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:14,521|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:14,523|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: af8d7d34-b33c-4413-bd07-7d490be61307_114_202104_19509_18355_856_004010_1252_inbox_448946928011055997_inbox.ascii  --
+INFO|2022-07-15 08:24:14,525|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:14,527|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:14,529|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:14,531|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:14,794|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:14,800|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:14,807|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:15,078|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:15,081|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:15,346|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:15,348|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:15,350|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:15,350|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:15,350|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: d1397cdd-fd0b-4992-9015-d5b4cbaa43e9_50958_202104_19509_18355_856_004010_1252_inbox_303921085562555267_inbox.ascii  --
+INFO|2022-07-15 08:24:15,350|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:15,350|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:15,350|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:15,350|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:15,624|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:15,627|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:15,631|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:15,900|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:15,903|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:16,168|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:16,171|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:16,175|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:16,178|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:16,181|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: 2cd71d49-7025-4e43-9065-b643399beb7d_50311_202104_19509_18355_856_004010_1252_inbox_028094725998017085_inbox.ascii  --
+INFO|2022-07-15 08:24:16,185|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:16,188|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:16,191|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:16,194|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:16,450|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:16,450|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:16,450|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:16,730|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:16,732|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:16,997|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:16,999|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:17,003|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:17,006|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:17,008|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: 224174ac-d06f-40d4-8e2d-0e09890f0921_50219_202104_19509_18355_856_004010_1252_inbox_160203109407675459_inbox.ascii  --
+INFO|2022-07-15 08:24:17,010|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:17,012|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:17,013|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:17,015|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:17,277|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:17,279|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:17,280|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:17,546|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:17,552|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:17,820|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:17,822|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:17,824|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:17,825|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:17,827|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: b3b361bc-a358-4661-947e-87ca7d396084_38_202104_19509_18355_856_004010_1252_inbox_375446222786638363_inbox.ascii  --
+INFO|2022-07-15 08:24:17,829|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:17,831|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:17,833|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:17,835|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:18,097|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:18,103|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:18,108|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:18,367|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:18,367|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:18,648|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:18,653|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:18,656|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:18,660|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:18,663|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: 224174ac-d06f-40d4-8e2d-0e09890f0921_50219_202104_19509_18355_856_004010_1252_inbox_160203109407675459_inbox.ascii  --
+INFO|2022-07-15 08:24:18,668|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:18,668|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:18,668|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:18,668|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:18,944|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:18,950|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:18,953|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:19,230|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:19,234|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:19,516|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:19,518|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:19,520|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:19,522|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:19,524|(null)|AdminFileAppender|Info: [Thread 20] --MT track file: b3b361bc-a358-4661-947e-87ca7d396084_38_202104_19509_18355_856_004010_1252_inbox_375446222786638363_inbox.ascii  --
+INFO|2022-07-15 08:24:19,526|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 08:24:19,528|(null)|AdminFileAppender|Info: [Thread 20] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 08:24:19,530|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 08:24:19,533|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:19,795|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:19,797|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:19,800|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:20,427|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 08:24:20,430|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:20,696|(null)|AdminFileAppender|Info: [Thread 20] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 08:24:20,698|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 08:24:20,700|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 08:24:20,703|(null)|AdminFileAppender|Info: [Thread 20] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:20,705|(null)|AdminFileAppender|Info: [Thread 20] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-15 08:24:20,707|(null)|AdminFileAppender|Info: [Thread 20] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-15 08:24:20,709|(null)|AdminFileAppender|Info: [Thread 20] -- MT End  TrackStatusFile Controller--
+INFO|2022-07-15 09:02:44,286|(null)|AdminFileAppender|Info: [Thread 35] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-15 09:02:44,316|(null)|AdminFileAppender|Info: [Thread 35] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-15 09:02:44,321|(null)|AdminFileAppender|Info: [Thread 35] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-15 09:02:44,323|(null)|AdminFileAppender|Info: [Thread 35] --MT track file: 8546737a-007e-456e-bb3f-1a8d94435645_16674_202104_19509_18355_856_004010_1252_inbox_527266883850574073_inbox.ascii  --
+INFO|2022-07-15 09:02:44,325|(null)|AdminFileAppender|Info: [Thread 35] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-15 09:02:44,327|(null)|AdminFileAppender|Info: [Thread 35] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-15 09:02:44,329|(null)|AdminFileAppender|Info: [Thread 35] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-07-15 09:02:44,331|(null)|AdminFileAppender|Info: [Thread 35] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 09:02:46,055|(null)|AdminFileAppender|Info: [Thread 35] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+INFO|2022-07-15 09:02:46,057|(null)|AdminFileAppender|Info: [Thread 35] --MT Start call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 09:02:46,060|(null)|AdminFileAppender|Info: [Thread 35] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 09:02:47,523|(null)|AdminFileAppender|Info: [Thread 35] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+INFO|2022-07-15 09:02:47,532|(null)|AdminFileAppender|Info: [Thread 35] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 09:02:48,837|(null)|AdminFileAppender|Info: [Thread 35] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+INFO|2022-07-15 09:02:48,839|(null)|AdminFileAppender|Info: [Thread 35] --MT End call GetNoteInbox from ReprocessService--
+INFO|2022-07-15 09:02:48,844|(null)|AdminFileAppender|Info: [Thread 35] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-15 09:02:48,846|(null)|AdminFileAppender|Info: [Thread 35] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-15 09:02:48,848|(null)|AdminFileAppender|Info: [Thread 35] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-15 09:02:48,850|(null)|AdminFileAppender|Info: [Thread 35] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-15 09:02:48,852|(null)|AdminFileAppender|Info: [Thread 35] -- MT End  TrackStatusFile Controller--

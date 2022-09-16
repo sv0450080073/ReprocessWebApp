@@ -1,0 +1,206 @@
+<div>
+    <app-loader *ngIf="isLoading"></app-loader>
+
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active " id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Track Files</a>
+            <a class="nav-item nav-link " id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Metrics Reprocess</a>
+            <!-- <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a> -->
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="track">
+                <form novalidate (ngSubmit)="onSubmitBtnTrack()" [formGroup]="rfTrackFile">
+                    <div class="form-group row">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Flow: </label>
+                        <div class="col-sm-5 col-md-4 col-lg-4">
+                            <select class="form-control" [(ngModel)]="flowItemSelected" (ngModelChange)="onChangeCombbFlow($event)" formControlName="flowCombb">
+                      <option [ngValue]="i" *ngFor="let i of flowDatas">{{i.Name}}</option>
+                    </select>
+                        </div>
+                        <div class="col-sm-5 col-md-4 col-lg-3">
+                            <select class="form-control" (change)="onChangeCombbFlowOption($event.target.value)">
+                      <option value="1">Inbound</option>
+                      <option value="2">Oubound</option>
+                    </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Year/Quarter: </label>
+                        <div class="col-sm-5 col-md-4 col-lg-4">
+                            <input class="form-control col-md-3" type="number" id="Year" name="Year" min="1990" max="9999" required formControlName="Year">
+                        </div>
+                        <div class="col-sm-5 col-md-4 col-lg-3">
+                            <input class="form-control col-md-3" type="number" id="Quarter" name="Quarter" style="margin-left:5px;" min="1" max="4" required formControlName="Quarter">
+                        </div>
+                    </div>
+
+                    <div *ngIf="this.flowItemSelected.Id ==1" class="form-group row">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Inbox/Outbox IDs:</label>
+                        <div class="col-sm-10">
+                            <textarea type="text" class="form-control" id="InOutboxIDs" name="InOutboxIDs" style="width:100%; height: 80px;" required pattern="^[0-9]+(,[0-9]+)*$" placeholder="List of Inbox or Outbox ID, ex: 1,2,..." formControlName="InOutboxIDs"></textarea>
+                            <small *ngIf="inOutboxIDs.errors && inOutboxIDs.errors.pattern" class="text-danger">Inbox/Outbox IDs incorrect format (ex:1,2,... )</small>
+                            <small *ngIf="inOutboxIDs.hasError('required') && inOutboxIDs.touched" class="text-danger">Inbox/Outbox IDs is required</small>
+                        </div>
+                    </div>
+
+                    <!--<div class="form-group row">
+      <label for="colFormLabel" class="col-sm-2 col-form-label">File List:</label>
+      <div class="col-sm-10">
+          <textarea class="form-control" #txtAreaFile rows="3" formControlName="files" (change)="onFileListtxtAreaChange($event.target.value)">  </textarea>
+      </div>
+  </div>
+  <div class="form-group row">
+      <label for="" class="col-sm-2 col-form-label">Import File: </label>
+      <div class="col-sm-10">
+          <input type="file" #impInput formControlName="impFile" (change)="fileChanged($event)" class="form-control-file" id="exampleFormControlFile1">
+      </div>files
+  </div>-->
+                    <div class="btn-center ">
+                        <button type="submit" [disabled]="!rfTrackFile.valid" class="col-sm-3 btn btn-primary btn_pd-2  btn-lg btn-block">Track</button>
+                    </div>
+                </form>
+            </div>
+            <div class="trackview ">
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" (change)="onChangeNumberPerPageSelected($event.target.value,true)">
+                  <option value="10" selected>10 items per page</option>
+                  <option value="20">20 items per page</option>
+                  <option value="50">50 items per page</option>
+                  <option value="100">100 items per page</option>
+                </select>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover tablesroll">
+                        <thead>
+                            <tr class="table-primary">
+                                <th class="col-1 "><input [checked]="isAllCheckBoxChecked()" type="checkbox" (change)="onCheckboxAll($event)"></th>
+                                <th class="col-1 breaklines"> Inbox/Outbox Id</th>
+                                <th class="col-1">Integration Status</th>
+                                <th class="col-3 breaklines">Created</th>
+                                <th class="col-5 breaklines">Note</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of trackDataGrid | paginate: {id :'dwa',currentPage : pageTrack,itemsPerPage :itemsPerPageTrack, totalItems : totalItemsTrack} ">
+                                <td class="col-1">
+                                    <input [checked]="item.IsChecked" (change)="onCheckboxValue($event,item)" [disabled]="item.IsDisable" type="checkbox">
+                                </td>
+                                <td [ngClass]="this.trackSearchDataParams.FlowCombbData.Id ==1 ? 'col-1  breaklines textcenter' : 'col-5 filename breaklines'"> {{item.InOutboxId}}</td>
+                                <td class="col-1">{{item.IntergrationStatus}}</td>
+                                <td class="col-3 ">{{item.DateShow}}</td>
+                                <td [ngClass]="this.trackSearchDataParams.FlowCombbData.Id ==1 ? 'col-5  breaklines textcenter' : 'col-1   textcenter'">{{item.Note}}</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- End -->
+
+
+                <div class="track_pagination">
+                    <div class="row pou center">
+                        <pagination-controls id="dwa" (pageBoundsCorrection)="pageTrack = $event" (pageChange)="pageTrack = $event" maxSize="9" directionLinks="true" autoHide="true" responsive="true" previousLabel="Previous" nextLabel="Next" screenReaderPaginationLabel="Pagination"
+                            screenReaderPageLabel="page" screenReaderCurrentLabel="You're on page">
+                        </pagination-controls>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+            <div class="mtreprocess">
+                <div class="mtreprocess__searchoptions">
+                    <form novalidate (ngSubmit)="onSubmitReprocess()" [formGroup]="rfSearchReprocess">
+                        <div class="form-row row-ml-40 ">
+                            <div class="col-md-4 ">
+                                <div class="form-check ">
+                                    <input type="checkbox" formControlName="isUseMTImportService" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Use MT ImportService to import data</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <button class="btn btn-outline-secondary" (click)="onUnsuccessOrNotImpBtnClick()" type="button">Select all UnSuccess OR Not Importing documents</button>
+                            </div>
+                            <div class="text-center col-md-3 ">
+                                <button class="btn btn-primary" type="submit">Reprocess</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" (change)="onChangeNumberPerPageSelected($event.target.value,false)">
+            <option value="10" selected>10 items per page</option>
+            <option value="20">20 items per page</option>
+            <option value="50">50 items per page</option>
+            <option value="100">100 items per page</option>
+          </select>
+                    </div>
+                </div>
+                <div class="mtreprocess__gridview">
+                    <div class="table-responsive">
+                        <table class="table table-hover tablescroll ">
+                            <thead>
+                                <tr class="table-primary">
+                                    <th class="col-2">Inbox/Outbox Id</th>
+                                    <th class="col-2">Year Quarter</th>
+                                    <th class="col-6">Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let item of  mtReprocessGrid | paginate: {id :'reprocess_pagination',currentPage : pageReprocess,itemsPerPage :itemsPerPageReprocess, totalItems : totalItemsReprocess}">
+                                    <td class="col-2 breaklines">{{item.InOuboxId}}</td>
+                                    <td class="col-2">{{item.YearQuarter}}</td>
+                                    <td class="col-6 breaklines">{{item.Note}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                </div>
+
+
+                <!-- <div class="mtreprocess__gridview mtreprocess ">
+                <table class="table-wrapper table table-bordered  ">
+                    <thead>
+                        <tr>
+                            <th class="col-sm-2">Inbox/Outbox Id</th>
+                            <th class="col-sm-2">Customer Id</th>
+                            <th class="col-sm-2">Year Quarter</th>
+                            <th class="col-sm-6">Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of  mtReprocessGrid | paginate: {id :'reprocess_pagination',currentPage : pageReprocess,itemsPerPage :itemsPerPageReprocess, totalItems : totalItemsReprocess}">
+                            <td class="col-sm-2">{{item.InOuboxId}}</td>
+                            <td class="col-sm-2">{{item.CustomerId}}</td>
+                            <td class="col-sm-2">{{item.YearQuarter}}</td>
+                            <td class="col-sm-6">{{item.Note}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div> -->
+                <div class="track_pagination">
+                    <div class="row pou center">
+                        <pagination-controls id="reprocess_pagination" (pageBoundsCorrection)="pageReprocess = $event" (pageChange)="pageReprocess = $event" maxSize="9" directionLinks="true" autoHide="true" responsive="true" previousLabel="Previous" nextLabel="Next" screenReaderPaginationLabel="Pagination"
+                            screenReaderPageLabel="page" screenReaderCurrentLabel="You're on page">
+                        </pagination-controls>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div> -->
+    </div>
+</div>

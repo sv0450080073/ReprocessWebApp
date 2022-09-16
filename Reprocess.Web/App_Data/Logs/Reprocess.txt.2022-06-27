@@ -1,0 +1,350 @@
+﻿2022-06-22 08:45:00,432 [16] INFO  - [Thread 16] --MT Begin TrackStatusFile  Controller--
+2022-06-22 08:45:00,432 [16] INFO  - [Thread 16] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 08:45:00,447 [16] INFO  - [Thread 16] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 08:45:00,448 [16] INFO  - [Thread 16] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 08:45:00,450 [16] INFO  - [Thread 16] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 08:45:00,451 [16] INFO  - [Thread 16] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 08:45:00,453 [16] INFO  - [Thread 16] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 08:45:00,492 [16] INFO  - [Thread 16] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:46:15,771 [5] INFO  - [Thread 5] --MT Begin TrackStatusFile  Controller--
+2022-06-22 08:46:15,772 [5] INFO  - [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 08:46:15,773 [5] INFO  - [Thread 5] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 08:46:15,774 [5] INFO  - [Thread 5] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 08:46:15,775 [5] INFO  - [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 08:46:15,776 [5] INFO  - [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 08:46:15,777 [5] INFO  - [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 08:46:15,778 [5] INFO  - [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:46:59,969 [16] INFO  - [Thread 16] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:46:59,974 [16] INFO  - [Thread 16] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 08:46:59,975 [16] INFO  - [Thread 16] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:47:00,981 [5] INFO  - [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:47:00,985 [5] INFO  - [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 08:47:00,988 [5] INFO  - [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:47:01,564 [16] INFO  - [Thread 16] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:47:01,570 [16] INFO  - [Thread 16] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:47:02,531 [5] INFO  - [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:47:02,532 [5] INFO  - [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:47:02,856 [16] INFO  - [Thread 16] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:47:02,859 [16] INFO  - [Thread 16] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 08:47:02,860 [16] INFO  - [Thread 16] --MT Start call GetFileName from ReprocessService--
+2022-06-22 08:47:02,862 [16] INFO  - [Thread 16] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 08:47:02,863 [16] INFO  - [Thread 16] --MT End call FilesHandler from ReprocessService--
+2022-06-22 08:47:02,868 [16] INFO  - [Thread 16] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 08:47:02,869 [16] INFO  - [Thread 16] -- MT End  TrackStatusFile Controller--
+2022-06-22 08:47:03,914 [5] INFO  - [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:47:03,915 [5] INFO  - [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 08:47:03,917 [5] INFO  - [Thread 5] --MT Start call GetFileName from ReprocessService--
+2022-06-22 08:47:03,918 [5] INFO  - [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 08:47:03,919 [5] INFO  - [Thread 5] --MT End call FilesHandler from ReprocessService--
+2022-06-22 08:47:03,920 [5] INFO  - [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 08:47:03,921 [5] INFO  - [Thread 5] -- MT End  TrackStatusFile Controller--
+2022-06-22 08:47:43,843 [10] INFO  - [Thread 10] --MT Begin TrackStatusFile  Controller--
+2022-06-22 08:47:43,844 [10] INFO  - [Thread 10] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 08:47:43,845 [10] INFO  - [Thread 10] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 08:47:43,848 [10] INFO  - [Thread 10] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 08:47:43,850 [10] INFO  - [Thread 10] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 08:47:43,851 [10] INFO  - [Thread 10] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 08:47:43,852 [10] INFO  - [Thread 10] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 08:47:43,853 [10] INFO  - [Thread 10] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:47:44,105 [10] INFO  - [Thread 10] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:47:44,105 [10] INFO  - [Thread 10] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 08:47:44,105 [10] INFO  - [Thread 10] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:47:44,393 [10] INFO  - [Thread 10] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:47:44,397 [10] INFO  - [Thread 10] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:47:44,658 [10] INFO  - [Thread 10] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:47:44,660 [10] INFO  - [Thread 10] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 08:47:44,661 [10] INFO  - [Thread 10] --MT Start call GetFileName from ReprocessService--
+2022-06-22 08:47:44,661 [10] INFO  - [Thread 10] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 08:47:44,662 [10] INFO  - [Thread 10] --MT End call FilesHandler from ReprocessService--
+2022-06-22 08:47:44,663 [10] INFO  - [Thread 10] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 08:47:44,664 [10] INFO  - [Thread 10] -- MT End  TrackStatusFile Controller--
+2022-06-22 08:48:44,141 [5] INFO  - [Thread 5] --MT Begin TrackStatusFile  Controller--
+2022-06-22 08:48:44,141 [5] INFO  - [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 08:48:44,141 [5] INFO  - [Thread 5] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 08:48:44,141 [5] INFO  - [Thread 5] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 08:48:44,141 [5] INFO  - [Thread 5] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 08:48:44,141 [5] INFO  - [Thread 5] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 08:48:44,153 [5] INFO  - [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 08:48:44,155 [5] INFO  - [Thread 5] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:48:44,409 [5] INFO  - [Thread 5] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:48:44,410 [5] INFO  - [Thread 5] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 08:48:44,410 [5] INFO  - [Thread 5] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:48:44,681 [5] INFO  - [Thread 5] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:48:44,684 [5] INFO  - [Thread 5] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:48:44,951 [5] INFO  - [Thread 5] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:48:44,953 [5] INFO  - [Thread 5] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 08:48:44,953 [5] INFO  - [Thread 5] --MT Start call GetFileName from ReprocessService--
+2022-06-22 08:48:44,953 [5] INFO  - [Thread 5] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 08:48:44,953 [5] INFO  - [Thread 5] --MT End call FilesHandler from ReprocessService--
+2022-06-22 08:48:44,953 [5] INFO  - [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 08:48:44,953 [5] INFO  - [Thread 5] -- MT End  TrackStatusFile Controller--
+2022-06-22 08:48:56,573 [16] INFO  - [Thread 16] --MT Begin MTReprocess  Controller--
+2022-06-22 08:48:56,575 [16] INFO  - [Thread 16] --MT Start call CheckInputReprocessData from ReprocessService--
+2022-06-22 08:48:56,576 [16] INFO  - [Thread 16] --MT End call CheckInputReprocessData from ReprocessService--
+2022-06-22 08:48:56,577 [16] INFO  - [Thread 16] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+2022-06-22 08:48:56,580 [16] INFO  - [Thread 16] --MT Start call CIPFlowReprocessHandler from ReprocessService--
+2022-06-22 08:48:56,582 [16] INFO  - [Thread 16] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:48:56,847 [16] INFO  - [Thread 16] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:48:56,848 [16] INFO  - [Thread 16] --MT End call CIPFlowReprocessHandler from ReprocessService--
+2022-06-22 08:48:56,848 [16] INFO  - [Thread 16] --MT End call GetMTReprocessDataGrid from ReprocessService--
+2022-06-22 08:48:56,849 [16] INFO  - [Thread 16] --MT End call MTReprocess Controller--
+2022-06-22 08:48:56,853 [11] INFO  - [Thread 11] --MT Begin TrackStatusFile  Controller--
+2022-06-22 08:48:56,868 [11] INFO  - [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 08:48:56,869 [11] INFO  - [Thread 11] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 08:48:56,870 [11] INFO  - [Thread 11] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 08:48:56,870 [11] INFO  - [Thread 11] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 08:48:56,871 [11] INFO  - [Thread 11] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 08:48:56,872 [11] INFO  - [Thread 11] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 08:48:56,873 [11] INFO  - [Thread 11] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:48:57,127 [11] INFO  - [Thread 11] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:48:57,128 [11] INFO  - [Thread 11] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 08:48:57,130 [11] INFO  - [Thread 11] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:48:57,388 [11] INFO  - [Thread 11] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:48:57,390 [11] INFO  - [Thread 11] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:48:57,635 [11] INFO  - [Thread 11] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:48:57,635 [11] INFO  - [Thread 11] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 08:48:57,635 [11] INFO  - [Thread 11] --MT Start call GetFileName from ReprocessService--
+2022-06-22 08:48:57,635 [11] INFO  - [Thread 11] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 08:48:57,650 [11] INFO  - [Thread 11] --MT End call FilesHandler from ReprocessService--
+2022-06-22 08:48:57,650 [11] INFO  - [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 08:48:57,651 [11] INFO  - [Thread 11] -- MT End  TrackStatusFile Controller--
+2022-06-22 08:49:33,241 [16] INFO  - [Thread 16] --MT Begin TrackStatusFile  Controller--
+2022-06-22 08:49:33,241 [16] INFO  - [Thread 16] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 08:49:33,241 [16] INFO  - [Thread 16] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 08:49:33,241 [16] INFO  - [Thread 16] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 08:49:33,241 [16] INFO  - [Thread 16] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 08:49:33,241 [16] INFO  - [Thread 16] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 08:49:33,241 [16] INFO  - [Thread 16] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 08:49:33,255 [16] INFO  - [Thread 16] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:49:33,511 [16] INFO  - [Thread 16] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:49:33,512 [16] INFO  - [Thread 16] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 08:49:33,513 [16] INFO  - [Thread 16] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:49:33,770 [16] INFO  - [Thread 16] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:49:33,772 [16] INFO  - [Thread 16] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:49:34,033 [16] INFO  - [Thread 16] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:49:34,033 [16] INFO  - [Thread 16] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 08:49:34,033 [16] INFO  - [Thread 16] --MT Start call GetFileName from ReprocessService--
+2022-06-22 08:49:34,033 [16] INFO  - [Thread 16] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 08:49:34,033 [16] INFO  - [Thread 16] --MT End call FilesHandler from ReprocessService--
+2022-06-22 08:49:34,033 [16] INFO  - [Thread 16] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 08:49:34,033 [16] INFO  - [Thread 16] -- MT End  TrackStatusFile Controller--
+2022-06-22 08:55:47,345 [11] INFO  - [Thread 11] --MT Begin TrackStatusFile  Controller--
+2022-06-22 08:55:47,345 [11] INFO  - [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 08:55:47,345 [11] INFO  - [Thread 11] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 08:55:47,349 [11] INFO  - [Thread 11] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 08:55:47,349 [11] INFO  - [Thread 11] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 08:55:47,351 [11] INFO  - [Thread 11] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 08:55:47,351 [11] INFO  - [Thread 11] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 08:55:47,351 [11] INFO  - [Thread 11] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:55:48,904 [11] INFO  - [Thread 11] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 08:55:48,905 [11] INFO  - [Thread 11] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 08:55:48,905 [11] INFO  - [Thread 11] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:55:50,201 [11] INFO  - [Thread 11] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 08:55:50,202 [11] INFO  - [Thread 11] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:55:51,510 [11] INFO  - [Thread 11] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 08:55:51,511 [11] INFO  - [Thread 11] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 08:55:51,512 [11] INFO  - [Thread 11] --MT Start call GetFileName from ReprocessService--
+2022-06-22 08:55:51,512 [11] INFO  - [Thread 11] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 08:55:51,513 [11] INFO  - [Thread 11] --MT End call FilesHandler from ReprocessService--
+2022-06-22 08:55:51,513 [11] INFO  - [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 08:55:51,514 [11] INFO  - [Thread 11] -- MT End  TrackStatusFile Controller--
+2022-06-22 09:04:12,157 [6] INFO  - [Thread 6] --MT Begin TrackStatusFile  Controller--
+2022-06-22 09:04:12,174 [6] INFO  - [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 09:04:12,174 [6] INFO  - [Thread 6] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 09:04:12,174 [6] INFO  - [Thread 6] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 09:04:12,174 [6] INFO  - [Thread 6] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 09:04:12,180 [6] INFO  - [Thread 6] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 09:04:12,180 [6] INFO  - [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 09:04:12,206 [6] INFO  - [Thread 6] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:04:13,762 [6] INFO  - [Thread 6] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:04:13,762 [6] INFO  - [Thread 6] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 09:04:13,762 [6] INFO  - [Thread 6] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:04:15,309 [6] INFO  - [Thread 6] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:04:15,324 [6] INFO  - [Thread 6] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:04:16,599 [6] INFO  - [Thread 6] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:04:16,600 [6] INFO  - [Thread 6] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 09:04:16,601 [6] INFO  - [Thread 6] --MT Start call GetFileName from ReprocessService--
+2022-06-22 09:04:16,602 [6] INFO  - [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 09:04:16,604 [6] INFO  - [Thread 6] --MT End call FilesHandler from ReprocessService--
+2022-06-22 09:04:16,606 [6] INFO  - [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 09:04:16,607 [6] INFO  - [Thread 6] -- MT End  TrackStatusFile Controller--
+2022-06-22 09:04:46,650 [14] INFO  - [Thread 14] --MT Begin MTReprocess  Controller--
+2022-06-22 09:04:46,651 [14] INFO  - [Thread 14] --MT Start call CheckInputReprocessData from ReprocessService--
+2022-06-22 09:04:46,652 [14] INFO  - [Thread 14] --MT End call CheckInputReprocessData from ReprocessService--
+2022-06-22 09:04:46,657 [14] INFO  - [Thread 14] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+2022-06-22 09:04:46,657 [14] INFO  - [Thread 14] --MT Start call CIPFlowReprocessHandler from ReprocessService--
+2022-06-22 09:04:46,657 [14] INFO  - [Thread 14] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:04:46,919 [14] INFO  - [Thread 14] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:04:46,920 [14] INFO  - [Thread 14] --MT End call CIPFlowReprocessHandler from ReprocessService--
+2022-06-22 09:04:46,921 [14] INFO  - [Thread 14] --MT End call GetMTReprocessDataGrid from ReprocessService--
+2022-06-22 09:04:46,922 [14] INFO  - [Thread 14] --MT End call MTReprocess Controller--
+2022-06-22 09:04:46,939 [12] INFO  - [Thread 12] --MT Begin TrackStatusFile  Controller--
+2022-06-22 09:04:46,940 [12] INFO  - [Thread 12] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 09:04:46,941 [12] INFO  - [Thread 12] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 09:04:46,944 [12] INFO  - [Thread 12] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 09:04:46,944 [12] INFO  - [Thread 12] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 09:04:46,945 [12] INFO  - [Thread 12] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 09:04:46,946 [12] INFO  - [Thread 12] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 09:04:46,947 [12] INFO  - [Thread 12] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:04:47,201 [12] INFO  - [Thread 12] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:04:47,202 [12] INFO  - [Thread 12] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 09:04:47,203 [12] INFO  - [Thread 12] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:04:47,460 [12] INFO  - [Thread 12] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:04:47,461 [12] INFO  - [Thread 12] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:04:47,717 [12] INFO  - [Thread 12] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:04:47,718 [12] INFO  - [Thread 12] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 09:04:47,719 [12] INFO  - [Thread 12] --MT Start call GetFileName from ReprocessService--
+2022-06-22 09:04:47,720 [12] INFO  - [Thread 12] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 09:04:47,721 [12] INFO  - [Thread 12] --MT End call FilesHandler from ReprocessService--
+2022-06-22 09:04:47,722 [12] INFO  - [Thread 12] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 09:04:47,723 [12] INFO  - [Thread 12] -- MT End  TrackStatusFile Controller--
+2022-06-22 09:07:34,852 [14] INFO  - [Thread 14] --MT Begin TrackStatusFile  Controller--
+2022-06-22 09:07:34,853 [14] INFO  - [Thread 14] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 09:07:34,854 [14] INFO  - [Thread 14] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 09:07:34,854 [14] INFO  - [Thread 14] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 09:07:34,855 [14] INFO  - [Thread 14] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 09:07:34,856 [14] INFO  - [Thread 14] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 09:07:34,858 [14] INFO  - [Thread 14] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 09:07:34,860 [14] INFO  - [Thread 14] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:07:35,115 [14] INFO  - [Thread 14] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:07:35,117 [14] INFO  - [Thread 14] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 09:07:35,119 [14] INFO  - [Thread 14] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:07:35,379 [14] INFO  - [Thread 14] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:07:35,379 [14] INFO  - [Thread 14] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:07:35,638 [14] INFO  - [Thread 14] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:07:35,642 [14] INFO  - [Thread 14] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 09:07:35,646 [14] INFO  - [Thread 14] --MT Start call GetFileName from ReprocessService--
+2022-06-22 09:07:35,649 [14] INFO  - [Thread 14] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 09:07:35,653 [14] INFO  - [Thread 14] --MT End call FilesHandler from ReprocessService--
+2022-06-22 09:07:35,656 [14] INFO  - [Thread 14] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 09:07:35,660 [14] INFO  - [Thread 14] -- MT End  TrackStatusFile Controller--
+2022-06-22 09:07:37,593 [7] INFO  - [Thread 7] --MT Begin TrackStatusFile  Controller--
+2022-06-22 09:07:37,595 [7] INFO  - [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 09:07:37,597 [7] INFO  - [Thread 7] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 09:07:37,598 [7] INFO  - [Thread 7] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 09:07:37,599 [7] INFO  - [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 09:07:37,600 [7] INFO  - [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 09:07:37,600 [7] INFO  - [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 09:07:37,601 [7] INFO  - [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:07:37,854 [7] INFO  - [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:07:37,854 [7] INFO  - [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 09:07:37,856 [7] INFO  - [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:07:38,103 [7] INFO  - [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:07:38,103 [7] INFO  - [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:07:38,389 [7] INFO  - [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:07:38,389 [7] INFO  - [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 09:07:38,389 [7] INFO  - [Thread 7] --MT Start call GetFileName from ReprocessService--
+2022-06-22 09:07:38,389 [7] INFO  - [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 09:07:38,389 [7] INFO  - [Thread 7] --MT End call FilesHandler from ReprocessService--
+2022-06-22 09:07:38,389 [7] INFO  - [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 09:07:38,389 [7] INFO  - [Thread 7] -- MT End  TrackStatusFile Controller--
+2022-06-22 09:07:39,883 [14] INFO  - [Thread 14] --MT Begin TrackStatusFile  Controller--
+2022-06-22 09:07:39,884 [14] INFO  - [Thread 14] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 09:07:39,885 [14] INFO  - [Thread 14] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 09:07:39,885 [14] INFO  - [Thread 14] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 09:07:39,886 [14] INFO  - [Thread 14] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 09:07:39,887 [14] INFO  - [Thread 14] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 09:07:39,888 [14] INFO  - [Thread 14] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 09:07:39,889 [14] INFO  - [Thread 14] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:07:40,137 [14] INFO  - [Thread 14] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:07:40,137 [14] INFO  - [Thread 14] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 09:07:40,137 [14] INFO  - [Thread 14] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:07:40,394 [14] INFO  - [Thread 14] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:07:40,394 [14] INFO  - [Thread 14] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:07:40,663 [14] INFO  - [Thread 14] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:07:40,663 [14] INFO  - [Thread 14] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 09:07:40,663 [14] INFO  - [Thread 14] --MT Start call GetFileName from ReprocessService--
+2022-06-22 09:07:40,663 [14] INFO  - [Thread 14] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 09:07:40,679 [14] INFO  - [Thread 14] --MT End call FilesHandler from ReprocessService--
+2022-06-22 09:07:40,679 [14] INFO  - [Thread 14] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 09:07:40,679 [14] INFO  - [Thread 14] -- MT End  TrackStatusFile Controller--
+2022-06-22 09:07:43,922 [11] INFO  - [Thread 11] --MT Begin TrackStatusFile  Controller--
+2022-06-22 09:07:43,922 [11] INFO  - [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 09:07:43,924 [11] INFO  - [Thread 11] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 09:07:43,925 [11] INFO  - [Thread 11] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 09:07:43,927 [11] INFO  - [Thread 11] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 09:07:43,931 [11] INFO  - [Thread 11] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 09:07:43,933 [11] INFO  - [Thread 11] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 09:07:43,934 [11] INFO  - [Thread 11] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:07:44,190 [11] INFO  - [Thread 11] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:07:44,192 [11] INFO  - [Thread 11] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 09:07:44,195 [11] INFO  - [Thread 11] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:07:44,466 [11] INFO  - [Thread 11] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:07:44,467 [11] INFO  - [Thread 11] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:07:44,723 [11] INFO  - [Thread 11] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:07:44,724 [11] INFO  - [Thread 11] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 09:07:44,726 [11] INFO  - [Thread 11] --MT Start call GetFileName from ReprocessService--
+2022-06-22 09:07:44,726 [11] INFO  - [Thread 11] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 09:07:44,727 [11] INFO  - [Thread 11] --MT End call FilesHandler from ReprocessService--
+2022-06-22 09:07:44,728 [11] INFO  - [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 09:07:44,728 [11] INFO  - [Thread 11] -- MT End  TrackStatusFile Controller--
+2022-06-22 09:33:27,012 [25] INFO  - [Thread 25] --MT Begin MTReprocess  Controller--
+2022-06-22 09:33:27,014 [25] INFO  - [Thread 25] --MT Start call CheckInputReprocessData from ReprocessService--
+2022-06-22 09:33:27,015 [25] INFO  - [Thread 25] --MT End call CheckInputReprocessData from ReprocessService--
+2022-06-22 09:33:27,016 [25] INFO  - [Thread 25] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+2022-06-22 09:33:27,018 [25] INFO  - [Thread 25] --MT Start call CIPFlowReprocessHandler from ReprocessService--
+2022-06-22 09:33:27,023 [25] INFO  - [Thread 25] --MT Start call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:33:28,673 [25] INFO  - [Thread 25] --MT End call UpdateIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:33:28,674 [25] INFO  - [Thread 25] --MT End call CIPFlowReprocessHandler from ReprocessService--
+2022-06-22 09:33:28,675 [25] INFO  - [Thread 25] --MT End call GetMTReprocessDataGrid from ReprocessService--
+2022-06-22 09:33:28,676 [25] INFO  - [Thread 25] --MT End call MTReprocess Controller--
+2022-06-22 09:33:28,706 [23] INFO  - [Thread 23] --MT Begin TrackStatusFile  Controller--
+2022-06-22 09:33:28,707 [23] INFO  - [Thread 23] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 09:33:28,712 [23] INFO  - [Thread 23] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 09:33:28,718 [23] INFO  - [Thread 23] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 09:33:28,732 [23] INFO  - [Thread 23] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 09:33:28,733 [23] INFO  - [Thread 23] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 09:33:28,736 [23] INFO  - [Thread 23] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 09:33:28,737 [23] INFO  - [Thread 23] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:33:28,998 [23] INFO  - [Thread 23] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 09:33:28,998 [23] INFO  - [Thread 23] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 09:33:28,999 [23] INFO  - [Thread 23] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:33:30,323 [23] INFO  - [Thread 23] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 09:33:30,324 [23] INFO  - [Thread 23] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:33:31,624 [23] INFO  - [Thread 23] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 09:33:31,625 [23] INFO  - [Thread 23] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 09:33:31,626 [23] INFO  - [Thread 23] --MT Start call GetFileName from ReprocessService--
+2022-06-22 09:33:31,627 [23] INFO  - [Thread 23] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 09:33:31,627 [23] INFO  - [Thread 23] --MT End call FilesHandler from ReprocessService--
+2022-06-22 09:33:31,628 [23] INFO  - [Thread 23] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 09:33:31,629 [23] INFO  - [Thread 23] -- MT End  TrackStatusFile Controller--
+2022-06-22 22:03:46,517 [7] INFO  - [Thread 7] --MT Begin TrackStatusFile  Controller--
+2022-06-22 22:03:46,531 [7] INFO  - [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 22:03:46,533 [7] INFO  - [Thread 7] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 22:03:46,534 [7] INFO  - [Thread 7] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 22:03:46,536 [7] INFO  - [Thread 7] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 22:03:46,538 [7] INFO  - [Thread 7] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 22:03:46,541 [7] INFO  - [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 22:03:46,550 [7] INFO  - [Thread 7] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 22:05:46,462 [7] INFO  - [Thread 7] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 22:05:46,466 [7] INFO  - [Thread 7] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 22:05:46,469 [7] INFO  - [Thread 7] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 22:05:48,518 [7] INFO  - [Thread 7] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 22:05:48,523 [7] INFO  - [Thread 7] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 22:05:49,945 [7] INFO  - [Thread 7] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 22:05:49,945 [7] INFO  - [Thread 7] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 22:05:49,945 [7] INFO  - [Thread 7] --MT Start call GetFileName from ReprocessService--
+2022-06-22 22:05:49,945 [7] INFO  - [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 22:05:49,962 [7] INFO  - [Thread 7] --MT End call FilesHandler from ReprocessService--
+2022-06-22 22:05:49,962 [7] INFO  - [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 22:05:49,962 [7] INFO  - [Thread 7] -- MT End  TrackStatusFile Controller--
+2022-06-22 22:05:51,720 [6] INFO  - [Thread 6] --MT Begin TrackStatusFile  Controller--
+2022-06-22 22:05:51,721 [6] INFO  - [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+2022-06-22 22:05:51,723 [6] INFO  - [Thread 6] --MT Start call FilesHandler from ReprocessService--
+2022-06-22 22:05:51,728 [6] INFO  - [Thread 6] --MT track file: 2044d75f-cbab-4a42-800a-aeb60dfeec4e_132096_202104_9109_26137_830_002003_1252_inbox_131235246042877646_inbox.ascii  --
+2022-06-22 22:05:51,730 [6] INFO  - [Thread 6] --MT Start call CheckInputTrackData from ReprocessService--
+2022-06-22 22:05:51,731 [6] INFO  - [Thread 6] --MT End call CheckInputTrackData True from ReprocessService--
+2022-06-22 22:05:51,732 [6] INFO  - [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+2022-06-22 22:05:51,733 [6] INFO  - [Thread 6] --MT Start call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 22:05:52,009 [6] INFO  - [Thread 6] --MT End call GetIntegrationStatusInbox from MetricReprocessRepository--
+2022-06-22 22:05:52,010 [6] INFO  - [Thread 6] --MT Start call GetNoteInbox from ReprocessService--
+2022-06-22 22:05:52,011 [6] INFO  - [Thread 6] --MT Start call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 22:05:52,291 [6] INFO  - [Thread 6] --MT End call IsExistOnDiASCIIR9ByInbox from MetricReprocessRepository--
+2022-06-22 22:05:52,292 [6] INFO  - [Thread 6] --MT Start call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 22:05:52,572 [6] INFO  - [Thread 6] --MT End call IsExistOnDiMetrics from MetricReprocessRepository--
+2022-06-22 22:05:52,575 [6] INFO  - [Thread 6] --MT End call GetNoteInbox from ReprocessService--
+2022-06-22 22:05:52,579 [6] INFO  - [Thread 6] --MT Start call GetFileName from ReprocessService--
+2022-06-22 22:05:52,583 [6] INFO  - [Thread 6] --MT Start call FillTrackDataGrid from ReprocessService--
+2022-06-22 22:05:52,586 [6] INFO  - [Thread 6] --MT End call FilesHandler from ReprocessService--
+2022-06-22 22:05:52,590 [6] INFO  - [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+2022-06-22 22:05:52,593 [6] INFO  - [Thread 6] -- MT End  TrackStatusFile Controller--

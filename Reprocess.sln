@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reprocess.Web", "Reprocess.Web\Reprocess.Web.csproj", "{93DBFFFC-585D-4D99-BF18-D3E42622A306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reprocess.Model", "Reprocess.Model\Reprocess.Model.csproj", "{E276E7B0-474B-4E7E-BCC7-686066B7D815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reprocess.Service", "Reprocess.Service\Reprocess.Service.csproj", "{D6A8028B-B0B6-48D4-BEA0-CBA15735282E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reprocess.Data", "Reprocess.Data\Reprocess.Data.csproj", "{79D44E4D-439D-4EAC-963D-5537952CA646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reprocess.Common", "Reprocess.Common\Reprocess.Common.csproj", "{94993198-8F0F-401E-88A6-4F9658E2DEF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reprocess.Tests", "Reprocess.Tests\Reprocess.Tests.csproj", "{7BE12203-D93B-4CA3-82B9-6263E78542A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93DBFFFC-585D-4D99-BF18-D3E42622A306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DBFFFC-585D-4D99-BF18-D3E42622A306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DBFFFC-585D-4D99-BF18-D3E42622A306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DBFFFC-585D-4D99-BF18-D3E42622A306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E276E7B0-474B-4E7E-BCC7-686066B7D815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E276E7B0-474B-4E7E-BCC7-686066B7D815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E276E7B0-474B-4E7E-BCC7-686066B7D815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E276E7B0-474B-4E7E-BCC7-686066B7D815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A8028B-B0B6-48D4-BEA0-CBA15735282E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A8028B-B0B6-48D4-BEA0-CBA15735282E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A8028B-B0B6-48D4-BEA0-CBA15735282E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A8028B-B0B6-48D4-BEA0-CBA15735282E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D44E4D-439D-4EAC-963D-5537952CA646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D44E4D-439D-4EAC-963D-5537952CA646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D44E4D-439D-4EAC-963D-5537952CA646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D44E4D-439D-4EAC-963D-5537952CA646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94993198-8F0F-401E-88A6-4F9658E2DEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94993198-8F0F-401E-88A6-4F9658E2DEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94993198-8F0F-401E-88A6-4F9658E2DEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94993198-8F0F-401E-88A6-4F9658E2DEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE12203-D93B-4CA3-82B9-6263E78542A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE12203-D93B-4CA3-82B9-6263E78542A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE12203-D93B-4CA3-82B9-6263E78542A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE12203-D93B-4CA3-82B9-6263E78542A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5FF2790-3CE9-405F-BFF5-05BBE74E6B26}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs2018.dicentral.com.vn/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Reprocess.Web\\Reprocess.Web.csproj
+		SccProjectName1 = Reprocess.Web
+		SccLocalPath1 = Reprocess.Web
+		SccProjectUniqueName2 = Reprocess.Model\\Reprocess.Model.csproj
+		SccProjectName2 = Reprocess.Model
+		SccLocalPath2 = Reprocess.Model
+		SccProjectUniqueName3 = Reprocess.Service\\Reprocess.Service.csproj
+		SccProjectName3 = Reprocess.Service
+		SccLocalPath3 = Reprocess.Service
+		SccProjectUniqueName4 = Reprocess.Data\\Reprocess.Data.csproj
+		SccProjectName4 = Reprocess.Data
+		SccLocalPath4 = Reprocess.Data
+		SccProjectUniqueName5 = Reprocess.Common\\Reprocess.Common.csproj
+		SccProjectName5 = Reprocess.Common
+		SccLocalPath5 = Reprocess.Common
+		SccProjectUniqueName6 = Reprocess.Tests\\Reprocess.Tests.csproj
+		SccProjectName6 = Reprocess.Tests
+		SccLocalPath6 = Reprocess.Tests
+	EndGlobalSection
+EndGlobal

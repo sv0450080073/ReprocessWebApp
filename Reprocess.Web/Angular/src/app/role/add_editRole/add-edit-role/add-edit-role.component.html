@@ -1,0 +1,25 @@
+<form [formGroup]="rfRole" class="form-horizontal">
+    <div class="form-group">
+        <label for="roleName" class="form-label col-sm-3">Role Name: </label>
+        <div class="col-sm-9">
+            <input formControlName="roleName" type="text" [class]=" isExistRoleName ? ' form-control isExist' : ' form-control ' " name="roleName">
+            <small *ngIf="roleName.hasError('maxlength')" class="text-danger">Role name cannot exceed 30 characters.</small>
+            <small *ngIf="roleName.hasError('required') && roleName.touched" class="text-danger">Role name is required.</small>
+            <small *ngIf="isExistRoleName" class="text-danger">Role name already exists.</small>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="description" class="form-label col-sm-3">Description: </label>
+        <div class="col-sm-9">
+            <input formControlName="description" type="text" class="form-control" name="description">
+            <small *ngIf="description.hasError('maxlength')" class="text-danger">Description cannot exceed 100 characters.</small>
+            <small *ngIf="description.hasError('required') && description.touched" class="text-danger">Description is required</small>
+        </div>
+    </div>
+    <div class="text-center">
+        <button [disabled]="rfRole.invalid || isExistRoleName" (click)="addRole()" *ngIf="roleId ==0" class="btn btn-primary btn-addEdit">Save</button>
+        <button [disabled]="rfRole.invalid || isExistRoleName" (click)="updateRole()" *ngIf="roleId !=0" class="btn btn-primary btn-addEdit">Update</button>
+    </div>
+
+</form>

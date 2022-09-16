@@ -1,0 +1,49 @@
+<div class="panel-body" id="panel-pody" style="height: calc(100vh - 230px);">
+  <app-loader *ngIf="isLoading"></app-loader>
+  <div class="di__tableWrapperFixed table-responsive">
+    <div class="table-responsive">
+      <table class="table table-hover tablesroll">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col" class="col-2">Error Code</th>
+            <th scope="col" class="col-6">Description </th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of data|paginate:{  itemsPerPage: pageSize,currentPage: page,totalItems: count};">
+            <td><a (click)="ShowDescription(item.ErrorMessage)">{{item.ErrorCode}}</a></td>
+            <td>{{(item.ErrorMessage.length>100)?(item.ErrorMessage|slice:0:100)+'..':(item.ErrorMessage)}}</td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="panel-footer clearfix">
+    <div class="di__panel-right">
+      <div class="di__panel-right">
+        <div class="col-md-12">
+          <pagination-controls previousLabel="Prev"
+                               nextLabel="Next"
+                               responsive="true"
+                               (pageChange)="handlePageChange($event)"></pagination-controls>
+        </div>
+      </div>
+    </div>
+    <div class="di__panel-showing">
+      <form class="form-inline">
+        <div class="form-group form-group-sm">
+          <select class="form-control di__showing" [(ngModel)]="pageSize" name="pgSizeControl" (ngModelChange)="handlePageSizeChange(pageSize)" id="numberOfObject">
+            <option *ngFor="let size of pageSizes" [ngValue]="size">
+              {{ size }}
+            </option>
+          </select>
+          Item Per Page
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+  
+  

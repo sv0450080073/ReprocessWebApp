@@ -1,0 +1,103 @@
+INFO|2022-07-19 11:22:33,580|(null)|AdminFileAppender|Info: [Thread 14] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-19 11:23:39,845|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-19 11:23:44,292|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-19 11:23:44,294|(null)|AdminFileAppender|Info: [Thread 14] --MT track file: 123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123  --
+INFO|2022-07-19 11:23:44,298|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-19 11:23:44,303|(null)|AdminFileAppender|Info: [Thread 14] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-19 11:23:44,305|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-19 11:23:44,311|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-19 11:23:44,314|(null)|AdminFileAppender|Info: [Thread 14] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-19 11:24:10,386|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-19 11:24:13,271|(null)|AdminFileAppender|Info: [Thread 14] -- MT End  TrackStatusFile Controller--
+INFO|2022-07-19 11:35:48,427|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-19 11:35:48,435|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-19 11:35:48,437|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-19 11:35:48,440|(null)|AdminFileAppender|Info: [Thread 8] --MT track file: 123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123_20210308;123  --
+INFO|2022-07-19 11:35:48,443|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call CheckInputTrackData from ReprocessService--
+INFO|2022-07-19 11:35:48,447|(null)|AdminFileAppender|Info: [Thread 8] --MT End call CheckInputTrackData True from ReprocessService--
+INFO|2022-07-19 11:35:48,450|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetFileName from ReprocessService--
+INFO|2022-07-19 11:35:48,452|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-07-19 11:35:48,454|(null)|AdminFileAppender|Info: [Thread 8] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-19 11:35:48,457|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-19 11:35:48,459|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-07-19 13:12:18,180|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-19 13:12:30,072|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-19 13:29:52,217|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-19 13:29:52,503|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-19 13:29:52,518|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:29:52,534|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:29:52,534|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-19 13:31:19,422|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-19 13:31:19,894|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-19 13:31:19,910|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:31:19,926|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:31:19,941|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-19 13:32:42,235|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-19 13:32:42,329|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-19 13:32:42,332|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:32:42,340|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:32:42,340|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-19 13:33:15,697|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-19 13:33:15,706|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-19 13:33:15,708|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:33:15,717|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:33:15,719|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-19 13:33:57,783|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-19 13:33:57,787|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-19 13:33:57,788|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:33:57,794|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:33:57,797|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-19 13:36:29,770|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-19 13:36:29,775|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-19 13:36:29,776|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:36:29,791|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:36:29,791|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-19 13:45:02,402|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-19 13:45:02,611|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-19 13:45:02,630|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:02,633|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:45:02,652|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:02,673|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-19 13:45:02,675|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-07-19 13:45:06,393|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-19 13:45:06,396|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-19 13:45:06,398|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:06,401|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:45:06,403|(null)|AdminFileAppender|Info: [Thread 8] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:06,409|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-19 13:45:06,413|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-07-19 13:45:07,886|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-19 13:45:07,889|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-19 13:45:07,891|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:07,894|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:45:07,896|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:07,898|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-19 13:45:07,900|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-07-19 13:45:08,642|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-19 13:45:08,645|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-19 13:45:08,648|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:08,650|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:45:08,652|(null)|AdminFileAppender|Info: [Thread 8] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:08,655|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-19 13:45:08,660|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-07-19 13:45:09,307|(null)|AdminFileAppender|Info: [Thread 10] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-19 13:45:09,310|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-19 13:45:09,313|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:09,315|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:45:09,318|(null)|AdminFileAppender|Info: [Thread 10] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:09,319|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-19 13:45:09,325|(null)|AdminFileAppender|Info: [Thread 10] -- MT End  TrackStatusFile Controller--
+INFO|2022-07-19 13:45:09,908|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-19 13:45:09,913|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-19 13:45:09,916|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:09,918|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:45:09,920|(null)|AdminFileAppender|Info: [Thread 8] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:09,926|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-19 13:45:09,928|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-07-19 13:45:22,568|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-07-19 13:45:22,575|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-07-19 13:45:22,578|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:22,589|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-19 13:45:22,598|(null)|AdminFileAppender|Info: [Thread 8] --MT End call FilesHandler from ReprocessService--
+INFO|2022-07-19 13:45:22,614|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-07-19 13:45:22,616|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--

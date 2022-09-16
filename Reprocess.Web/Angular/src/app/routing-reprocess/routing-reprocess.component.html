@@ -1,0 +1,80 @@
+
+<div style="margin:10px;" onload="onloadRoutingReprocess()">
+  <form [formGroup]="rfRoutingReprocess" (ngSubmit)="onSubmitBtnStart()">
+    <table class="tb">
+      <tr>
+
+        <td class="col-md-2">
+          <label>Processing Type:</label><label class="clsrequire">*</label>
+        </td>
+        <td class="col-md-10">
+          <select name="ProcessingType" id="ProcessingType" class="form-control" style="width: 100%; max-width: none;" required formControlName="ProcessingType">
+            <option value="DownloadInboundDocument" selected>Download Inbound Document</option>
+            <option value="DownloadInboundDocumentToDiASCIIR9">Download Inbound Document To DiASCIIR9</option>
+            <option value="DownloadInboundDocumentToDiMetrics">Download Inbound Document To DiMetrics</option>
+            <option value="DownloadOutboundDocument">Download Outbound Document</option>
+            <option value="DownloadOutboundDocumentToDiASCIIR9">Download Outbound Document To DiASCIIR9</option>
+            <option value="DownloadOutboundDocumentToDiMetrics">Download Outbound Document To DiMetrics</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="col-md-2">
+          <label>Year/Quarter:</label><label class="clsrequire">*</label>
+        </td>
+        <td class="col-md-10">
+          <div class="form-inline">
+            <input class="form-control col-md-3" type="number" id="Year" name="Year" min="1990" maxlength="4" required formControlName="Year">
+            <input class="form-control col-md-3" type="number" id="Quarter" name="Quarter" style="margin-left:5px;" min="1" max="4" required formControlName="Quarter">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="col-md-2">
+          <label>Inbox/Outbox IDs:</label><label class="clsrequire">*</label>
+        </td>
+        <td class="col-md-10">
+          <textarea type="text" class="form-control" id="InOutboxIDs" name="InOutboxIDs" style="width:100%; height: 80px;" required pattern="^[0-9]+(,[0-9]+)*$" placeholder="List of Inbox ors Outbox ID, ex: 1,2,..." formControlName="InOutboxIDs"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td class="col-md-2">
+          <label>Bundle in:</label><label class="clsrequire">*</label>
+        </td>
+        <td class="col-md-10">
+          <input class="col-md-3 form-control" type="number" id="Bundle" name="Bundle" min="1" max="999999" value="10" required formControlName="Bundle">
+        </td>
+      </tr>
+      <tr>
+        <td class="col-md-2">
+          <label>Interval in sec:</label><label class="clsrequire">*</label>
+        </td>
+        <td class="col-md-10">
+          <input class="col-md-3 form-control" type="number" id="Interval" name="Interval" min="0" max="3600" value="30" required formControlName="Interval">
+        </td>
+      </tr>
+      <tr>
+        <td class="col-md-2">
+          <label>Result:</label>
+        </td>
+        <td class="col-md-10">
+          <textarea id="Message" class="form-control" name="Message" style="width:100%; height: 180px; opacity:0.8;" disabled>{{ResultMsgDisplay}}</textarea>
+        </td>
+      </tr>
+      <tr>
+        <td class="col-md-2">
+          <label>Exception:</label>
+        </td>
+        <td class="col-md-10">
+          <textarea id="ErrorMessage" name="ErrorMessage" class="form-control" style="width:100%; height: 180px; opacity:0.8;" disabled>{{ErrorMsgDisplay}}</textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4" class="col-md-12" style="text-align: right;">
+          <button type="submit" id="btnStart" class="btn btn-success" style="min-width:90px;">Start</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>
+

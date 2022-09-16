@@ -1,0 +1,1154 @@
+INFO|2022-07-12 08:10:00,040|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 08:10:00,497|(null)|AdminFileAppender|Info: [Thread 10] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 08:10:00,513|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 08:10:00,540|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 08:10:00,544|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 08:10:29,870|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 08:10:29,884|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 08:10:29,893|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 08:10:29,908|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:21:27,661|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 09:21:28,145|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 09:21:28,148|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 09:21:28,158|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 09:21:28,161|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:21:39,901|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:21:39,912|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:21:39,917|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:21:39,937|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:27:48,486|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 09:27:48,727|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 09:27:48,729|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 09:27:48,737|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 09:27:48,739|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:27:53,162|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:27:53,171|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:27:53,184|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:27:53,195|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:30:05,777|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:30:05,786|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:30:05,791|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:30:05,800|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:30:09,039|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:30:09,043|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:30:09,049|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:30:09,054|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:40:50,748|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:40:50,760|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:40:50,780|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:40:50,793|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:41:02,096|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:41:02,101|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:41:02,110|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:41:02,117|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:45:11,821|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:45:11,842|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:45:11,853|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:45:11,862|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:46:16,050|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:46:16,056|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:46:16,064|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:46:16,071|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:46:44,145|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:46:44,152|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:46:44,159|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:46:44,165|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:52:12,402|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:52:12,411|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:52:12,419|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 09:52:12,425|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:10:53,892|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 11:10:54,388|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 11:10:54,391|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 11:10:54,402|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 11:10:54,405|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:11:00,929|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:11:00,944|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:11:00,956|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:11:00,982|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:12:01,271|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:12:01,286|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:12:01,301|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:12:01,316|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:13:41,335|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:13:41,343|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:13:41,347|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:13:41,351|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:14:33,657|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:14:33,666|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:14:33,675|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:14:33,684|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:16:13,166|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:16:13,180|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:16:13,189|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:16:13,195|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:31,057|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:31,122|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:31,131|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:31,138|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:36,074|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:36,080|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:36,086|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:36,092|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:37,106|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:38,929|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:38,943|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:38,953|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:38,958|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:39,497|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:41,136|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:41,141|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:41,163|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:30:41,170|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:35:20,794|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:35:20,802|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:35:20,806|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:35:20,824|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:00,603|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:00,606|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:00,613|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:00,619|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:05,426|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:05,443|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:05,453|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:05,460|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:09,910|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:09,917|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:09,924|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:09,940|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:35,362|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:35,378|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:35,393|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:35,408|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:35,722|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:35,727|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:35,749|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:35,757|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:37,110|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:37,114|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:37,118|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:37,122|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:37,902|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:37,910|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:37,925|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:37,931|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:38,528|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:38,539|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:38,547|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:38,551|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:43,304|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:43,314|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:43,319|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:43,325|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:44,124|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:44,129|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:44,136|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:44,144|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:44,510|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:44,514|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:44,521|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 11:36:44,526|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:03:34,485|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 13:03:34,905|(null)|AdminFileAppender|Info: [Thread 8] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 13:03:34,908|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 13:03:34,920|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 13:03:34,922|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:03:39,261|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:03:39,268|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:03:39,274|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:03:39,283|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:42,112|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:42,120|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:42,126|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:42,132|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:42,149|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:56,459|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:56,464|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:56,467|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:56,475|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:56,478|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:58,169|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:58,177|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:58,181|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:58,184|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:58,189|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:58,896|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:58,899|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:58,904|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:58,912|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:04:58,916|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:05:00,031|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:05:02,245|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:05:02,253|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:05:02,259|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:05:02,261|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:05:02,271|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:06:26,035|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:06:26,043|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:06:26,051|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:06:26,057|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:06:26,068|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:08:08,049|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:08:08,063|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:08:08,068|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:08:08,090|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:08:08,109|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:09:29,162|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:09:29,182|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:09:29,197|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:09:29,234|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:09:29,242|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:10:22,987|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:10:22,997|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:10:23,011|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:10:23,021|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:10:23,043|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:11:10,108|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:11:10,116|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:11:10,125|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:11:10,134|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:11:10,161|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:16:40,568|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 13:16:40,669|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 13:16:40,672|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 13:16:40,680|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 13:16:40,683|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:16:48,264|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:16:48,272|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:16:48,282|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:16:48,298|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:16:48,311|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:20:55,688|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:20:55,723|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:20:55,734|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:20:55,757|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:20:55,772|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:29:52,134|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:29:52,164|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:29:52,179|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:29:52,186|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:29:52,203|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:29:56,902|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:29:56,909|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:29:56,926|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:29:56,936|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:29:56,945|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:34:38,115|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:34:38,124|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:34:38,161|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:34:38,176|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:34:38,191|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:35:37,934|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:35:37,956|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:35:37,967|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:35:37,977|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:35:37,991|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:36:24,821|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:36:24,830|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:36:24,838|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:36:24,849|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:36:24,861|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:37:16,380|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:37:16,390|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:37:16,403|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:37:16,410|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:37:16,419|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:38:14,139|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:38:14,144|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:38:14,154|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:38:14,160|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:38:14,164|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:39:35,090|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:39:35,105|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:39:35,120|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:39:35,155|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:39:35,166|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:46:33,632|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:46:33,644|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:46:33,649|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:46:33,659|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:46:33,669|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:47:03,378|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:47:03,388|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:47:03,402|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:47:03,418|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:47:03,441|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:47:27,139|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:47:27,147|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:47:27,154|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:47:27,159|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:47:27,172|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:48:23,151|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:48:23,171|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:48:23,179|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:48:23,187|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:48:23,195|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:49:46,818|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:49:46,827|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:49:46,837|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:49:46,845|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:49:46,853|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:50:45,573|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:50:45,577|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:50:45,581|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:50:45,586|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 13:50:45,595|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:00:51,406|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:00:51,413|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:00:51,431|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:00:51,449|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:00:51,454|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:01:20,773|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:01:20,787|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:01:20,799|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:01:20,804|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:01:20,814|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:02:16,244|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:02:16,250|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:02:16,266|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:02:16,271|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:02:16,285|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:02:37,494|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:02:37,505|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:02:37,512|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:02:37,517|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:02:37,521|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:03:10,559|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:03:10,575|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:03:10,582|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:03:10,586|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:03:10,594|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:03:34,087|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:03:34,095|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:03:34,095|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:03:34,095|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:03:34,108|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:03:36,291|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:05:21,724|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:05:21,733|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:05:21,739|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:05:21,753|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:05:21,758|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:05:28,506|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:05:57,567|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:05:57,574|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:05:57,583|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:05:57,588|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:05:57,603|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:06:02,365|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:06:02,370|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:06:02,370|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:06:02,370|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:06:02,381|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:06:03,096|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:06:45,852|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:06:45,863|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:06:45,867|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:06:45,872|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:06:45,879|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:07:00,441|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:07:00,446|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:07:00,461|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:07:00,461|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:07:00,478|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:07:01,428|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:08:01,306|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:08:01,310|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:08:01,323|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:08:01,334|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:08:01,356|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:08:09,976|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:09:41,866|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:09:41,880|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:09:41,886|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:09:41,890|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:09:41,895|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:09:44,970|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:11:33,059|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:11:33,074|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:11:33,087|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:11:33,096|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:11:33,105|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:11:35,439|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:13:27,056|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:13:27,063|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:13:27,073|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:13:27,078|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:13:27,087|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:13:28,177|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:14:08,565|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:14:08,574|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:14:08,579|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:14:08,588|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:14:08,589|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:14:11,250|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:14:22,682|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:14:22,686|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:14:22,686|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:14:22,686|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:14:22,701|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:15:09,593|(null)|AdminFileAppender|Info: [Thread 30] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:15:26,147|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:15:26,147|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:15:26,147|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:15:26,147|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:15:26,163|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:15:33,758|(null)|AdminFileAppender|Info: [Thread 30] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:15:33,763|(null)|AdminFileAppender|Info: [Thread 30] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:15:33,763|(null)|AdminFileAppender|Info: [Thread 30] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:15:33,780|(null)|AdminFileAppender|Info: [Thread 30] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:15:33,780|(null)|AdminFileAppender|Info: [Thread 30] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:27:49,812|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:27:49,815|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:27:49,833|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:27:49,848|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:27:49,864|(null)|AdminFileAppender|Info: [Thread 33] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:34:49,480|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:34:49,507|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:34:49,523|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:34:49,538|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:34:49,556|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:37:57,101|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 14:37:57,379|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 14:41:11,578|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 14:41:11,803|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 14:42:38,320|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 14:42:38,336|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 14:43:45,683|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 14:44:22,408|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 14:44:22,414|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 14:44:22,430|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 14:44:22,433|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:31,652|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:31,665|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:31,679|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:31,687|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:31,697|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:37,135|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:37,153|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:37,158|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:37,168|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:37,174|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:39,201|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:39,205|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:39,210|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:39,232|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:39,235|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:42,089|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:42,096|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:42,108|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:42,114|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:42,120|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:44,778|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:46,297|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:46,301|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:46,306|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:46,315|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 14:44:46,327|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:06:28,261|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:28,493|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:34,555|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:34,565|(null)|AdminFileAppender|Info: [Thread 10] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:39,573|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:39,598|(null)|AdminFileAppender|Info: [Thread 8] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:46,869|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:46,875|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:47,796|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:47,805|(null)|AdminFileAppender|Info: [Thread 10] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:48,017|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:48,028|(null)|AdminFileAppender|Info: [Thread 8] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:48,179|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:48,188|(null)|AdminFileAppender|Info: [Thread 10] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:50,737|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:50,743|(null)|AdminFileAppender|Info: [Thread 8] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:50,932|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:50,939|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:52,700|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:52,718|(null)|AdminFileAppender|Info: [Thread 8] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:52,883|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:06:52,893|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:07:09,341|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:07:09,356|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:07:10,499|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:07:10,511|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:07:11,027|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:07:11,032|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:08:03,560|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:08:03,761|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:08:11,937|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:08:11,946|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:08:28,436|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:10:34,493|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+ERROR|2022-07-12 15:10:34,795|(null)|AdminFileAppender|Error: [Thread 5] Invalid column name 'true'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'true'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Users.UserRepository.CheckUser(UserLoginData userLogin) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 51
+ClientConnectionId:0f016699-a956-4558-ae56-a5d59b0a68e9
+Error Number:207,State:1,Class:16
+INFO|2022-07-12 15:10:34,795|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:10:34,795|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:10:41,123|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+ERROR|2022-07-12 15:10:41,160|(null)|AdminFileAppender|Error: [Thread 5] Invalid column name 'true'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'true'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Users.UserRepository.CheckUser(UserLoginData userLogin) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 51
+ClientConnectionId:0f016699-a956-4558-ae56-a5d59b0a68e9
+Error Number:207,State:1,Class:16
+INFO|2022-07-12 15:10:41,162|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:10:41,164|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:10:53,912|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+ERROR|2022-07-12 15:12:35,206|(null)|AdminFileAppender|Error: [Thread 5] Invalid column name 'true'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'true'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Users.UserRepository.CheckUser(UserLoginData userLogin) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 51
+ClientConnectionId:0f016699-a956-4558-ae56-a5d59b0a68e9
+Error Number:207,State:1,Class:16
+INFO|2022-07-12 15:12:35,206|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:12:35,206|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:12:55,394|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call CheckUser from UserRepository--
+ERROR|2022-07-12 15:12:57,449|(null)|AdminFileAppender|Error: [Thread 7] Invalid column name 'true'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'true'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Users.UserRepository.CheckUser(UserLoginData userLogin) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 51
+ClientConnectionId:0f016699-a956-4558-ae56-a5d59b0a68e9
+Error Number:207,State:1,Class:16
+INFO|2022-07-12 15:12:57,603|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:12:57,920|(null)|AdminFileAppender|Info: [Thread 7] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:13:20,242|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+ERROR|2022-07-12 15:15:33,647|(null)|AdminFileAppender|Error: [Thread 5] Invalid column name 'true'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'true'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Users.UserRepository.CheckUser(UserLoginData userLogin)
+ClientConnectionId:0f016699-a956-4558-ae56-a5d59b0a68e9
+Error Number:207,State:1,Class:16
+INFO|2022-07-12 15:15:33,649|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:15:33,651|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:16:37,210|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:16:37,416|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:16:37,432|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+ERROR|2022-07-12 15:16:37,470|(null)|AdminFileAppender|Error: [Thread 5] Invalid column name 'true'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'true'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Users.UserRepository.GetUserInfo(UserLoginData userLogin) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 88
+ClientConnectionId:925c9f2b-7dd5-4720-9087-422b7869329e
+Error Number:207,State:1,Class:16
+INFO|2022-07-12 15:16:37,470|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:16:37,470|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:16:54,455|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:16:54,455|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:16:54,470|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+ERROR|2022-07-12 15:16:54,486|(null)|AdminFileAppender|Error: [Thread 5] Invalid column name 'true'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'true'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Reprocess.Data.Users.UserRepository.GetUserInfo(UserLoginData userLogin) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Users\IUserRepository.cs:line 88
+ClientConnectionId:925c9f2b-7dd5-4720-9087-422b7869329e
+Error Number:207,State:1,Class:16
+INFO|2022-07-12 15:16:54,486|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:16:54,502|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:18:02,516|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:18:02,740|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:18:02,743|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:18:02,774|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:18:02,776|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:30:42,145|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:30:42,493|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:30:52,368|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:30:52,385|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:30:54,821|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:30:54,829|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:31:02,203|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:31:02,218|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:31:02,218|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:31:02,234|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:31:02,234|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:31:11,530|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:31:11,537|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:31:11,547|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:31:11,558|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:31:11,562|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:31:19,819|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:31:19,824|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:31:19,841|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:31:19,855|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:31:19,870|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:31:39,648|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:31:39,663|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:31:50,604|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:31:50,609|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:32:08,340|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:32:08,348|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:32:08,350|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:32:08,350|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:32:08,350|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:33:04,658|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:33:04,676|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:33:12,293|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:33:12,304|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:33:12,306|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:33:12,306|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:33:12,306|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:14,478|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 15:38:14,678|(null)|AdminFileAppender|Info: [Thread 10] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 15:38:14,678|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:38:14,694|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 15:38:14,694|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:25,296|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:25,303|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:25,316|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:25,325|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:25,334|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:34,100|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:34,103|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:34,117|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:34,134|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:34,150|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:38:44,014|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:39:09,170|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:39:09,199|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:39:09,215|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:39:09,265|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:39:09,297|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:39:12,679|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:39:15,853|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:39:15,857|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:39:15,866|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:39:15,866|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:39:15,866|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:33,092|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:33,103|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:33,125|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:33,139|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:33,143|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:38,439|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:38,455|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:38,459|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:38,459|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:38,474|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:38,972|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:38,984|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:38,992|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:38,992|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:39,008|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:39,591|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:39,609|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:39,617|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:39,624|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:39,637|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:39,815|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:39,842|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:39,842|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:39,859|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:39,860|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:40,465|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:40,473|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:40,477|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:40,491|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:40,493|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:40,935|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:40,942|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:40,943|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:40,959|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:40,959|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:41,409|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:41,425|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:41,429|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:41,437|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:41,449|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:41,943|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:41,953|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:41,960|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:41,963|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:41,964|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:42,177|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:42,178|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:42,178|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:42,193|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:42,242|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:42,644|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:42,644|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:42,660|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:42,660|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:42,679|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,077|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,077|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,092|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,114|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,114|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,424|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,424|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,441|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,443|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,458|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,614|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,614|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,626|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,626|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,626|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,799|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,816|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,822|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,827|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:43,832|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,160|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,160|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,183|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,190|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,197|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,551|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,569|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,575|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,579|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,581|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,963|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,977|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,977|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,977|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:44,993|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:45,367|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:45,377|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:45,379|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:45,379|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:45,393|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:45,759|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:45,762|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:45,762|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:45,778|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:45,778|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,127|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,142|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,158|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,176|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,176|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,543|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,543|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,558|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,559|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,576|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,925|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,929|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,942|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,942|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:46,942|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:47,121|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:47,136|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:47,143|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:47,143|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:47,143|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:48,442|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:51,407|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:51,416|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:51,425|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:51,441|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:51,441|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:52,625|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:52,636|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:52,642|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:52,658|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:40:52,669|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:51:20,381|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:51:20,385|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:51:20,396|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:51:20,401|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:51:20,414|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:52:17,062|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:52:17,072|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:52:17,081|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:52:17,088|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:52:17,095|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:52:17,796|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:52:17,807|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:52:17,818|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:52:17,822|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:52:17,832|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:53:56,941|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:53:56,946|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:53:56,951|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:53:56,955|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:53:56,967|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:56:10,172|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:56:10,191|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:56:10,202|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:56:10,210|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:56:10,223|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:59:39,891|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:59:39,895|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:59:39,905|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:59:39,908|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:59:39,917|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:59:47,512|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:59:47,512|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:59:47,524|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:59:47,541|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 15:59:47,550|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:09,114|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 16:21:09,172|(null)|AdminFileAppender|Info: [Thread 36] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 16:21:09,174|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 16:21:09,177|(null)|AdminFileAppender|Info: [Thread 36] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 16:21:09,179|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:13,383|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:13,394|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:13,404|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:13,409|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:13,415|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:14,725|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:14,733|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:14,743|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:14,745|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:14,745|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:15,260|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:15,267|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:15,271|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:15,276|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:15,281|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:16,605|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:16,616|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:16,620|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:16,631|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:16,634|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:17,042|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:17,054|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:17,070|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:17,075|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:17,078|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:25,957|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:25,965|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:25,972|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:25,973|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:25,989|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:26,609|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:26,616|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:26,622|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:26,622|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:26,622|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:26,830|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:26,841|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:26,862|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:26,873|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:26,873|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:27,628|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:27,642|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:27,646|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:27,650|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:27,658|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:28,225|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:28,231|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:28,236|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:28,239|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:28,244|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:28,406|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:28,410|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:28,418|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:28,421|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:28,428|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:29,220|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:29,228|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:29,236|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:29,241|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:29,247|(null)|AdminFileAppender|Info: [Thread 36] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,017|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,026|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,031|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,035|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,053|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,322|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,344|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,348|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,352|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,370|(null)|AdminFileAppender|Info: [Thread 29] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,844|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,858|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,871|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,877|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:30,883|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:31,666|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:31,681|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:31,701|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:31,707|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:31,727|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:32,062|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:32,074|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:32,093|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:32,123|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:21:32,139|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:09,209|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 16:24:09,225|(null)|AdminFileAppender|Info: [Thread 27] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 16:24:13,682|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 16:24:13,685|(null)|AdminFileAppender|Info: [Thread 28] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 16:24:13,687|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 16:24:13,690|(null)|AdminFileAppender|Info: [Thread 28] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 16:24:13,691|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:21,472|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:21,479|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:21,486|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:21,494|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:21,502|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,020|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,045|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,045|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,081|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,091|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,412|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,423|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,429|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,434|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,439|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,782|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,787|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,791|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,796|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:23,803|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:25,430|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:25,437|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:25,437|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:25,446|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:25,454|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:25,616|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:25,633|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:25,643|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:25,659|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:25,661|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:26,846|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:26,851|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:26,857|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:26,862|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:26,866|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:28,224|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:28,229|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:28,235|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:28,243|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:28,250|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:28,697|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:28,700|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:28,710|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:28,723|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:28,728|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:30,705|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:30,715|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:30,720|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:30,728|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:30,728|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:31,988|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:32,001|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:32,006|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:32,012|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:32,017|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:32,470|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:32,485|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:32,488|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:32,495|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:32,503|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:34,551|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:34,561|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:34,566|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:34,571|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:34,585|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:44,990|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 16:24:44,996|(null)|AdminFileAppender|Info: [Thread 19] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 16:24:50,266|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 16:24:50,266|(null)|AdminFileAppender|Info: [Thread 18] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 16:24:50,266|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 16:24:50,281|(null)|AdminFileAppender|Info: [Thread 18] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 16:24:50,281|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:54,093|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:54,103|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:54,108|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:54,117|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:54,131|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:55,374|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:55,380|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:55,386|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:55,400|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:24:55,409|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:25:12,340|(null)|AdminFileAppender|Info: [Thread 21] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 16:25:12,348|(null)|AdminFileAppender|Info: [Thread 21] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 16:25:30,226|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 16:25:30,226|(null)|AdminFileAppender|Info: [Thread 18] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 16:25:53,329|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call CheckUser from UserRepository--
+INFO|2022-07-12 16:25:53,345|(null)|AdminFileAppender|Info: [Thread 18] --MT End call CheckUser from UserRepository--
+INFO|2022-07-12 16:25:53,345|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-07-12 16:25:53,351|(null)|AdminFileAppender|Info: [Thread 18] --MT End call GetUserInfo from UserRepository--
+INFO|2022-07-12 16:25:53,351|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:01,040|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:01,058|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:01,074|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:01,087|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:01,099|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:05,225|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:05,231|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:05,240|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:05,248|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:05,255|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:09,700|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:09,718|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:09,727|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:09,738|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:09,738|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:15,648|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:15,654|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:15,664|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:15,687|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:15,688|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:16,525|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:16,543|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:16,553|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:16,555|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:16,555|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:17,463|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:17,470|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:17,480|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:17,486|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:17,488|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:18,152|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:18,162|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:18,171|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:18,176|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:18,185|(null)|AdminFileAppender|Info: [Thread 32] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:18,712|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:18,720|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:18,739|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:18,755|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:18,773|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:19,280|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:19,283|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:19,291|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:19,301|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:19,309|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:19,927|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:19,933|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:19,940|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:19,950|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:19,955|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:23,239|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:23,248|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:23,253|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:23,260|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:23,269|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:25,192|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:25,201|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:25,207|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:25,232|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:25,237|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:28,551|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:28,556|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:28,562|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:28,575|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-07-12 16:26:28,586|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetRolesByUserId from RoleRepository--

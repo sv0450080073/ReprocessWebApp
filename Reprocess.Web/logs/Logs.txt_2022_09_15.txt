@@ -1,0 +1,1278 @@
+INFO|2022-09-15 08:09:09,961|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-15 08:09:10,273|(null)|AdminFileAppender|Info: [Thread 16] --MT End call CheckUser from UserRepository--
+INFO|2022-09-15 08:09:10,273|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-15 08:09:10,289|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-15 08:09:10,305|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 08:09:10,367|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 08:43:04,457|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 08:43:07,401|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 08:43:07,407|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 08:43:07,427|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 08:43:07,522|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 08:43:07,526|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 08:43:07,529|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 08:43:07,533|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 08:43:13,528|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 08:43:13,530|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 08:43:13,532|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 08:43:13,534|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 08:43:13,547|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 08:43:13,547|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 08:43:13,547|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 08:43:13,547|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 08:44:07,791|(null)|AdminFileAppender|Info: [Thread 15] --MT Begin MTReprocess  Controller--
+INFO|2022-09-15 08:44:10,537|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 08:44:24,700|(null)|AdminFileAppender|Info: [Thread 15] --MT End call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 08:45:01,283|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 08:45:16,828|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call ReprocessCIPFlow from ReprocessService--
+ERROR|2022-09-15 08:46:11,168|(null)|AdminFileAppender|Error: [Thread 15] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.ImportDiASCIIR9Rep(String transactionId, String customerId, String participantId, String inoutboxID, String yearQuater, String isInbox, String& exception) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1149
+   at Reprocess.Service.Metrics.ReprocessService.ReprocessEDIExtractFlow(ReprocessSearchData reprocessSearchData) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 1078
+   at Reprocess.Service.Metrics.ReprocessService.GetMTReprocessDataGrid(ReprocessSearchData reprocessSearchData) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 396
+INFO|2022-09-15 08:46:11,384|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 08:46:11,971|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 08:46:23,111|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 08:46:25,964|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call ReprocessCIPFlow from ReprocessService--
+ERROR|2022-09-15 08:49:47,574|(null)|AdminFileAppender|Error: [Thread 15] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.ImportDiASCIIR9Rep(String transactionId, String customerId, String participantId, String inoutboxID, String yearQuater, String isInbox, String& exception) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1149
+   at Reprocess.Service.Metrics.ReprocessService.ReprocessEDIExtractFlow(ReprocessSearchData reprocessSearchData) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 1078
+   at Reprocess.Service.Metrics.ReprocessService.GetMTReprocessDataGrid(ReprocessSearchData reprocessSearchData) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Service\Metrics\ReprocessService.cs:line 396
+INFO|2022-09-15 08:49:47,578|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 08:49:47,588|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 08:49:47,589|(null)|AdminFileAppender|Info: [Thread 15] --MT End call MTReprocess Controller--
+INFO|2022-09-15 09:17:06,102|(null)|AdminFileAppender|Info: [Thread 23] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:17:06,206|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:17:06,221|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:06,358|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:06,633|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:06,635|(null)|AdminFileAppender|Info: [Thread 23] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:06,637|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:17:06,639|(null)|AdminFileAppender|Info: [Thread 23] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:17:31,538|(null)|AdminFileAppender|Info: [Thread 23] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:17:31,541|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:17:31,541|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:31,541|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:31,547|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:31,547|(null)|AdminFileAppender|Info: [Thread 23] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:31,561|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:17:31,562|(null)|AdminFileAppender|Info: [Thread 23] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:17:33,116|(null)|AdminFileAppender|Info: [Thread 23] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:17:33,117|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:17:33,119|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:33,121|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:33,131|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:33,133|(null)|AdminFileAppender|Info: [Thread 23] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:33,136|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:17:33,138|(null)|AdminFileAppender|Info: [Thread 23] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:17:33,961|(null)|AdminFileAppender|Info: [Thread 28] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:17:33,963|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:17:33,965|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:33,967|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:33,975|(null)|AdminFileAppender|Info: [Thread 28] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:33,975|(null)|AdminFileAppender|Info: [Thread 28] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:33,975|(null)|AdminFileAppender|Info: [Thread 28] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:17:33,975|(null)|AdminFileAppender|Info: [Thread 28] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:17:47,303|(null)|AdminFileAppender|Info: [Thread 28] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:17:47,305|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:17:47,308|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:47,310|(null)|AdminFileAppender|Info: [Thread 28] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:47,316|(null)|AdminFileAppender|Info: [Thread 28] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:47,318|(null)|AdminFileAppender|Info: [Thread 28] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:47,319|(null)|AdminFileAppender|Info: [Thread 28] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:17:47,323|(null)|AdminFileAppender|Info: [Thread 28] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:17:48,226|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:17:48,229|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:17:48,231|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:48,234|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:48,241|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:17:48,244|(null)|AdminFileAppender|Info: [Thread 5] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:17:48,246|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:17:48,248|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:18:01,116|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:18:06,259|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:18:10,350|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:18:11,417|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:18:11,426|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:20:14,387|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:20:14,402|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:20:20,867|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:20:32,176|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:20:32,176|(null)|AdminFileAppender|Info: [Thread 5] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:20:32,176|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:20:32,176|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:21:17,094|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:21:17,094|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:21:17,094|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:21:18,005|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:21:18,021|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:21:18,036|(null)|AdminFileAppender|Info: [Thread 5] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:21:18,036|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:21:18,036|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:22:37,532|(null)|AdminFileAppender|Info: [Thread 27] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:22:37,532|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:22:37,547|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:22:38,216|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:22:38,232|(null)|AdminFileAppender|Info: [Thread 27] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:22:38,232|(null)|AdminFileAppender|Info: [Thread 27] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:22:38,232|(null)|AdminFileAppender|Info: [Thread 27] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:22:38,232|(null)|AdminFileAppender|Info: [Thread 27] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:25:44,953|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:25:45,032|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:25:45,035|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:25:46,922|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:25:47,032|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:25:47,036|(null)|AdminFileAppender|Info: [Thread 5] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:25:47,038|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:25:47,040|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:38:44,127|(null)|AdminFileAppender|Info: [Thread 26] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:38:44,133|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:38:44,137|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:38:44,139|(null)|AdminFileAppender|Info: [Thread 26] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:38:44,216|(null)|AdminFileAppender|Info: [Thread 26] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:38:44,218|(null)|AdminFileAppender|Info: [Thread 26] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:38:44,220|(null)|AdminFileAppender|Info: [Thread 26] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:38:44,222|(null)|AdminFileAppender|Info: [Thread 26] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:40:11,822|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:40:11,827|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:40:11,829|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:40:11,831|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:40:11,837|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:40:11,840|(null)|AdminFileAppender|Info: [Thread 7] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:40:11,843|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:40:11,846|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:40:43,363|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:40:43,366|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:40:43,377|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-15 09:40:43,398|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-15 09:40:43,403|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:40:43,446|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:40:43,555|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 09:40:43,557|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:40:43,559|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-15 09:40:43,561|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:40:43,563|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:40:43,577|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 09:40:43,578|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:40:43,580|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-15 09:40:43,881|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:40:43,882|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:40:48,636|(null)|AdminFileAppender|Info: [Thread 23] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:40:48,639|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:40:48,641|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-15 09:40:48,644|(null)|AdminFileAppender|Info: [Thread 23] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-15 09:40:48,646|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:40:48,648|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:40:48,669|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 09:40:48,674|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:40:48,678|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:40:48,680|(null)|AdminFileAppender|Info: [Thread 23] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-15 09:40:48,682|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:40:48,684|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:40:48,711|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 09:40:48,712|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:40:48,714|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:40:48,715|(null)|AdminFileAppender|Info: [Thread 23] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-15 09:40:48,718|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:40:48,720|(null)|AdminFileAppender|Info: [Thread 23] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:41:12,244|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:41:12,255|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:41:12,257|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:12,260|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:12,277|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:12,280|(null)|AdminFileAppender|Info: [Thread 7] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:12,281|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:41:12,284|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:41:21,514|(null)|AdminFileAppender|Info: [Thread 16] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:41:21,517|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:41:21,520|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:21,522|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:21,526|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:21,528|(null)|AdminFileAppender|Info: [Thread 16] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:21,530|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:41:21,533|(null)|AdminFileAppender|Info: [Thread 16] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:41:22,266|(null)|AdminFileAppender|Info: [Thread 14] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:41:22,268|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:41:22,273|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:22,276|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:22,285|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:22,289|(null)|AdminFileAppender|Info: [Thread 14] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:22,291|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:41:22,293|(null)|AdminFileAppender|Info: [Thread 14] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:41:29,074|(null)|AdminFileAppender|Info: [Thread 14] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:41:29,076|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:41:39,964|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:39,971|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:39,976|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:39,978|(null)|AdminFileAppender|Info: [Thread 14] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:39,980|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:41:39,982|(null)|AdminFileAppender|Info: [Thread 14] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:41:43,298|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:41:43,300|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:41:44,882|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:44,885|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:44,893|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:44,895|(null)|AdminFileAppender|Info: [Thread 7] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:44,897|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:41:44,899|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:41:52,647|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:41:52,651|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:41:54,919|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:54,922|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:54,931|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:54,932|(null)|AdminFileAppender|Info: [Thread 7] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:54,934|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:41:54,936|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:41:57,198|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:41:57,204|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:41:57,206|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:57,208|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:57,215|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:57,219|(null)|AdminFileAppender|Info: [Thread 7] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:57,221|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:41:57,223|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:41:58,614|(null)|AdminFileAppender|Info: [Thread 25] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:41:58,617|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:41:58,620|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:58,622|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:58,646|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:58,648|(null)|AdminFileAppender|Info: [Thread 25] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:58,650|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:41:58,653|(null)|AdminFileAppender|Info: [Thread 25] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:41:59,441|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:41:59,444|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:41:59,447|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:59,476|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:59,490|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:41:59,492|(null)|AdminFileAppender|Info: [Thread 7] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:41:59,495|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:41:59,499|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:43:04,542|(null)|AdminFileAppender|Info: [Thread 25] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:43:04,548|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:43:04,551|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:43:04,553|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:43:04,560|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:43:04,563|(null)|AdminFileAppender|Info: [Thread 25] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:43:04,566|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:43:04,568|(null)|AdminFileAppender|Info: [Thread 25] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:43:09,258|(null)|AdminFileAppender|Info: [Thread 15] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:43:09,260|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:43:09,263|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:43:09,266|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:43:09,273|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:43:09,275|(null)|AdminFileAppender|Info: [Thread 15] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:43:09,277|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:43:09,282|(null)|AdminFileAppender|Info: [Thread 15] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:43:10,903|(null)|AdminFileAppender|Info: [Thread 18] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:43:10,952|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:43:10,953|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:43:10,956|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:43:10,960|(null)|AdminFileAppender|Info: [Thread 18] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:43:10,962|(null)|AdminFileAppender|Info: [Thread 18] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:43:10,965|(null)|AdminFileAppender|Info: [Thread 18] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:43:10,966|(null)|AdminFileAppender|Info: [Thread 18] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:43:22,500|(null)|AdminFileAppender|Info: [Thread 25] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:43:22,503|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:43:31,304|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:43:31,313|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:43:31,320|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:43:31,322|(null)|AdminFileAppender|Info: [Thread 25] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:43:31,323|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:43:31,325|(null)|AdminFileAppender|Info: [Thread 25] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:43:40,711|(null)|AdminFileAppender|Info: [Thread 25] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:43:40,714|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:43:50,398|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:43:50,404|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:43:50,420|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:43:50,422|(null)|AdminFileAppender|Info: [Thread 25] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:43:50,423|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:43:50,429|(null)|AdminFileAppender|Info: [Thread 25] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:44:13,721|(null)|AdminFileAppender|Info: [Thread 25] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:44:13,724|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:44:13,726|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:44:13,728|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:44:13,737|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:44:13,739|(null)|AdminFileAppender|Info: [Thread 25] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:44:13,743|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:44:13,745|(null)|AdminFileAppender|Info: [Thread 25] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:44:24,238|(null)|AdminFileAppender|Info: [Thread 25] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:44:24,241|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:44:24,244|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:44:24,246|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:44:24,252|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:44:24,254|(null)|AdminFileAppender|Info: [Thread 25] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:44:24,257|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:44:24,260|(null)|AdminFileAppender|Info: [Thread 25] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:44:27,878|(null)|AdminFileAppender|Info: [Thread 25] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:44:27,879|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:44:27,882|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:44:27,883|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:44:27,893|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:44:27,895|(null)|AdminFileAppender|Info: [Thread 25] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:44:27,897|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:44:27,899|(null)|AdminFileAppender|Info: [Thread 25] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:44:29,935|(null)|AdminFileAppender|Info: [Thread 15] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:44:29,937|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:44:29,944|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:44:29,946|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:44:29,952|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:44:29,954|(null)|AdminFileAppender|Info: [Thread 15] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:44:29,957|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:44:29,959|(null)|AdminFileAppender|Info: [Thread 15] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:44:32,324|(null)|AdminFileAppender|Info: [Thread 25] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:44:32,328|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:44:32,330|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:44:32,333|(null)|AdminFileAppender|Info: [Thread 25] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:44:32,342|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:44:32,344|(null)|AdminFileAppender|Info: [Thread 25] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:44:32,346|(null)|AdminFileAppender|Info: [Thread 25] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:44:32,347|(null)|AdminFileAppender|Info: [Thread 25] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:45:38,229|(null)|AdminFileAppender|Info: [Thread 13] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:45:38,230|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:45:38,233|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:45:38,237|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:45:38,244|(null)|AdminFileAppender|Info: [Thread 13] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:45:38,246|(null)|AdminFileAppender|Info: [Thread 13] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:45:38,248|(null)|AdminFileAppender|Info: [Thread 13] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:45:38,250|(null)|AdminFileAppender|Info: [Thread 13] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:51:30,298|(null)|AdminFileAppender|Info: [Thread 13] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:51:30,300|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:51:30,302|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:51:30,304|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:51:30,337|(null)|AdminFileAppender|Info: [Thread 13] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:51:30,338|(null)|AdminFileAppender|Info: [Thread 13] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:51:30,341|(null)|AdminFileAppender|Info: [Thread 13] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:51:30,344|(null)|AdminFileAppender|Info: [Thread 13] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:51:32,317|(null)|AdminFileAppender|Info: [Thread 13] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:51:32,318|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:51:32,320|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:51:32,322|(null)|AdminFileAppender|Info: [Thread 13] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:51:32,333|(null)|AdminFileAppender|Info: [Thread 13] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:51:32,335|(null)|AdminFileAppender|Info: [Thread 13] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:51:32,337|(null)|AdminFileAppender|Info: [Thread 13] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:51:32,339|(null)|AdminFileAppender|Info: [Thread 13] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:52:32,401|(null)|AdminFileAppender|Info: [Thread 12] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:52:32,404|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:52:32,407|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:32,410|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:32,417|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:32,419|(null)|AdminFileAppender|Info: [Thread 12] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:32,422|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:52:32,424|(null)|AdminFileAppender|Info: [Thread 12] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:52:33,062|(null)|AdminFileAppender|Info: [Thread 27] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:52:33,064|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:52:33,066|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:33,067|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:33,081|(null)|AdminFileAppender|Info: [Thread 27] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:33,083|(null)|AdminFileAppender|Info: [Thread 27] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:33,085|(null)|AdminFileAppender|Info: [Thread 27] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:52:33,087|(null)|AdminFileAppender|Info: [Thread 27] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:52:33,269|(null)|AdminFileAppender|Info: [Thread 19] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:52:33,272|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:52:33,274|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:33,276|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:33,287|(null)|AdminFileAppender|Info: [Thread 19] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:33,290|(null)|AdminFileAppender|Info: [Thread 19] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:33,293|(null)|AdminFileAppender|Info: [Thread 19] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:52:33,295|(null)|AdminFileAppender|Info: [Thread 19] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:52:33,461|(null)|AdminFileAppender|Info: [Thread 22] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:52:33,463|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:52:33,466|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:33,468|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:33,478|(null)|AdminFileAppender|Info: [Thread 22] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:33,480|(null)|AdminFileAppender|Info: [Thread 22] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:33,481|(null)|AdminFileAppender|Info: [Thread 22] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:52:33,483|(null)|AdminFileAppender|Info: [Thread 22] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:52:33,640|(null)|AdminFileAppender|Info: [Thread 19] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:52:33,644|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:52:33,647|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:33,648|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:33,665|(null)|AdminFileAppender|Info: [Thread 19] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:33,667|(null)|AdminFileAppender|Info: [Thread 19] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:33,669|(null)|AdminFileAppender|Info: [Thread 19] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:52:33,671|(null)|AdminFileAppender|Info: [Thread 19] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:52:33,825|(null)|AdminFileAppender|Info: [Thread 12] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:52:33,829|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:52:33,832|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:33,835|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:33,849|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:33,851|(null)|AdminFileAppender|Info: [Thread 12] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:33,853|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:52:33,857|(null)|AdminFileAppender|Info: [Thread 12] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:52:34,023|(null)|AdminFileAppender|Info: [Thread 22] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:52:34,026|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:52:34,028|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:34,030|(null)|AdminFileAppender|Info: [Thread 22] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:34,040|(null)|AdminFileAppender|Info: [Thread 22] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:34,044|(null)|AdminFileAppender|Info: [Thread 22] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:34,044|(null)|AdminFileAppender|Info: [Thread 22] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:52:34,044|(null)|AdminFileAppender|Info: [Thread 22] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:52:34,216|(null)|AdminFileAppender|Info: [Thread 27] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:52:34,218|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:52:34,227|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:34,230|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:34,238|(null)|AdminFileAppender|Info: [Thread 27] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:34,241|(null)|AdminFileAppender|Info: [Thread 27] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:34,241|(null)|AdminFileAppender|Info: [Thread 27] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:52:34,241|(null)|AdminFileAppender|Info: [Thread 27] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:52:34,544|(null)|AdminFileAppender|Info: [Thread 12] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:52:34,546|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:52:34,548|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:34,550|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:34,563|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:52:34,565|(null)|AdminFileAppender|Info: [Thread 12] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:52:34,567|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:52:34,569|(null)|AdminFileAppender|Info: [Thread 12] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:53:30,570|(null)|AdminFileAppender|Info: [Thread 19] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:53:30,573|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:53:30,574|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:53:30,577|(null)|AdminFileAppender|Info: [Thread 19] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:53:30,596|(null)|AdminFileAppender|Info: [Thread 19] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:53:30,598|(null)|AdminFileAppender|Info: [Thread 19] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:53:30,603|(null)|AdminFileAppender|Info: [Thread 19] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:53:30,605|(null)|AdminFileAppender|Info: [Thread 19] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:53:40,403|(null)|AdminFileAppender|Info: [Thread 27] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:53:40,406|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:53:40,409|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:53:40,412|(null)|AdminFileAppender|Info: [Thread 27] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:53:40,430|(null)|AdminFileAppender|Info: [Thread 27] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:53:40,433|(null)|AdminFileAppender|Info: [Thread 27] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:53:40,435|(null)|AdminFileAppender|Info: [Thread 27] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:53:40,438|(null)|AdminFileAppender|Info: [Thread 27] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:54:30,900|(null)|AdminFileAppender|Info: [Thread 12] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:54:30,902|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:54:30,905|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:54:30,907|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:54:30,915|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:54:30,917|(null)|AdminFileAppender|Info: [Thread 12] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 09:54:30,919|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:54:30,922|(null)|AdminFileAppender|Info: [Thread 12] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:54:40,859|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:54:40,867|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:54:40,870|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-15 09:54:40,872|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-15 09:54:40,873|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:54:40,897|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:54:40,947|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 09:54:40,949|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:54:40,951|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:54:40,953|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-15 09:54:40,955|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:54:40,958|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:54:40,983|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 09:54:40,985|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:54:40,987|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:54:40,989|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-15 09:54:40,993|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:54:40,997|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 09:54:46,204|(null)|AdminFileAppender|Info: [Thread 12] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 09:54:46,206|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 09:54:46,208|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-15 09:54:46,210|(null)|AdminFileAppender|Info: [Thread 12] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-15 09:54:46,215|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:54:46,219|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:54:46,257|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 09:54:46,258|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:54:46,263|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:54:46,265|(null)|AdminFileAppender|Info: [Thread 12] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-15 09:54:46,267|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:54:46,269|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 09:54:46,310|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 09:54:46,312|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 09:54:46,314|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:54:46,316|(null)|AdminFileAppender|Info: [Thread 12] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-15 09:54:46,318|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 09:54:46,320|(null)|AdminFileAppender|Info: [Thread 12] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 10:00:11,009|(null)|AdminFileAppender|Info: [Thread 23] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 10:00:11,011|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 10:00:11,012|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-15 10:00:11,014|(null)|AdminFileAppender|Info: [Thread 23] --MT HandlerFiles: 1018 False -- 
+INFO|2022-09-15 10:00:11,016|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 10:00:11,043|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:00:11,168|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 10:00:11,171|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 10:00:11,173|(null)|AdminFileAppender|Info: [Thread 23] --MT HandlerFiles: 1045 False -- 
+INFO|2022-09-15 10:00:11,175|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 10:00:11,177|(null)|AdminFileAppender|Info: [Thread 23] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:00:11,192|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 10:00:11,194|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 10:00:11,197|(null)|AdminFileAppender|Info: [Thread 23] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-15 10:00:11,200|(null)|AdminFileAppender|Info: [Thread 23] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 10:00:11,201|(null)|AdminFileAppender|Info: [Thread 23] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 10:00:14,178|(null)|AdminFileAppender|Info: [Thread 24] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 10:00:14,180|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 10:00:14,184|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:00:14,188|(null)|AdminFileAppender|Info: [Thread 24] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:00:14,234|(null)|AdminFileAppender|Info: [Thread 24] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:00:14,235|(null)|AdminFileAppender|Info: [Thread 24] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:00:14,239|(null)|AdminFileAppender|Info: [Thread 24] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 10:00:14,242|(null)|AdminFileAppender|Info: [Thread 24] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 10:16:34,262|(null)|AdminFileAppender|Info: [Thread 14] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 10:16:34,281|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 10:16:34,285|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:16:34,287|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:16:34,322|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:16:34,324|(null)|AdminFileAppender|Info: [Thread 14] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:16:34,327|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 10:16:34,329|(null)|AdminFileAppender|Info: [Thread 14] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 10:16:53,896|(null)|AdminFileAppender|Info: [Thread 18] --MT Begin MTReprocess  Controller--
+INFO|2022-09-15 10:16:53,915|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 10:16:53,918|(null)|AdminFileAppender|Info: [Thread 18] --MT End call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 10:16:53,921|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 10:17:05,843|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call ReprocessCIPFlow from ReprocessService--
+ERROR|2022-09-15 10:22:44,051|(null)|AdminFileAppender|Error: [Thread 18] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Reprocess.Data.Metrics.Repository.MetricReprocessRepository.ImportDiASCIIR9Rep(String transactionId, String customerId, String participantId, String inoutboxID, String yearQuater, String isInbox, String& exception) in D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Data\Metrics\Repository\MetricReprocessRepository.cs:line 1149
+   at Reprocess.Service.Metrics.ReprocessService.ReprocessEDIExtractFlow(ReprocessSearchData reprocessSearchData)
+   at Reprocess.Service.Metrics.ReprocessService.GetMTReprocessDataGrid(ReprocessSearchData reprocessSearchData)
+INFO|2022-09-15 10:22:44,068|(null)|AdminFileAppender|Info: [Thread 18] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 10:22:44,073|(null)|AdminFileAppender|Info: [Thread 18] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 10:22:44,076|(null)|AdminFileAppender|Info: [Thread 18] --MT End call MTReprocess Controller--
+INFO|2022-09-15 10:22:49,226|(null)|AdminFileAppender|Info: [Thread 18] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 10:22:49,232|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 10:22:49,237|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:22:49,239|(null)|AdminFileAppender|Info: [Thread 18] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:22:49,247|(null)|AdminFileAppender|Info: [Thread 18] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:22:49,251|(null)|AdminFileAppender|Info: [Thread 18] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:22:49,255|(null)|AdminFileAppender|Info: [Thread 18] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 10:22:49,257|(null)|AdminFileAppender|Info: [Thread 18] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 10:22:53,806|(null)|AdminFileAppender|Info: [Thread 31] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 10:22:53,809|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 10:22:53,812|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:22:53,820|(null)|AdminFileAppender|Info: [Thread 31] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:22:53,825|(null)|AdminFileAppender|Info: [Thread 31] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:22:53,829|(null)|AdminFileAppender|Info: [Thread 31] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:22:53,836|(null)|AdminFileAppender|Info: [Thread 31] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 10:22:53,839|(null)|AdminFileAppender|Info: [Thread 31] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 10:22:57,635|(null)|AdminFileAppender|Info: [Thread 17] --MT Begin MTReprocess  Controller--
+INFO|2022-09-15 10:22:57,640|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 10:22:57,643|(null)|AdminFileAppender|Info: [Thread 17] --MT End call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 10:22:57,646|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 10:23:01,884|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call ReprocessCIPFlow from ReprocessService--
+INFO|2022-09-15 10:32:52,244|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-15 10:32:52,814|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-09-15 10:32:52,817|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-15 10:32:52,829|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-15 10:32:52,832|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 10:32:52,836|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 10:34:57,725|(null)|AdminFileAppender|Info: [Thread 12] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 10:34:57,733|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 10:34:57,737|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:34:57,741|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:34:57,772|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:34:57,778|(null)|AdminFileAppender|Info: [Thread 12] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:34:57,781|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 10:34:57,784|(null)|AdminFileAppender|Info: [Thread 12] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 10:35:03,857|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin MTReprocess  Controller--
+INFO|2022-09-15 10:35:03,861|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 10:35:03,865|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 10:35:03,868|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 10:35:08,568|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call ReprocessCIPFlow from ReprocessService--
+INFO|2022-09-15 10:35:11,458|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 10:35:11,460|(null)|AdminFileAppender|Info: [Thread 6] --MT End call MTReprocess Controller--
+INFO|2022-09-15 10:35:16,613|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 10:35:16,617|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 10:35:16,620|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:35:16,623|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:35:16,627|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:35:16,632|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:35:16,634|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 10:35:16,637|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 10:35:18,443|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 10:35:18,447|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 10:35:18,452|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:35:18,454|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:35:18,459|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:35:18,461|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:35:18,464|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 10:35:18,467|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 10:35:20,814|(null)|AdminFileAppender|Info: [Thread 12] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 10:35:20,817|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 10:35:20,820|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:35:20,822|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:35:20,831|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:35:20,833|(null)|AdminFileAppender|Info: [Thread 12] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:35:20,835|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 10:35:20,837|(null)|AdminFileAppender|Info: [Thread 12] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 10:35:22,075|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 10:35:22,076|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 10:35:22,079|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:35:22,082|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:35:22,090|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:35:22,091|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:35:22,093|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 10:35:22,095|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 10:35:23,678|(null)|AdminFileAppender|Info: [Thread 11] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 10:35:23,682|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 10:35:23,685|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:35:23,688|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:35:23,698|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 10:35:23,701|(null)|AdminFileAppender|Info: [Thread 11] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 10:35:23,703|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 10:35:23,706|(null)|AdminFileAppender|Info: [Thread 11] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 11:11:24,132|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-15 11:11:24,520|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-09-15 11:11:24,523|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-15 11:11:24,540|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-15 11:11:24,543|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 11:11:24,577|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 11:12:44,921|(null)|AdminFileAppender|Info: [Thread 10] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 11:12:44,927|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 11:12:44,935|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:44,940|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:45,008|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:45,011|(null)|AdminFileAppender|Info: [Thread 10] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:45,013|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 11:12:45,015|(null)|AdminFileAppender|Info: [Thread 10] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 11:12:45,944|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 11:12:45,945|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 11:12:45,947|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:45,949|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:45,960|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:45,963|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:45,967|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 11:12:45,969|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 11:12:48,581|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 11:12:48,583|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 11:12:48,593|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:48,596|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:48,604|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:48,612|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:48,614|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 11:12:48,616|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 11:12:52,644|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 11:12:52,646|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 11:12:52,648|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:52,652|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:52,664|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:52,678|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:52,680|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 11:12:52,683|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 11:12:54,683|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 11:12:54,685|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 11:12:54,688|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:54,691|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:54,718|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:54,721|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:54,723|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 11:12:54,724|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 11:12:55,380|(null)|AdminFileAppender|Info: [Thread 10] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 11:12:55,382|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 11:12:55,384|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:55,386|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:55,400|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:55,402|(null)|AdminFileAppender|Info: [Thread 10] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:55,406|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 11:12:55,408|(null)|AdminFileAppender|Info: [Thread 10] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 11:12:56,065|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 11:12:56,069|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 11:12:56,073|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:56,075|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:56,090|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:12:56,092|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:12:56,094|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 11:12:56,096|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 11:13:02,645|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 11:13:02,647|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 11:13:02,649|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:13:02,675|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:13:02,698|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:13:02,701|(null)|AdminFileAppender|Info: [Thread 7] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:13:02,705|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 11:13:02,706|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 11:13:03,236|(null)|AdminFileAppender|Info: [Thread 11] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 11:13:03,239|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 11:13:03,242|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:13:03,244|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:13:03,259|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:13:03,261|(null)|AdminFileAppender|Info: [Thread 11] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:13:03,263|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 11:13:03,265|(null)|AdminFileAppender|Info: [Thread 11] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 11:13:03,927|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 11:13:03,929|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 11:13:03,932|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:13:03,938|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:13:03,953|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 11:13:03,955|(null)|AdminFileAppender|Info: [Thread 8] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 11:13:03,958|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 11:13:03,960|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:43:56,882|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-15 13:43:57,830|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-09-15 13:43:57,834|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-15 13:43:57,849|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-15 13:43:57,851|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 13:43:57,871|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 13:44:13,887|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:44:13,896|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:44:13,902|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:44:13,907|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:44:13,946|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:44:13,957|(null)|AdminFileAppender|Info: [Thread 5] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:44:13,959|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:44:13,962|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:45:03,051|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:45:03,054|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:45:03,057|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:03,063|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:03,068|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:03,070|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:03,071|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:45:03,073|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:45:04,616|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:45:04,617|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:45:04,619|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:04,621|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:04,627|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:04,629|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:04,632|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:45:04,634|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:45:05,234|(null)|AdminFileAppender|Info: [Thread 11] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:45:05,236|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:45:05,238|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:05,242|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:05,255|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:05,257|(null)|AdminFileAppender|Info: [Thread 11] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:05,261|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:45:05,264|(null)|AdminFileAppender|Info: [Thread 11] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:45:06,016|(null)|AdminFileAppender|Info: [Thread 9] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:45:06,017|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:45:06,019|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:06,021|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:06,084|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:06,087|(null)|AdminFileAppender|Info: [Thread 9] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:06,090|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:45:06,093|(null)|AdminFileAppender|Info: [Thread 9] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:45:24,007|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:45:24,011|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:45:24,016|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:24,019|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:24,029|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:24,031|(null)|AdminFileAppender|Info: [Thread 8] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:24,033|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:45:24,035|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:45:25,127|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:45:25,130|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:45:25,135|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:25,137|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:25,157|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:45:25,160|(null)|AdminFileAppender|Info: [Thread 8] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:45:25,162|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:45:25,164|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:46:37,061|(null)|AdminFileAppender|Info: [Thread 11] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:46:37,063|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:46:37,065|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:37,072|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:37,077|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:37,079|(null)|AdminFileAppender|Info: [Thread 11] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:37,081|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:46:37,084|(null)|AdminFileAppender|Info: [Thread 11] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:46:46,053|(null)|AdminFileAppender|Info: [Thread 12] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:46:46,057|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:46:46,061|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:46,063|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:46,072|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:46,075|(null)|AdminFileAppender|Info: [Thread 12] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:46,078|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:46:46,082|(null)|AdminFileAppender|Info: [Thread 12] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:46:46,560|(null)|AdminFileAppender|Info: [Thread 11] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:46:46,564|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:46:46,570|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:46,572|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:46,578|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:46,580|(null)|AdminFileAppender|Info: [Thread 11] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:46,582|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:46:46,584|(null)|AdminFileAppender|Info: [Thread 11] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:46:46,723|(null)|AdminFileAppender|Info: [Thread 9] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:46:46,725|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:46:46,731|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:46,733|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:46,743|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:46,750|(null)|AdminFileAppender|Info: [Thread 9] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:46,753|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:46:46,755|(null)|AdminFileAppender|Info: [Thread 9] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:46:46,896|(null)|AdminFileAppender|Info: [Thread 11] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:46:46,897|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:46:46,899|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:46,902|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:46,912|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:46,914|(null)|AdminFileAppender|Info: [Thread 11] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:46,917|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:46:46,922|(null)|AdminFileAppender|Info: [Thread 11] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:46:47,059|(null)|AdminFileAppender|Info: [Thread 9] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:46:47,061|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:46:47,063|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:47,066|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:47,073|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:46:47,076|(null)|AdminFileAppender|Info: [Thread 9] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:46:47,078|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:46:47,080|(null)|AdminFileAppender|Info: [Thread 9] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:47:00,597|(null)|AdminFileAppender|Info: [Thread 12] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:47:00,599|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:47:00,602|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:47:00,607|(null)|AdminFileAppender|Info: [Thread 12] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:47:00,638|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:47:00,640|(null)|AdminFileAppender|Info: [Thread 12] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:47:00,642|(null)|AdminFileAppender|Info: [Thread 12] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:47:00,644|(null)|AdminFileAppender|Info: [Thread 12] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:48:23,694|(null)|AdminFileAppender|Info: [Thread 9] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:48:23,697|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:48:23,702|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:48:23,704|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:48:23,715|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:48:23,717|(null)|AdminFileAppender|Info: [Thread 9] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:48:23,719|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:48:23,720|(null)|AdminFileAppender|Info: [Thread 9] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:51:50,643|(null)|AdminFileAppender|Info: [Thread 9] --MT Begin MTReprocess  Controller--
+INFO|2022-09-15 13:51:50,650|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 13:51:50,652|(null)|AdminFileAppender|Info: [Thread 9] --MT End call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 13:51:50,655|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 13:51:50,659|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call ReprocessCIPFlow from ReprocessService--
+INFO|2022-09-15 13:52:39,480|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 13:52:39,482|(null)|AdminFileAppender|Info: [Thread 9] --MT End call MTReprocess Controller--
+INFO|2022-09-15 13:53:16,070|(null)|AdminFileAppender|Info: [Thread 9] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:53:16,072|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:53:16,075|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:53:16,078|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:53:16,084|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:53:16,087|(null)|AdminFileAppender|Info: [Thread 9] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:53:16,089|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:53:16,092|(null)|AdminFileAppender|Info: [Thread 9] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:53:27,526|(null)|AdminFileAppender|Info: [Thread 9] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:53:27,528|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:53:27,531|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:53:27,533|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:53:27,548|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:53:27,550|(null)|AdminFileAppender|Info: [Thread 9] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:53:27,551|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:53:27,553|(null)|AdminFileAppender|Info: [Thread 9] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:53:29,012|(null)|AdminFileAppender|Info: [Thread 9] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:53:29,014|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:53:29,017|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:53:29,019|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:53:29,024|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:53:29,026|(null)|AdminFileAppender|Info: [Thread 9] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:53:29,030|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:53:29,031|(null)|AdminFileAppender|Info: [Thread 9] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:53:45,701|(null)|AdminFileAppender|Info: [Thread 14] --MT Begin MTReprocess  Controller--
+INFO|2022-09-15 13:53:45,704|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 13:53:45,709|(null)|AdminFileAppender|Info: [Thread 14] --MT End call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 13:53:45,712|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 13:53:45,715|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call ReprocessCIPFlow from ReprocessService--
+INFO|2022-09-15 13:54:42,421|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 13:54:42,423|(null)|AdminFileAppender|Info: [Thread 14] --MT End call MTReprocess Controller--
+INFO|2022-09-15 13:55:11,411|(null)|AdminFileAppender|Info: [Thread 14] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:55:11,413|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:55:11,417|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:55:11,421|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:55:11,437|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:55:11,439|(null)|AdminFileAppender|Info: [Thread 14] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:55:11,441|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:55:11,443|(null)|AdminFileAppender|Info: [Thread 14] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:57:16,394|(null)|AdminFileAppender|Info: [Thread 9] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:57:16,397|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:57:16,399|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:57:16,401|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:57:16,410|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:57:16,413|(null)|AdminFileAppender|Info: [Thread 9] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:57:16,414|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:57:16,416|(null)|AdminFileAppender|Info: [Thread 9] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:57:44,593|(null)|AdminFileAppender|Info: [Thread 17] --MT Begin MTReprocess  Controller--
+INFO|2022-09-15 13:57:44,595|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 13:57:44,600|(null)|AdminFileAppender|Info: [Thread 17] --MT End call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 13:57:44,603|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 13:57:44,605|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call ReprocessCIPFlow from ReprocessService--
+INFO|2022-09-15 13:57:48,819|(null)|AdminFileAppender|Info: [Thread 17] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 13:57:48,823|(null)|AdminFileAppender|Info: [Thread 17] --MT End call MTReprocess Controller--
+INFO|2022-09-15 13:58:17,510|(null)|AdminFileAppender|Info: [Thread 9] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:58:17,514|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:58:17,518|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:58:17,522|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:58:17,539|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:58:17,541|(null)|AdminFileAppender|Info: [Thread 9] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:58:17,543|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:58:17,544|(null)|AdminFileAppender|Info: [Thread 9] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:58:18,352|(null)|AdminFileAppender|Info: [Thread 17] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:58:18,356|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:58:18,360|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:58:18,362|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:58:18,370|(null)|AdminFileAppender|Info: [Thread 17] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:58:18,374|(null)|AdminFileAppender|Info: [Thread 17] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:58:18,376|(null)|AdminFileAppender|Info: [Thread 17] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:58:18,378|(null)|AdminFileAppender|Info: [Thread 17] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:58:19,126|(null)|AdminFileAppender|Info: [Thread 9] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 13:58:19,130|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 13:58:19,133|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:58:19,137|(null)|AdminFileAppender|Info: [Thread 9] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:58:19,141|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 13:58:19,145|(null)|AdminFileAppender|Info: [Thread 9] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 13:58:19,147|(null)|AdminFileAppender|Info: [Thread 9] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 13:58:19,149|(null)|AdminFileAppender|Info: [Thread 9] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 13:58:29,430|(null)|AdminFileAppender|Info: [Thread 17] --MT Begin MTReprocess  Controller--
+INFO|2022-09-15 13:58:29,434|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 13:58:29,438|(null)|AdminFileAppender|Info: [Thread 17] --MT End call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 13:58:29,442|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 13:58:29,444|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call ReprocessCIPFlow from ReprocessService--
+INFO|2022-09-15 14:04:12,942|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-15 14:04:13,399|(null)|AdminFileAppender|Info: [Thread 6] --MT End call CheckUser from UserRepository--
+INFO|2022-09-15 14:04:13,401|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-15 14:04:13,409|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-15 14:04:13,411|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 14:04:13,426|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 14:04:27,272|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:04:27,278|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:04:27,284|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:04:27,289|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:04:27,321|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:04:27,330|(null)|AdminFileAppender|Info: [Thread 7] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:04:27,334|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:04:27,335|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:04:32,018|(null)|AdminFileAppender|Info: [Thread 10] --MT Begin MTReprocess  Controller--
+INFO|2022-09-15 14:04:32,021|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 14:04:32,023|(null)|AdminFileAppender|Info: [Thread 10] --MT End call CheckInputReprocessData from ReprocessService--
+INFO|2022-09-15 14:04:32,025|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 14:04:32,031|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call ReprocessCIPFlow from ReprocessService--
+INFO|2022-09-15 14:04:32,422|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetMTReprocessDataGrid from ReprocessService--
+INFO|2022-09-15 14:04:32,424|(null)|AdminFileAppender|Info: [Thread 10] --MT End call MTReprocess Controller--
+INFO|2022-09-15 14:07:43,580|(null)|AdminFileAppender|Info: [Thread 11] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:07:43,584|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:07:43,590|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:07:43,592|(null)|AdminFileAppender|Info: [Thread 11] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-15 14:07:43,600|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:07:43,605|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:07:43,661|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:07:43,663|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:07:43,665|(null)|AdminFileAppender|Info: [Thread 11] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-15 14:07:43,668|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:07:43,673|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:07:43,700|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:07:43,701|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:07:43,705|(null)|AdminFileAppender|Info: [Thread 11] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:07:43,723|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:07:43,725|(null)|AdminFileAppender|Info: [Thread 11] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:07:45,848|(null)|AdminFileAppender|Info: [Thread 10] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:07:45,850|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:07:45,853|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:07:45,855|(null)|AdminFileAppender|Info: [Thread 10] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-15 14:07:45,857|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:07:45,860|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:07:45,873|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:07:45,877|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:07:45,879|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:07:45,881|(null)|AdminFileAppender|Info: [Thread 10] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-15 14:07:45,883|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:07:45,889|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:07:45,903|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:07:45,906|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:07:45,908|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:07:45,910|(null)|AdminFileAppender|Info: [Thread 10] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:07:45,912|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:07:45,914|(null)|AdminFileAppender|Info: [Thread 10] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:09:59,835|(null)|AdminFileAppender|Info: [Thread 7] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:09:59,842|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:09:59,846|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:09:59,849|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-15 14:09:59,852|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:09:59,855|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:09:59,873|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:09:59,889|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:09:59,891|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:09:59,893|(null)|AdminFileAppender|Info: [Thread 7] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-15 14:09:59,896|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:09:59,899|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:09:59,932|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:09:59,934|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:09:59,936|(null)|AdminFileAppender|Info: [Thread 7] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:09:59,938|(null)|AdminFileAppender|Info: [Thread 7] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:09:59,948|(null)|AdminFileAppender|Info: [Thread 7] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:09:59,951|(null)|AdminFileAppender|Info: [Thread 7] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:14:52,439|(null)|AdminFileAppender|Info: [Thread 14] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:14:52,443|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:14:52,448|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:14:52,450|(null)|AdminFileAppender|Info: [Thread 14] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-15 14:14:52,452|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:14:52,506|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:14:52,564|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:14:52,566|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:14:52,568|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:14:52,570|(null)|AdminFileAppender|Info: [Thread 14] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-15 14:14:52,572|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:14:52,583|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:14:52,598|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:14:52,599|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:14:52,601|(null)|AdminFileAppender|Info: [Thread 14] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:14:52,603|(null)|AdminFileAppender|Info: [Thread 14] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:14:52,606|(null)|AdminFileAppender|Info: [Thread 14] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:14:52,607|(null)|AdminFileAppender|Info: [Thread 14] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:16:28,078|(null)|AdminFileAppender|Info: [Thread 15] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:16:28,082|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:16:28,085|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:16:28,093|(null)|AdminFileAppender|Info: [Thread 15] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-15 14:16:28,095|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:16:28,098|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:16:28,118|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:16:28,121|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:16:28,124|(null)|AdminFileAppender|Info: [Thread 15] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-15 14:16:28,126|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:16:28,128|(null)|AdminFileAppender|Info: [Thread 15] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:16:28,155|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:16:28,159|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:16:28,161|(null)|AdminFileAppender|Info: [Thread 15] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:16:28,167|(null)|AdminFileAppender|Info: [Thread 15] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:16:28,172|(null)|AdminFileAppender|Info: [Thread 15] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:16:29,698|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:16:29,700|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:16:29,706|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:16:29,709|(null)|AdminFileAppender|Info: [Thread 8] --MT HandlerFiles: 1018 True -- 
+INFO|2022-09-15 14:16:29,711|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:16:29,714|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:16:29,737|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:16:29,739|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:16:29,743|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:16:29,745|(null)|AdminFileAppender|Info: [Thread 8] --MT HandlerFiles: 1045 True -- 
+INFO|2022-09-15 14:16:29,747|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:16:29,749|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:16:29,775|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 14:16:29,777|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 14:16:29,779|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call FillTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:16:29,781|(null)|AdminFileAppender|Info: [Thread 8] --MT End call FilesHandler from ReprocessService--
+INFO|2022-09-15 14:16:29,783|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:16:29,786|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:16:36,583|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:16:36,590|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:16:36,599|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:16:36,602|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:16:36,643|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:16:36,645|(null)|AdminFileAppender|Info: [Thread 8] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:16:36,647|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:16:36,648|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:16:37,717|(null)|AdminFileAppender|Info: [Thread 11] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:16:37,721|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:16:37,723|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:16:37,726|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:16:37,731|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:16:37,732|(null)|AdminFileAppender|Info: [Thread 11] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:16:37,734|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:16:37,737|(null)|AdminFileAppender|Info: [Thread 11] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:17:01,661|(null)|AdminFileAppender|Info: [Thread 16] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:17:01,665|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:17:01,669|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:17:01,676|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:17:01,681|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:17:01,683|(null)|AdminFileAppender|Info: [Thread 16] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:17:01,689|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:17:01,691|(null)|AdminFileAppender|Info: [Thread 16] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:17:02,806|(null)|AdminFileAppender|Info: [Thread 16] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:17:02,808|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:17:02,810|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:17:02,812|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:17:02,820|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:17:02,822|(null)|AdminFileAppender|Info: [Thread 16] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:17:02,824|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:17:02,826|(null)|AdminFileAppender|Info: [Thread 16] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:17:06,149|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:17:06,152|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:17:06,157|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:17:06,160|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:17:06,165|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:17:06,169|(null)|AdminFileAppender|Info: [Thread 8] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:17:06,171|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:17:06,173|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:17:47,201|(null)|AdminFileAppender|Info: [Thread 16] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:17:47,203|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:17:47,206|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:17:47,209|(null)|AdminFileAppender|Info: [Thread 16] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:17:47,233|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:17:47,236|(null)|AdminFileAppender|Info: [Thread 16] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:17:47,238|(null)|AdminFileAppender|Info: [Thread 16] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:17:47,240|(null)|AdminFileAppender|Info: [Thread 16] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:19:30,110|(null)|AdminFileAppender|Info: [Thread 17] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:19:30,113|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:19:30,116|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:19:30,118|(null)|AdminFileAppender|Info: [Thread 17] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:19:30,139|(null)|AdminFileAppender|Info: [Thread 17] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:19:30,140|(null)|AdminFileAppender|Info: [Thread 17] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:19:30,143|(null)|AdminFileAppender|Info: [Thread 17] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:19:30,145|(null)|AdminFileAppender|Info: [Thread 17] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 14:19:34,438|(null)|AdminFileAppender|Info: [Thread 11] --MT Begin TrackStatusFile  Controller--
+INFO|2022-09-15 14:19:34,439|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 14:19:34,442|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:19:34,445|(null)|AdminFileAppender|Info: [Thread 11] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:19:34,454|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 14:19:34,456|(null)|AdminFileAppender|Info: [Thread 11] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 14:19:34,461|(null)|AdminFileAppender|Info: [Thread 11] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 14:19:34,464|(null)|AdminFileAppender|Info: [Thread 11] -- MT End  TrackStatusFile Controller--
+INFO|2022-09-15 15:59:53,394|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call CheckUser from UserRepository--
+INFO|2022-09-15 15:59:55,047|(null)|AdminFileAppender|Info: [Thread 5] --MT End call CheckUser from UserRepository--
+INFO|2022-09-15 15:59:55,049|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetUserInfo from UserRepository--
+INFO|2022-09-15 15:59:55,064|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetUserInfo from UserRepository--
+INFO|2022-09-15 15:59:55,068|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 15:59:55,073|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetRolesByUserId from RoleRepository--
+INFO|2022-09-15 16:00:09,243|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFiles  Controller--
+INFO|2022-09-15 16:00:09,272|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 16:00:09,816|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:09,818|(null)|AdminFileAppender|Info: [Thread 5] --MT HandleCIPFiles: 1018 True -- 
+INFO|2022-09-15 16:00:10,418|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:10,457|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:14,181|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:14,184|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:14,187|(null)|AdminFileAppender|Info: [Thread 5] --MT HandleCIPFiles: 1045 True -- 
+INFO|2022-09-15 16:00:14,189|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:14,191|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:14,206|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:14,208|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:14,210|(null)|AdminFileAppender|Info: [Thread 5] --MT End call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:14,232|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 16:00:14,234|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFiles Controller--
+INFO|2022-09-15 16:00:15,891|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFiles  Controller--
+INFO|2022-09-15 16:00:15,894|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 16:00:15,896|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:15,900|(null)|AdminFileAppender|Info: [Thread 5] --MT HandleCIPFiles: 1018 True -- 
+INFO|2022-09-15 16:00:15,901|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:15,908|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:15,934|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:15,935|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:15,949|(null)|AdminFileAppender|Info: [Thread 5] --MT HandleCIPFiles: 1045 True -- 
+INFO|2022-09-15 16:00:15,950|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:15,957|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:15,972|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:15,975|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:15,977|(null)|AdminFileAppender|Info: [Thread 5] --MT End call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:16,008|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 16:00:16,010|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFiles Controller--
+INFO|2022-09-15 16:00:16,566|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFiles  Controller--
+INFO|2022-09-15 16:00:16,568|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 16:00:16,570|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:16,573|(null)|AdminFileAppender|Info: [Thread 8] --MT HandleCIPFiles: 1018 True -- 
+INFO|2022-09-15 16:00:16,576|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:16,578|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:16,623|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:16,625|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:16,627|(null)|AdminFileAppender|Info: [Thread 8] --MT HandleCIPFiles: 1045 True -- 
+INFO|2022-09-15 16:00:16,628|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:16,630|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:16,663|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:16,664|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:16,666|(null)|AdminFileAppender|Info: [Thread 8] --MT End call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:16,668|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 16:00:16,669|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFiles Controller--
+INFO|2022-09-15 16:00:17,315|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFiles  Controller--
+INFO|2022-09-15 16:00:17,318|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 16:00:17,321|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:17,325|(null)|AdminFileAppender|Info: [Thread 5] --MT HandleCIPFiles: 1018 True -- 
+INFO|2022-09-15 16:00:17,328|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:17,330|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:17,344|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:17,346|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:17,348|(null)|AdminFileAppender|Info: [Thread 5] --MT HandleCIPFiles: 1045 True -- 
+INFO|2022-09-15 16:00:17,350|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:17,352|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:17,389|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:17,391|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:17,394|(null)|AdminFileAppender|Info: [Thread 5] --MT End call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:17,395|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 16:00:17,399|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFiles Controller--
+INFO|2022-09-15 16:00:17,862|(null)|AdminFileAppender|Info: [Thread 10] --MT Begin TrackStatusFiles  Controller--
+INFO|2022-09-15 16:00:17,865|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 16:00:17,867|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:17,869|(null)|AdminFileAppender|Info: [Thread 10] --MT HandleCIPFiles: 1018 True -- 
+INFO|2022-09-15 16:00:17,876|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:17,879|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:17,891|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:17,894|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:17,896|(null)|AdminFileAppender|Info: [Thread 10] --MT HandleCIPFiles: 1045 True -- 
+INFO|2022-09-15 16:00:17,898|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:17,900|(null)|AdminFileAppender|Info: [Thread 10] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:17,909|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:17,912|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:17,916|(null)|AdminFileAppender|Info: [Thread 10] --MT End call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:17,918|(null)|AdminFileAppender|Info: [Thread 10] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 16:00:17,920|(null)|AdminFileAppender|Info: [Thread 10] -- MT End  TrackStatusFiles Controller--
+INFO|2022-09-15 16:00:18,385|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFiles  Controller--
+INFO|2022-09-15 16:00:18,387|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 16:00:18,396|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:18,399|(null)|AdminFileAppender|Info: [Thread 6] --MT HandleCIPFiles: 1018 True -- 
+INFO|2022-09-15 16:00:18,401|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:18,405|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:18,423|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:18,425|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:18,428|(null)|AdminFileAppender|Info: [Thread 6] --MT HandleCIPFiles: 1045 True -- 
+INFO|2022-09-15 16:00:18,429|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:18,432|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:18,465|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:18,467|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:18,468|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:18,470|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 16:00:18,472|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFiles Controller--
+INFO|2022-09-15 16:00:18,891|(null)|AdminFileAppender|Info: [Thread 8] --MT Begin TrackStatusFiles  Controller--
+INFO|2022-09-15 16:00:18,893|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 16:00:18,896|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:18,899|(null)|AdminFileAppender|Info: [Thread 8] --MT HandleCIPFiles: 1018 True -- 
+INFO|2022-09-15 16:00:18,901|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:18,904|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:18,930|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:18,931|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:18,934|(null)|AdminFileAppender|Info: [Thread 8] --MT HandleCIPFiles: 1045 True -- 
+INFO|2022-09-15 16:00:18,936|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:18,940|(null)|AdminFileAppender|Info: [Thread 8] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:18,961|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:18,963|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:18,964|(null)|AdminFileAppender|Info: [Thread 8] --MT End call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:18,966|(null)|AdminFileAppender|Info: [Thread 8] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 16:00:18,968|(null)|AdminFileAppender|Info: [Thread 8] -- MT End  TrackStatusFiles Controller--
+INFO|2022-09-15 16:00:19,528|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFiles  Controller--
+INFO|2022-09-15 16:00:19,531|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 16:00:19,533|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:19,535|(null)|AdminFileAppender|Info: [Thread 6] --MT HandleCIPFiles: 1018 True -- 
+INFO|2022-09-15 16:00:19,537|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:19,540|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:19,561|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:19,563|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:19,565|(null)|AdminFileAppender|Info: [Thread 6] --MT HandleCIPFiles: 1045 True -- 
+INFO|2022-09-15 16:00:19,567|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:19,570|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:19,596|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:19,598|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:19,602|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:19,607|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 16:00:19,609|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFiles Controller--
+INFO|2022-09-15 16:00:20,993|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFiles  Controller--
+INFO|2022-09-15 16:00:20,995|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 16:00:20,997|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:20,999|(null)|AdminFileAppender|Info: [Thread 5] --MT HandleCIPFiles: 1018 True -- 
+INFO|2022-09-15 16:00:21,001|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:21,003|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:21,019|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:21,021|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:21,025|(null)|AdminFileAppender|Info: [Thread 5] --MT HandleCIPFiles: 1045 True -- 
+INFO|2022-09-15 16:00:21,027|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:21,028|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:21,048|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:21,050|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:21,052|(null)|AdminFileAppender|Info: [Thread 5] --MT End call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:21,055|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 16:00:21,057|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFiles Controller--
+INFO|2022-09-15 16:00:21,620|(null)|AdminFileAppender|Info: [Thread 6] --MT Begin TrackStatusFiles  Controller--
+INFO|2022-09-15 16:00:21,626|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 16:00:21,629|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:21,631|(null)|AdminFileAppender|Info: [Thread 6] --MT HandleCIPFiles: 1018 True -- 
+INFO|2022-09-15 16:00:21,633|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:21,635|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:21,660|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:21,663|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:21,665|(null)|AdminFileAppender|Info: [Thread 6] --MT HandleCIPFiles: 1045 True -- 
+INFO|2022-09-15 16:00:21,667|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:21,669|(null)|AdminFileAppender|Info: [Thread 6] --MT Start call GetIntegrationStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:21,705|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusOutbox from MetricReprocessRepository--
+INFO|2022-09-15 16:00:21,708|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetIntegrationStatusInbox from ReprocessService--
+INFO|2022-09-15 16:00:21,710|(null)|AdminFileAppender|Info: [Thread 6] --MT End call HandleCIPFiles from ReprocessService--
+INFO|2022-09-15 16:00:21,712|(null)|AdminFileAppender|Info: [Thread 6] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 16:00:21,714|(null)|AdminFileAppender|Info: [Thread 6] -- MT End  TrackStatusFiles Controller--
+INFO|2022-09-15 16:00:55,273|(null)|AdminFileAppender|Info: [Thread 5] --MT Begin TrackStatusFiles  Controller--
+INFO|2022-09-15 16:00:55,275|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetTrackDataGrid from ReprocessService --
+INFO|2022-09-15 16:00:55,278|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 16:00:55,282|(null)|AdminFileAppender|Info: [Thread 5] --MT Start call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:55,556|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetEDI_ExtractFilesStatus from MetricReprocessRepository--
+INFO|2022-09-15 16:00:55,560|(null)|AdminFileAppender|Info: [Thread 5] --MT End call HandleEDIExtractFiles from ReprocessService--
+INFO|2022-09-15 16:00:55,563|(null)|AdminFileAppender|Info: [Thread 5] --MT End call GetTrackDataGrid from ReprocessService--
+INFO|2022-09-15 16:00:55,565|(null)|AdminFileAppender|Info: [Thread 5] -- MT End  TrackStatusFiles Controller--

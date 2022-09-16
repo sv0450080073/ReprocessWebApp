@@ -1,0 +1,89 @@
+<form [formGroup]="rfUser" class="form-horizontal" novalidate autocomplete="off">
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group row">
+                <label for="Name" class="form-label col-sm-3">User Name: </label>
+                <div class="col-sm-9">
+                    <input formControlName="userName" type="text" [class]="isExistUserName ? ' form-control isExist' : ' form-control ' " name="userName" readonly>
+                    <small *ngIf="userName.hasError('maxlength')" class="text-danger">User name cannot exceed 20 characters.</small>
+                    <small *ngIf="userName.hasError('required') && userName.touched" class="text-danger">User name is required.</small>
+                    <small *ngIf="isExistUserName" class="text-danger">User name already exists.</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group row">
+                <label for="fullName" class="form-label col-sm-3">Full Name: </label>
+                <div class="col-sm-9">
+                    <input formControlName="fullName" type="text" class="form-control" name="fullName" readonly>
+                    <small *ngIf="fullName.hasError('maxlength')" class="text-danger">Full name cannot exceed 100 characters.</small>
+                    <small *ngIf="fullName.hasError('required') && fullName.touched" class="text-danger">Full name is required.</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <!--<div class="col-6">
+            <div class="form-group row">
+                <label for="password" class="form-label col-sm-3">Password: </label>
+                <div class="col-sm-9">
+                    <input formControlName="password" type="password" class="form-control" name="password" readonly>
+                    <small *ngIf="password.hasError('maxlength')" class="text-danger">Password cannot exceed 8 characters.</small>
+                    <small *ngIf="password.hasError('required') && password.touched" class="text-danger">Password  is required.</small>
+                </div>
+            </div>
+        </div>-->
+        <div class="col-6">
+            <div class="form-group row">
+                <label for="phoneNumber" class="form-label col-sm-3">Phone Number: </label>
+                <div class="col-sm-9">
+                    <input formControlName="phoneNumber" type="text" class="form-control" name="phoneNumber" readonly>
+                    
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group row">
+                <label for="email" class="form-label col-sm-3">Email: </label>
+                <div class="col-sm-9">
+                    <input formControlName="email" type="text" class="form-control" name="email" readonly>
+                    <small *ngIf="email.hasError('maxlength')" class="text-danger">Email number cannot exceed 50 characters.</small>
+                    <small *ngIf="email.hasError('required') && email.touched" class="text-danger">Email  is required.</small>
+                    <small *ngIf="email.errors && email.errors.pattern" class="text-danger">Email not valid</small>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group row">
+                <label for="roleName" class="form-label col-sm-3">Role Name: </label>
+                <div class="col-sm-9">
+                    <!--<select formControlName="roleName" [(ngModel)]="roleSelected" name="roleName" class="form-control">
+                    <option *ngFor="let role of roles" [ngValue]="role">{{role.Role}}</option>
+                  </select>-->
+                  <ul class="list-unstyled">
+                    <li *ngFor="let role of roles">
+                      <input type="checkbox" [value]="role.isSelected" [(ngModel)]="role.isSelected" [ngModelOptions]="{standalone: true}" />
+                      <label class="form-check-label">{{role.Role}}</label>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        
+        <button [disabled]="rfUser.invalid || isExistUserName" (click)="updateUser()" class="btn btn-primary btn-addEdit">Update</button>
+    </div>
+
+</form>
