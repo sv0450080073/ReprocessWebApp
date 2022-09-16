@@ -1,0 +1,171 @@
+300697
+nkmanh1997@gmail.com
+p:dker = fb
+Start 18/04/2022
+Manhkaka@321
+TaskNo			StartDate		EndDate
+113417			18/04/2022		18/04/2022 sp_MTS_ListUnClosedEventsRelatedToAbsenceMetricOfHub_NLB
+113521			19/04/2022		19/04/2022 FUNCTION [dbo].[AddDayExcludWeekens] ,SELECT [dbo].[AddDayExcludWeekens](GETDATE(),4) AS Area
+113669			20/04/2022		21/04/2022 sp_MTS_ProcessAbsentMetric
+113903			22/04/2022		25/04/2022 DOne
+114212			26/04/2022		27/04/2022 
+114417			28/04/2022		28/04/2022
+-------------------------------5th-------------------	
+114743			04/05/2022		05/05/2022
+115071			06/05/2022		06/05/2022
+115145			09/05/2022		09/05/2022  sp:18h->22h
+115232			10/05/2022		11/05/2022  11ot: 18h->22h
+115509			12/05/2022		12/05/2022	ot:18h->9h
+115509			13/05/2022		13/05/2022  nữa buổi sáng
+115814			16/05/2022		16/05/2022
+115988			17/05/2022		17/05/2022
+116188			18/05/2022		19/05/2022
+116474			20/05/2022		20/05/2022
+116598			23/05/2022		24/05/2022	
+116856			25/05/2022		25/05/2022
+117046			26/05/2022		26/05/2022
+117048			27/05/2022		31/05/2022 (30/5 azure )
+117323			30/05/2022		30/05/2022
+-------------------6th----------------
+117524			01/06/2022		01/06/2022
+117654			02/06/2022		02/06/2022
+				03/06/2022		03/06/2022 :: Off day
+117965			06/06/2022		06/06/2022 :: Done CRUD Student APi Angular
+117854			07/06/2022		08/06/2022	
+117854			07/06/2022		08/06/2022	
+118157			09/06/2022		10/06/2022	
+118666			13/06/2022		13/06/2022	
+118612			14/06/2022		15/06/2022		
+119002			16/06/2022		17/06/2022 off nua buoi summer hour
+119188			20/06/2022		21/06/2022 done log 
+119191			22/06/2022		24/06/2022 unit test +    
+119886			27/06/2022		28/06/2022	
+120107			29/06/2022		29/06/2022 Design table login
+120216			30/06/2022		01/07/2022 Create Login page
+
+------------------------------- 7th--------------
+120216			01/07/2022		01/07/2022 	Create Login page for ReprocessWebApp
+120525			04/07/2022		04/07/2022 	Create  UserManager  Page
+120722 			05/07/2022		05/07/2022 	Support DiConect team merge code into solution
+120708			05/07/2022		06/07/2022 	Create RoleManager Page
+120704			07/07/2022		08/07/2022 	off summer hour _Authenticate API with token handler 
+121258			11/07/2022		12/07/2022 	Validate form RolePage and UserPage
+121427			13/07/2022		14/07/2022 	Import list file inbox/outbox data from txt file
+121428			15/07/2022		15/07/2022 	Handler track status single file  on grid data OFF nữa buổi chiều (Phép)
+121878			18/07/2022		19/07/2022  Create controller and service for Implement flow EDI_Extract data
+122018			20/07/2022		20/07/2022	Handler Track button  for Implement flow EDI_Extract data
+122020			21/07/2022		22/07/2022	Read document and implement rule report dynamic Igloo Page OFF nữa buổi chiều
+122705			25/07/2022		26/07/2022	Create Mockup  for Rule Report Master  Page
+122842 			27/07/2022		27/07/2022	Load data to Rule Report Grid , Combobox and handler button search data.
+122844			28/07/2022		29/07/2022  Update SQL Query rule#2 , rule #3 , rule #4 And Create rule #5, rule #6 for FC Customer
+------------------------------- 8th --------------
+				01/08/2022		01/08/2022	Team building
+123299 			02/08/2022		02/08/2022 FullCompass Customer :  	Config email alert  to  rule #1 , rule #5
+123415			03/08/2022		04/08/2022 FullCompass Customer :  	Implement code back end  EmailProcessor and Unit Test
+123426			05/08/2022		05/08/2022 (OFF nghỉ hè) FullCompass Customer: 	Update document and Create build for rule #5, rule #6 , email alert
+123741			08/08/2022		08/08/2022 Rule Report Master : Load Combobox Data for Add New Rule Report Master
+123744			09/08/2022		10/08/2022 Rule Report Master : Add New Rule Config Query for Rule Condition Grid On Add New Rule Report Master Page
+123749			11/08/2022		12/08/2022 (Off nghỉ hè)Rule Report Master : Add New Condition Property List For Each Rule Condition Row
+124574			15/08/2022		16/08/2022 Rule Report Master : Create  Rule Participant Grid and Insert into RuleReportParticipantConfig table
+124948			17/08/2022		17/08/2022 Rule Report Master: Edit Rule Report Master Detail Data
+124973			18/08/2022		18/08/2022 FullCompass Customer: Fix bug rule 1 not working when violated
+125103			18/08/2022		18/08/2022 FullCompass Customer: Fix bug not display table in alert to mail and 850_Ponumber in EmailProcessor.cs
+124951			19/08/2022		19/08/2022 Rule Report Master: Validate Rule Report Master Detail page
+125354			22/08/2022		22/08/2022 FULL Compass Customer: Release buid to fix BugID: 125208
+125415			23/08/2022		23/08/2022 Rule Report Master : Update code Delete and Enable FOR Rule Report Master
+125503			24/08/2022		24/08/2022 Rule Report Master : Add new QueryReportId in RuleReportParticipantConfig  And Edit SqlParticipant Logic
+125596			25/08/2022		25/08/2022(4hour) FULL Compass Customer: Release build to fix bugID 125440
+125666			25/08/2022		25/08/2022(4hour) FULL Compass Customer: Update code EmailProcessor and Release build  to fix bugID 125638
+125674			26/08/2022		26/08/2022 Rule Report Master : Update Code FrontEnd for Rule Report Master Detail Page
+126074			29/08/2022		29/08/2022 FULL Compass Customer: Debug code backend Rule CIP Metric Engine Service 		
+126111			30/08/2022		30/08/2022 Full Compass Customer:  Update store procedure and  edit code backend to fix issuse rule 1 , rule 5 work at the same time
+126232			31/08/2022		31/08/2022 (Off nghỉ phep)Release build metric engine service  to fix issue rule#1, rule #5 work the same time
+------------------------------- 9th --------------
+
+126381			05/09/2022		05/09/2022 Reprocess WebApp: Check MetricReprocess page By  SRS_Reprocess tool for DiMetrics and DiConnect document
+126515			06/09/2022		07/09/2022 Reprocess WebApp: Track status file by inoutboxID , yearquarter
+126724			08/09/2022		09/09/2022 Reprocess WebApp:  Case 01: Reprocess not on hold metrics files
+127326			12/09/2022		13/09/2022 Reprocess WebApp:  Case 02: Reprocess on hold metrics files
+127329			14/09/2022		14/09/2022 Reprocess WebApp: Track EDI Extract file
+127509			15/09/2022		15/09/2022 Reprocess WebApp: Reprocess EDI Extract file 
+127595			16/09/2022		16/09/2022 Reprocess WebApp: Validate metrics-reprocess page
+
+liveworksheets
+nkmanh1997
+0358801935
+
+
+http://jsfiddle.net/0f9Ljfjr/900/
+$/DiMetrics/Main/Release/_Actions_2022/DiMetrics_08242022_FC_FixIssue
+vì khí polinenumber bên 855 null nó sẽ ko match với polinenumber 
+
+sp_MT_UpdateMetricMaster_RuleConfig
+CUSTOMERName CUSTOMERId
+
+AddJQueryReference="true" 
+-------------------------------
+
+$/DiMetrics/Main/Release/_Actions_2022/DiMetrics_08052022_FC_Add02NewRuleAndAlertToMail
+
+DiMetrics_08162022_FC_Add02NewRuleAndAlertToMail
+
+
+
+
+
+
+txtAddRuleConfigQueryConstraintKey
+cbbAddRuleConfigQueryHidden
+cbbAddRuleConfigQueryEditCondition
+cbbAddMatchCustomerFields
+txtAddRuleConfigQueryAddedFields
+hiddenSelectConditionQueryId.Set('hidden_value', queryId);
+cbbLCCFCustomConditionType
+cbbLCCFDataTypeId
+https://downsub.com/
+
+
+-------------
+Đọc tài liệu trước -> nghe chú ý nhấn nhá -> nghe nhìn tài liệu -> nghe lặp lại  tutu ko nhìn tai liệu
+shadowing:  vua nghe vua nhin tai lieu duoi theo -> ko nhin loi thoai nua
+--------------
+nghe postcat, 
+nghe từng câu, nghe đọc sách ko dừng , nghe ko đọc sách ko dừng
+
+nghe về chủ đề mình thích:
+--------------
+không check  match : 855 vô có là bắt luôn
+
+
+https://www.thisdot.co/blog/using-custom-async-validators-in-angular-reactive-forms
+D:\SourceCode\DiDropShip\Development\3_SourceCode\DiCentral.RetrySupport\packages\Microsoft.Extensions.Configuration.5.0.0\lib\net461\Microsoft.Extensions.Configuration.dll
+
+https://referbruv.com/blog/posts/implemenenting-simple-log4net-logger-in-aspnet-coreUpdate GUI (Checkbox IsbusinessDay)
+
+
+https://localhost:44353/signin-google
+https://www.iperiusbackup.net/en/backup-to-google-drive/
+
+Today : Lesson 51 F8 js 
+
+
+remain : 9.8
+bi o in : 1.8
+done t5: 8
+eat t5 :8
+t6: 17.8
+phone : 2.8
+nihon : 4
+driver car : 6tr
+sum: 12.8 ---> 17.8 -12.8 = 5
+-----------------
+l6->l12 : 144
+tra th: 12
+tan zo bi th : 11
+mom:10
+eat:6x7 = 42
+nihon:9
+driver car : 8tr
+sum: 84---> 144 - 75 = 69
+-----------------
+

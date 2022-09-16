@@ -1,0 +1,50 @@
+
+***Db: QCCIP. 
+172.16.3.190
+dimetrics-support@dicentral.com
+diconnect/diconnect
+***Db: 106 CipDev
+172.16.0.106
+diconnect/diconnect
+***
+http://diwebtestvn.dicentral.com.vn:7749/#!/admin/Notification-Rules
+admin
+asdasd
+
+***
+118.69.233.204
+odc.wfh
+VCX@687yui
+
+****
+tfs2018.dicentral.com.vn
+/* LocalHost : 38503
+user: ret11665
+pass: Ret11665@4
+
+msnv: 1300
+----
+DB:
+209.183.127.41
+QACIP US:http://dimetricstest.dicentral.com/MetricManager/MetricEntryList.aspx
+webmaster/dicentral@123456
+****
+DiMetrics DB
+172.10.60.190
+dimetrics_web/dimetrics_web@1199
+****
+http://diweb5test.dicentral.com/
+diallusers
+di17625;mai
+=> drupp/dicentral
+Man hinh popup: Scrubs & Beyond
+***
+QACIP Diweb
+QACIP US DiMetrics
+http://dimetricstest.dicentral.com/MetricManager/MetricEntryList.aspx
+webmaster/dicentral@123456
+DiMetrics DB
+dimetrics_web/dimetrics_web@1199
+http://dimetricstest.dicentral.com/MetricManager/MetricTransactionHistory.aspx
+***
+

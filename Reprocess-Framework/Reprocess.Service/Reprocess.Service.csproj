@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6A8028B-B0B6-48D4-BEA0-CBA15735282E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Reprocess.Service</RootNamespace>
+    <AssemblyName>Reprocess.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Configuration">
+      <HintPath>..\DLL\Metrics\Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="DashBoard.Helper">
+      <HintPath>..\DLL\Metrics\DashBoard.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="DiCatalog.API.Helper_4">
+      <HintPath>..\DLL\Metrics\DiCatalog.API.Helper_4.dll</HintPath>
+    </Reference>
+    <Reference Include="DiCentral.RetrySupport">
+      <HintPath>..\DLL\Metrics\DiCentral.RetrySupport.dll</HintPath>
+    </Reference>
+    <Reference Include="DiCentral.RetrySupport.4.0">
+      <HintPath>..\DLL\Metrics\DiCentral.RetrySupport.4.0.dll</HintPath>
+    </Reference>
+    <Reference Include="DiCentral.RetrySupport.Handlers">
+      <HintPath>..\DLL\Metrics\DiCentral.RetrySupport.Handlers.dll</HintPath>
+    </Reference>
+    <Reference Include="DiCentral.RetrySupport.Strategy">
+      <HintPath>..\DLL\Metrics\DiCentral.RetrySupport.Strategy.dll</HintPath>
+    </Reference>
+    <Reference Include="DiConnector.Server.Ext">
+      <HintPath>..\DLL\Diconnect\DiConnector.Server.Ext.dll</HintPath>
+    </Reference>
+    <Reference Include="DImetrics.Entity">
+      <HintPath>..\DLL\Metrics\DImetrics.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="DiMetrics.Helper">
+      <HintPath>..\DLL\Metrics\BLL\DiMetrics.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="DiNotification.APIHelper">
+      <HintPath>..\DLL\Metrics\BLL\DiNotification.APIHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\DLL\Metrics\BLL\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\DLL\Metrics\BLL\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Metrics\BLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Metrics\BLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Reprocess.Common">
+      <HintPath>..\Reprocess.Common\bin\Debug\Reprocess.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ErrorCode\ErrorCodeService.cs" />
+    <Compile Include="ErrorCode\IErrorCodeService.cs" />
+    <Compile Include="Metrics\IService\IReprocessService.cs" />
+    <Compile Include="Metrics\ReprocessService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleService\IRoleService.cs" />
+    <Compile Include="RoutingReprocess\IRoutingReprocessService.cs" />
+    <Compile Include="UserService\IUserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Reprocess.Data\Reprocess.Data.csproj">
+      <Project>{79D44E4D-439D-4EAC-963D-5537952CA646}</Project>
+      <Name>Reprocess.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reprocess.Model\Reprocess.Model.csproj">
+      <Project>{E276E7B0-474B-4E7E-BCC7-686066B7D815}</Project>
+      <Name>Reprocess.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

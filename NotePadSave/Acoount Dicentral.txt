@@ -1,0 +1,16 @@
+1. Account VN
+dicentral\manhnguyen --> pass: P@ssw0rdDic2022nkm
+
+2. Account US (Mail + Teams)
+manhnguyen@dicentral.com
+pass: P@ssw0rdDic2021nkm
+
+
+    <add key="DImetricsConnectionString" value="server=172.16.0.106;
+	database=DiMetrics;user id=diconnect;password=diconnect;"/>
+	<add key="RelationalDBConnectionString" 
+	value="server=172.16.0.106;
+	database=RelationalDB;user id=diconnect;password=diconnect;"/>
+	
+	go
+	<sessionState mode="SQLServer" timeout="2880" allowCustomSqlDatabase="true" sqlConnectionString="Data Source=172.10.1.42;Initial Catalog=DiWeb6Session;Persist Security Info=True;User ID=btrade;Password=btrade;Connection Timeout=600;Application Name=DiWebV6.0" cookieless="false" />

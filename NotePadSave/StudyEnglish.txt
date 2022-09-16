@@ -1,0 +1,28 @@
+
+
+git 
+angular 7
+type script 
+
+
+https://learngitbranching.js.org/
+CHuc nang Danh tu:
+4Chuc nang
+- N + V : Noun làm chủ ngữ trong câu
+- N1 tobe, become, seem N2 : N2 bổ ngữ cho chủ ngữ
+- N1 pre N2 : N2 làm O tân ngữ trong câu
+- V + N1 :  O bổ ngữ cho tân ngữ
+
+go : position
+- Đứng sau mạo từ : a/an
+- Đung sau lượng từ : few, little , some , any , many, all
+- Đứng sau từ hạn định: this, that, these , those.
+- Dung sau ttsh: my, your, 
+- Dung sau gioi tu: 
+------------CountTable Noun / UncountTable Noun
+
+Count table Noun: a, an, few ,many , a few 
+How many people are there in your family ?
+Uncount Table Noun: 
+a little bit of , much , little
+How much money you need .

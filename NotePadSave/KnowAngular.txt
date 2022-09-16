@@ -1,0 +1,49 @@
+
+Cấu trúc thư mục angular :
+src :
+assets : hình ảnh , file tĩnh 
+app:
+component : ng g c TenComponent
+ng-template #tre : vung chua html 
+Pipe : ng g pipe TenPipe : tao pipe 
+(dinh dang du lieu)
+NgModel
+NgClass
+NgIf
+NgIf then else
+Cascading : combobox
+Routing : 
+switch-case :
+Directive : component directive , structural directives , artribute directives
+ - ng g directive 
+Service : dung chung  , khai bao (Tiem phu thuoc vao lop khoi tao cua class)
+ - ng g service 
+Form : 
+DrivenForm ,
+ReactiveForm : formbuilder , formGroup 
+dataJson , httpclient
++ component cha goi con : input 
++  component con goi cha : output (emit)
+Prime ng : 
+10/2/2017 4:13:13 PM		
+99425
+
+$/DiMetrics/Main/Release/_Actions_2021/DiMetrics_09012021/Deployment_Guide.docx
+--- https://www.youtube.com/watch?v=NS6P1fpU77o&list=PLVmX3uPQtp3vXOXUOl8gDIA_43_pmIdFN
+
+ToDoProject : tuan sau xong (100 day);
+Read Doc so so.
+- html : chieu nay, toi nay 
+- toi cn 
+
+tou english angular with net core : https://www.youtube.com/watch?v=8zcqGaPwDW0&list=PL_NVFNExoAxclqXo9fLAeP0G2Qp56Fu8C&index=45
+
+
+/////////////
+auto cày 1 tuan: 
+Angular: 64 video.https://www.youtube.com/watch?v=P3L8Lg14Hqk&list=PL_NVFNExoAxclqXo9fLAeP0G2Qp56Fu8C&index=63
+FE : F8 het luon html + Responsive 
+C# : hết cái xuanthulap 
+NiHon : 19-20 di 
+==> Ok 
+99817

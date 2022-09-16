@@ -1,0 +1,13 @@
+
+
+https://community.auth0.com/t/web-api-blazor-server-side-w-jwt-and-cookie-auth/54066
+
+JWT nè :https://www.youtube.com/watch?v=uIhNuc7Nb9g 
+
+auth0 :https://andrewlock.net/adding-authentication-to-a-blazor-server-app-using-auth0/
+
+Indentity : https://www.youtube.com/c/FrankLiuSoftware/playlists
+source  tham khảo : https://github.com/bradwellsb/blazor-contacts/tree/master/BlazorContacts.Web
+source tham khao :https://nightbaker.github.io/blazor/identityserver4/serverapp/2019/08/29/blazor-serverapp-identity-server-4/
+localstoreg : https://www.youtube.com/watch?v=BmAnSNfFGsc&t=308s
+Tham khao code identtity :https://dev.to/masanori_msl/blazor-server-signin-with-custom-user-2e74

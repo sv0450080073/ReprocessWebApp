@@ -1,0 +1,59 @@
+﻿# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+172.16.0.97 diweb97.dicentral.com.vn
+172.10.100.32 diweb5test.dicentral.com
+172.10.100.33 diweb6test.dicentral.com
+172.16.3.177 diwebfe.dicentral.com.vn
+172.16.0.109 cipdev.dicentral.com.vn
+172.10.40.33 diweb8.dicentral.com
+172.10.40.34 diweb9.dicentral.com
+172.10.40.35 diweb10.dicentral.com
+172.10.40.36 diweb11.dicentral.com
+172.10.40.37 diweb12.dicentral.com
+172.16.0.109 diwebtestvn.dicentral.com.vn
+172.16.3.153 dimetricsfe.dicentral.com.vn
+52.230.127.181     dimetricsintegrationdev.dicentral.com.vn
+52.230.127.181 dimetricsdev.dicentral.com.vn
+172.16.3.177     integrationservicefe.com.vn
+172.10.15.55 local.cipservice
+172.10.96.11 local.customersupportservice
+172.16.0.232 diautomotive
+172.16.3.177 Reconciliation.dicentral.com.vn
+172.16.0.105 cipfedev.dicentral.com.vn
+172.16.0.109 diwebtestvn.dicentral.com.vn
+172.16.0.15 tfs2018.dicentral.com.vn
+127.0.0.1 local.dicentral.com
+127.0.0.1 local6.dicentral.com
+127.0.0.1 locallogin.dicentral.com
+172.10.2.45 dev5.dicentral.com
+172.10.1.42 secure4.dicentral.com
+172.10.100.32 diweb5test.dicentral.com
+172.10.100.33 diweb6test.dicentral.com
+127.0.0.1       localhost:5000
+172.16.3.153 dimetricsfe.dicentral.com.vn:8099
+
+# Added by Docker Desktop
+192.168.203.33 host.docker.internal
+192.168.203.33 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section

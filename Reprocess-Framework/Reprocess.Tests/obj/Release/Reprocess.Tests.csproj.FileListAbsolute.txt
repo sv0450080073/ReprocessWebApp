@@ -1,0 +1,2 @@
+D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Tests\obj\Release\Reprocess.Tests.csproj.AssemblyReference.cache
+D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Tests\obj\Release\Reprocess.Tests.csproj.CoreCompileInputs.cache

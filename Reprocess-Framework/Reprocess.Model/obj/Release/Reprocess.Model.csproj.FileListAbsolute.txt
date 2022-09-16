@@ -1,0 +1,5 @@
+D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Model\bin\Release\Reprocess.Model.dll
+D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Model\bin\Release\Reprocess.Model.pdb
+D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Model\obj\Release\Reprocess.Model.csproj.CoreCompileInputs.cache
+D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Model\obj\Release\Reprocess.Model.dll
+D:\SourceCode\DiMetrics\Main\Source\Vietnam\Reprocess-WebApps\Reprocess-Framework\Reprocess.Model\obj\Release\Reprocess.Model.pdb
